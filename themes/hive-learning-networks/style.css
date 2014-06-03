@@ -1,0 +1,84 @@
+/*
+Theme Name: Hive Learning Networks
+Theme URI:
+Description:
+Author: Mozilla
+Author URI:
+Version: 1.0
+License:
+License URI:
+*/
+
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background: #eee;
+}
+
+nav {
+  text-transform: uppercase;
+}
+
+.navbar {
+  margin-bottom: 0;
+  border: none;
+  background: #333;
+}
+
+.navbar-collapse {
+  padding-left: 0;
+}
+
+.navbar a {
+  color: #999;
+}
+
+.nav > li > a:hover, .nav > li > a:focus,
+.current-menu-item a {
+  color: #fff;
+  background: #666;
+}
+
+footer {
+  background: #ccc;
+  margin-top: 100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+footer > .container {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#banner {
+  background: #777;
+  padding-bottom: 150px;
+}
+
+#main {
+  background: #FFF;
+  margin-top: -100px;
+  padding: 40px 30px;
+}
+
+#sidebar-container {
+  background: #FFF;
+  padding: 20px;
+}
+
+.placholder-img {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background: #ccc;
+  margin: 10px;
+}
+
+.placholder-img.round {
+  border-radius: 50%;
+}
