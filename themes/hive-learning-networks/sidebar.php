@@ -1,21 +1,5 @@
-i'm the sidebar <br />
-i'm the sidebar <br />
-i'm the sidebar <br />
-i'm the sidebar <br />
-i'm the sidebar <br />
-i'm the sidebar <br />
-i'm the sidebar <br />
-i'm the sidebar <br />
-i'm the sidebar <br />
-i'm the sidebar <br />
-i'm the sidebar <br />
-i'm the sidebar <br />
-i'm the sidebar <br />
-i'm the sidebar <br />
-i'm the sidebar <br />
-i'm the sidebar <br />
-i'm the sidebar <br />
-i'm the sidebar <br />
-i'm the sidebar <br />
-i'm the sidebar <br />
+<?php
 
+  dynamic_sidebar('page-sidebar');
+
+?>

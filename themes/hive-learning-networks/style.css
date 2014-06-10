@@ -9,6 +9,14 @@ License:
 License URI:
 */
 
+/*
+
+hive-yellow: #FFDE2F
+hive-orange: #FAA73F
+hive-blue:   #ADCDEC
+hive-grey:   #939598
+
+*/
 
 html,
 body {
@@ -19,6 +27,39 @@ body {
   background: #eee;
 }
 
+#wrap {
+  min-height: 100%;
+  height: auto;
+  margin: 0 auto -60px auto;  /* footer height + margin-top */
+  padding: 0 0 60px; /* footer height + margin-top */
+}
+
+#tabzilla {
+  z-index: 10000;
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3, .h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+h4 {
+  color: #FFDE2F;
+}
+
+.all-cap {
+  text-transform: uppercase;
+}
+
+
+/* ********************************************************
+*  Navigation Bar
+*/
+
 nav {
   text-transform: uppercase;
 }
@@ -26,26 +67,43 @@ nav {
 .navbar {
   margin-bottom: 0;
   border: none;
-  background: #333;
-}
-
-.navbar-collapse {
-  padding-left: 0;
+  border-radius: 0;
+  background: #FFF;
 }
 
 .navbar a {
-  color: #999;
+  color: #FAA73F;
+  font-weight: bold;
+}
+
+.navbar-nav > li > a {
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .nav > li > a:hover, .nav > li > a:focus,
 .current-menu-item a {
-  color: #fff;
-  background: #666;
+  color: #ADCDEC;
+  background: linear-gradient(rgba(255,255,255,0.2), #FFDE2F);
 }
+
+.navbar-toggle {
+  border: none;
+  background: #666;
+  color: red;
+}
+
+.navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+
+
+/* ********************************************************
+*  Footer
+*/
 
 footer {
   background: #ccc;
-  margin-top: 100px;
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -55,9 +113,18 @@ footer > .container {
   margin-bottom: 0;
 }
 
-#banner {
-  background: #777;
+/* ********************************************************
+*  Banner
+*/
+
+.general-banner {
+  background: #ADCDEC;
+  padding-top: 30px;
   padding-bottom: 150px;
+}
+
+.page-header {
+  border: none;
 }
 
 #main {
@@ -71,7 +138,7 @@ footer > .container {
   padding: 20px;
 }
 
-.placholder-img {
+.placeholder-img {
   display: inline-block;
   width: 100px;
   height: 100px;
@@ -79,6 +146,85 @@ footer > .container {
   margin: 10px;
 }
 
-.placholder-img.round {
+.placeholder-img.round {
   border-radius: 50%;
+}
+
+
+/* ********************************************************
+*  Home page
+*/
+
+#home-main {
+  background: #4D72B9;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+#video-container {
+  margin-top: 50px;
+}
+
+#hive-intro-box {
+  background: rgba(0,0,0,0.5);
+  min-height: 500px;
+}
+
+.hive-list {
+  color: #FFF;
+  padding-left: 0;
+  text-transform: uppercase;
+  list-style-type: none;
+}
+
+.hive-list li {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.hive-list li:not(:last-child) {
+  border-bottom: 1px solid #FFF;
+}
+
+.hive-list li.widget_short_intro_widget {
+  display: none;
+}
+
+
+
+/* ********************************************************
+*  Locations Page
+*/
+
+#hives-map-section {
+  background: #4EB0F9;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+#start-a-hive-cta-bar {
+  background: #aaa;
+  padding: 30px 0;
+}
+
+#hives-map-section svg {
+  border: 1px solid red;
+}
+
+#hives-map-section svg path {
+  fill: #ADCDEC;
+  stroke: #ADCDEC;
+  stroke-width: 1;
+}
+
+
+/* ********************************************************
+*  Responsive
+*/
+
+@media (min-width: 768px) {
+  .navbar .container,
+  .navbar-collapse {
+    padding-left: 0;
+  }
 }

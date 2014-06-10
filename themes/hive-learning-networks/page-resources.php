@@ -1,6 +1,6 @@
   <?php
   /*
-  Template Name: Page with sidebar
+  Template Name: "Resources" page
   */
 
   get_header(); ?>

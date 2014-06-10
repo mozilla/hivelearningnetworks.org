@@ -1,6 +1,6 @@
   <?php
   /*
-  Template Name: Page with sidebar
+  Template Name: "Start a Hive" page
   */
 
   get_header(); ?>

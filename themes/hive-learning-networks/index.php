@@ -1,16 +1,43 @@
+
     <?php get_header(); ?>
 
 
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <h1>Hello, world!</h1>
-          <p>This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-          <p><a class="btn btn-primary btn-large">Learn more &raquo;</a></p>
+    <div id="home-main">
+      <div class="container">
+        <div class="row">
+          <!-- left half -->
+          <div class="col-md-6">
+            <div class="row">
+              <div class="col-md-6">
+                <div style="border: 3px solid #555; width: 100%; height: 100px; text-align: center">logo</div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12" id="video-container">
+                <div style="border: 3px solid #555; width: 100%; height: 300px; text-align: center">video</div>
+              </div>
+            </div>
+          </div>
+          <!-- right half -->
+          <div class="col-md-3">
+            <h4 class="all-caps">Hive Networks</h4>
+            <ul class="hive-list">
+              <?php if ( dynamic_sidebar('hive-short-intro-networks-widget') ) : else : endif; ?>
+            </ul>
+
+            <h4 class="all-caps">Hive Learning Communities</h4>
+            <ul class="hive-list">
+              <?php if ( dynamic_sidebar('hive-short-intro-communities-widget') ) : else : endif; ?>
+            </ul>
+          </div>
+          <div class="col-md-3" id="hive-intro-box">
+
+          </div>
         </div>
       </div>
     </div>
 
+  </div> <!-- closing #wrap -->
 
     <?php get_footer(); ?>
 

@@ -10,7 +10,7 @@
 
     <?php wp_footer(); ?>
 
-    <script src="//www.mozilla.org/tabzilla/media/js/tabzilla.js"></script>
+    <script src="http://mozorg.cdn.mozilla.net/tabzilla/tabzilla.js"></script>
     <?php wp_enqueue_script("bootstrap"); ?>
   </body>
 </html>
