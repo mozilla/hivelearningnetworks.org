@@ -14,7 +14,9 @@
                   if ( have_posts() ) : while( have_posts() ) : the_post(); the_title(); endwhile; endif;
               ?>
             </h1>
-            <h2>Page description</h2>
+            <p class="page-description">
+              Hives empower educators to build  connected learning experiences and teach the  digital literacy skills  to youth. Become involved through our graduated levels of engagement.
+            </p>
           </div>
         </div>
       </div>
@@ -29,7 +31,24 @@
         </div>
         <div class="col-md-4" id="sidebar">
           <div id="sidebar-container">
-            <?php get_sidebar(); ?>
+            <div class="subsection">
+              <h3>Have questions?</h3>
+              <p>
+                f you would like more information about starting a Hive in your community, please email us.
+              </p>
+              <p>
+                === [ BUTTON: email us ] ===
+              </p>
+            </div>
+            <div class="subsection">
+              <h3>The Hive Cookbook</h3>
+              <p>
+                The Hive Cookbook contains detailed information about the global Hive Community.
+              </p>
+              <p>
+                === [ BUTTON: read the cookbook ] ===
+              </p>
+            </div>
           </div>
         </div>
       </div>

@@ -14,7 +14,7 @@
                   if ( have_posts() ) : while( have_posts() ) : the_post(); the_title(); endwhile; endif;
               ?>
             </h1>
-            <h2>Page description</h2>
+            <p class="page-description">Page description</p>
           </div>
         </div>
       </div>

@@ -11,20 +11,31 @@ License URI:
 
 /*
 
-hive-yellow: #FFDE2F
+hive-yellow: #FFDD2E
 hive-orange: #FAA73F
 hive-blue:   #ADCDEC
 hive-grey:   #939598
+
+background-grey: #E6E6E6;
+footer-background: #414451;
+body-copy: #55575C;
+links: #29ABE2;
+
+heading-dark-blue: #3583D1;
+heading-light-blue: #ADCDEC;
+
+location-background: #3583D1 to #ADCDEC;
 
 */
 
 html,
 body {
   height: 100%;
+  color: #55575C;
 }
 
 body {
-  background: #eee;
+  background: #E6E6E6;
 }
 
 #wrap {
@@ -42,19 +53,37 @@ h1,
 .h1,
 h2,
 .h2,
-h3, .h3 {
+h3,
+.h3 {
   margin-top: 0;
   margin-bottom: 10px;
 }
 
-h4 {
-  color: #FFDE2F;
+
+h1,
+.h1 {
+  color: #FFDD2E;
+}
+
+h3,
+.h3 {
+  color: #3583D1;
+  text-transform: uppercase;
+}
+
+h4,
+.h4 {
+  color: #FFDD2E;
 }
 
 .all-cap {
   text-transform: uppercase;
 }
 
+.read-more {
+  float: right;
+  font-style: italic;
+}
 
 /* ********************************************************
 *  Navigation Bar
@@ -68,23 +97,24 @@ nav {
   margin-bottom: 0;
   border: none;
   border-radius: 0;
-  background: #FFF;
+  background: #FAA73F;
 }
 
 .navbar a {
-  color: #FAA73F;
+  color: #FFF;
   font-weight: bold;
 }
 
 .navbar-nav > li > a {
   padding-top: 25px;
   padding-bottom: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
 .nav > li > a:hover, .nav > li > a:focus,
 .current-menu-item a {
-  color: #ADCDEC;
-  background: linear-gradient(rgba(255,255,255,0.2), #FFDE2F);
+  background: linear-gradient(rgba(255,255,255,0.2), #FFDD2E);
 }
 
 .navbar-toggle {
@@ -103,9 +133,10 @@ nav {
 */
 
 footer {
-  background: #ccc;
+  background: #414451;
   padding-top: 20px;
   padding-bottom: 20px;
+  margin-top: 100px;
 }
 
 footer > .container {
@@ -118,9 +149,10 @@ footer > .container {
 */
 
 .general-banner {
-  background: #ADCDEC;
+  background: #3583D1;
   padding-top: 30px;
   padding-bottom: 150px;
+  color: #FFF;
 }
 
 .page-header {
@@ -134,8 +166,11 @@ footer > .container {
 }
 
 #sidebar-container {
-  background: #FFF;
-  padding: 20px;
+  padding: 50px 25px;
+}
+
+#sidebar-container .subsection {
+  margin-bottom: 50px;
 }
 
 .placeholder-img {
@@ -156,7 +191,7 @@ footer > .container {
 */
 
 #home-main {
-  background: #4D72B9;
+  background: #3583D1;
   padding-top: 150px;
   padding-bottom: 150px;
 }
@@ -202,11 +237,6 @@ footer > .container {
   padding-bottom: 100px;
 }
 
-#start-a-hive-cta-bar {
-  background: #aaa;
-  padding: 30px 0;
-}
-
 #hives-map-section svg {
   border: 1px solid red;
 }
@@ -215,6 +245,24 @@ footer > .container {
   fill: #ADCDEC;
   stroke: #ADCDEC;
   stroke-width: 1;
+}
+
+
+
+/* ********************************************************
+*  Widgets
+*/
+
+.hive-widget {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.hive_spotlight_widget img {
+  max-width: 100%;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 

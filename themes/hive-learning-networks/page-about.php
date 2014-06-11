@@ -14,7 +14,9 @@
                   if ( have_posts() ) : while( have_posts() ) : the_post(); the_title(); endwhile; endif;
               ?>
             </h1>
-            <h2>Page description</h2>
+            <p class="page-description">
+              Hive Learning Networks prepare youth to thrive in school, work, and civic life. We empower educators to build connected learning experiences and teach the  digital literacy skills essential for young people to discover and shape their world.
+            </p>
           </div>
         </div>
       </div>
@@ -29,7 +31,15 @@
         </div>
         <div class="col-md-4" id="sidebar">
           <div id="sidebar-container">
-            <?php get_sidebar(); ?>
+            <div class="subsection">
+              <h3>Get Updates from Hive</h3>
+              <p>
+                The Hive mailing list is the best way to learn about Hive global activity and find opportunities to become involved.
+              </p>
+              <p>
+                === [ BUTTON: join our mailing list ] ===
+              </p>
+            </div>
           </div>
         </div>
       </div>

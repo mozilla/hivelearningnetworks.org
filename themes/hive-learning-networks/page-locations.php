@@ -13,7 +13,6 @@
           <div class="col-md-12">
             <div class="page-header">
               <h1>WE ARE HIVE</h1>
-              <h3>blah blah blah blah blah blah</h3>
             </div>
           </div>
         </div>
@@ -76,26 +75,6 @@
     </div>
 
     <!-- Info for Hive Berlin Ends ===== -->
-
-    <div id="start-a-hive-cta-bar">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <h3>CTA Header</h3>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-8">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque volutpat posuere arcu, facilisis faucibus sem laoreet ac. Nulla luctus laoreet libero non malesuada.
-            </p>
-          </div>
-          <div class="col-md-4">
-            <a class="btn">Learn More</a>
-          </div>
-        </div>
-      </div>
-    </div>
 
 </div>
 

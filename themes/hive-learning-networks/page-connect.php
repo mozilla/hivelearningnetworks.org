@@ -14,7 +14,9 @@
                   if ( have_posts() ) : while( have_posts() ) : the_post(); the_title(); endwhile; endif;
               ?>
             </h1>
-            <h2>Page description</h2>
+            <p class="page-description">
+              We're passionate about promoting connected learning opportunities for youth around the world. Connect with any of the Hive Communities and Hive Learning Networks  -- we welcome your contributions.
+            </p>
           </div>
         </div>
       </div>
@@ -26,12 +28,24 @@
           <?php
               if ( have_posts() ) : while( have_posts() ) : the_post(); the_content(); endwhile; endif;
           ?>
+          <div class="row">
+            <div class="col-md-2">
+              <div class="placeholder-img round"></div>
+            </div>
+            <div class="col-md-10">
+              <div class="">Name</div>
+              <div class="">Title</div>
+              <div class="">E-mail</div>
+              <div class="">Twitter</div>
+            </div>
+          </div>
         </div>
         <div class="col-md-4" id="sidebar">
           <div id="sidebar-container">
-            <!-- Twitter feed #HiveBuzz -->
-            <a class="twitter-timeline" href="https://twitter.com/search?q=%23HiveBuzz" data-widget-id="475056322170216448">Tweets about "#HiveBuzz"</a>
-            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+            <h3>Connect with Us</h3>
+            <div>
+              <a mailto="info@hivelearningnetworkds.org">info@hivelearningnetworkds.org</a>
+            </div>
           </div>
         </div>
       </div>

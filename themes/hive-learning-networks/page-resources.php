@@ -14,7 +14,7 @@
                   if ( have_posts() ) : while( have_posts() ) : the_post(); the_title(); endwhile; endif;
               ?>
             </h1>
-            <h2>Page description</h2>
+            <p class="page-description">Page description</p>
           </div>
         </div>
       </div>
@@ -29,7 +29,18 @@
         </div>
         <div class="col-md-4" id="sidebar">
           <div id="sidebar-container">
-            <?php get_sidebar(); ?>
+            <?php
+                if (has_nav_menu('resources-page-nav')) {
+                  wp_nav_menu(array(
+                    'theme_location' => 'resources-page-nav',
+                    'menu_class'      => 'menu',
+                    // 'menu_id'         => '',
+                    'container' => false,
+                    'items_wrap' => '<ul id="%1$s" class="%2$s">%3$s</ul>',
+                    'depth' => 2
+                  ));
+                }
+              ?>
           </div>
         </div>
       </div>

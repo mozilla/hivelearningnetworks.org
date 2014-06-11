@@ -14,7 +14,7 @@
                   if ( have_posts() ) : while( have_posts() ) : the_post(); the_title(); endwhile; endif;
               ?>
             </h1>
-            <h2>Page description</h2>
+            <p class="page-description">Page description</p>
           </div>
         </div>
       </div>
@@ -47,8 +47,15 @@
     url: document.location.protocol + '//ajax.googleapis.com/ajax/services/feed/load?v=1.0&num=10&callback=?&q=' + encodeURIComponent(planetHiveRSS),
     dataType: 'json',
     success: function(data) {
-      $.each(data.responseData.feed.entries.slice(0,10), function(key, value){
-          var thehtml = '<a href="'+value.link+'" target="_blank">'+value.title+'</a><br />';
+      console.log(data);
+      console.log(JSON.stringify(data.responseData.feed.entries.slice(0,1)));
+      $.each(data.responseData.feed.entries.slice(0,10), function(idx, post){
+          var thehtml = "<a href='" + post.link + "' target='_blank'>" + post.title + "</a><br />" +
+                        "<div>" + post.content + "</div>" +
+                        "<div>" + post.contentSnippet + "</div>" +
+                        "<div>" + post.link + "</div>" +
+                        "<div>" + post.publishedDate + "</div><br /><br />";
+
           $("#recent-blog").append(thehtml);
       });
     }
