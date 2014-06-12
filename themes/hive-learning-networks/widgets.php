@@ -12,7 +12,7 @@ class Short_Intro_Widget extends WP_Widget {
     parent::__construct(
       'short_intro_widget', // Base ID
       __('Short Intro of', 'text_domain'), // Name
-      array( 'description' => __( 'A custom widget that displays short intro of each Hive / Community', 'text_domain' ), ) // Args
+      array( 'description' => __( 'A custom Hive widget that displays short intro of a Hive Network / Community', 'text_domain' ), ) // Args
     );
   }
 
@@ -28,11 +28,11 @@ class Short_Intro_Widget extends WP_Widget {
     $title = apply_filters( 'widget_title', $instance['title'] );
     $short_intro = $instance['short_intro'];
 
-    echo $args['before_widget'] . '<div class="hive-widget short_intro_widget">';
+    echo $args['before_widget'];
     if ( ! empty( $title ) )
-      echo '<li><div><b>' . $title . '</b></div>';
-    echo $short_intro . '</li>';
-    echo '</div>' . $args['after_widget'];
+      echo '<div><b>' . $title . '</b></div>';
+    echo '<div class="the-intro">' . $short_intro . '</div>';
+    echo $args['after_widget'];
   }
 
   /**
@@ -115,14 +115,14 @@ class Hive_Spotlight_Widget extends WP_Widget {
     $content = $instance['content'];
     $read_more_link = $instance['read_more_link'];
 
-    echo $args['before_widget'] . '<div class="hive-widget hive_spotlight_widget">';
+    echo $args['before_widget'];
     if ( ! empty( $title ) )
       echo $args['before_title'] . $title . $args['after_title'];
     if ( ! empty( $img_url ) )
       echo '<div><img src=' . $img_url . ' /></div>';
     echo '<div>' . $content . '</div>';
     echo '<div><a href="' . $read_more_link . '" class="read-more">Read More</a></div>';
-    echo '</div>' . $args['after_widget'];
+    echo $args['after_widget'];
   }
 
   /**

@@ -1,6 +1,6 @@
   <?php
   /*
-  Template Name: "Get Involved" page
+  Template Name: "Connect" page
   */
 
   get_header(); ?>

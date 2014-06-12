@@ -14,7 +14,7 @@ License URI:
 hive-yellow: #FFDD2E
 hive-orange: #FAA73F rgba(250,167,63,1)
 hive-blue:   #ADCDEC
-hive-grey:   #939598
+hive-grey:   #939598 footer-text
 
 background-grey: #E6E6E6;
 footer-background: #414451;
@@ -172,6 +172,7 @@ nav {
 
 .nav > li > a:hover, .nav > li > a:focus,
 .current-menu-item a {
+  background: #FFDD2E;
   background: linear-gradient(rgba(250,167,63,0.3) 40%, #FFDD2E);
 }
 
@@ -201,6 +202,7 @@ nav {
 
 footer {
   background: #414451;
+  color: #939598;
   padding-top: 20px;
   padding-bottom: 20px;
   margin-top: 100px;
@@ -222,7 +224,7 @@ footer img {
 
 
 /* ********************************************************
-*  Banner
+*  Button
 */
 
 .btn.hive-btn {
@@ -256,6 +258,15 @@ footer img {
   border: none;
 }
 
+.page-description {
+  font-size: 20px;
+}
+
+/* ********************************************************
+*  Main content
+*/
+
+
 #main {
   background: #FFF;
   margin-top: -100px;
@@ -288,7 +299,7 @@ footer img {
 */
 
 #home-main {
-  background: #3583D1;
+  background: rgba(255,255,255,0.5);
   padding-top: 150px;
   padding-bottom: 150px;
 }
@@ -308,13 +319,16 @@ footer img {
   list-style-type: none;
 }
 
-.hive-list li {
-  padding-top: 10px;
-  padding-bottom: 10px;
+.hive-list li.hive-widget {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 0;
+  color: #3583D1;
+  letter-spacing: 1px;
 }
 
 .hive-list li:not(:last-child) {
-  border-bottom: 1px solid #FFF;
+  border-bottom: 2px solid #FFF;
 }
 
 .hive-list li.widget_short_intro_widget {
@@ -329,19 +343,37 @@ footer img {
 
 #hives-map-section {
   background: #4EB0F9;
+  background: linear-gradient(#3583D1 40%, #ADCDEC);
   padding-top: 50px;
   padding-bottom: 100px;
 }
 
-#hives-map-section svg {
-  border: 1px solid red;
-}
 
 #hives-map-section svg path {
   fill: #ADCDEC;
   stroke: #ADCDEC;
   stroke-width: 1;
 }
+
+#hives-map-section svg polygon {
+  fill: none;
+  stroke-width: 3px;
+}
+
+#hives-map-section svg polygon.networks {
+  stroke: #FFDD2E;
+}
+
+#hives-map-section svg polygon.communities {
+  stroke: #FAA73F;
+}
+
+#hives-map-section svg polygon.comingSoon {
+  stroke: #e6e6e6;
+}
+
+
+
 
 
 /* ********************************************************

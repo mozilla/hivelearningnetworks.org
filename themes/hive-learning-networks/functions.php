@@ -22,6 +22,12 @@ add_action( 'init', 'register_site_menus' );
 
 
 /**
+ * Enable custom header support: http://codex.wordpress.org/Custom_Headers
+ */
+add_theme_support( 'custom-header' );
+
+
+/**
  * Register sidebar: http://codex.wordpress.org/Sidebars
  */
 function hive_register_sidebars() {
@@ -38,21 +44,21 @@ function hive_register_sidebars() {
   register_sidebar( array(
     'name' => 'Hive Short Intro - Networks (Home Page)',
     'id' => 'hive-short-intro-networks-widget',
-    // 'before_widget' => '<div>',
-    // 'after_widget' => '</div>',
+    'before_widget' => '<li class="hive-widget short_intro_widget">',
+    'after_widget' => '</li>',
   ) );;
 
   register_sidebar( array(
     'name' => 'Hive Short Intro - Communities (Home Page)',
     'id' => 'hive-short-intro-communities-widget',
-    // 'before_widget' => '<div>',
-    // 'after_widget' => '</div>',
+    'before_widget' => '<li class="hive-widget short_intro_widget">',
+    'after_widget' => '</li>',
   ) );;
 
   register_sidebar( array(
     'name' => 'Hive Spotlight',
     'id' => 'hive-spotlight',
-    'before_widget' => '<div>',
+    'before_widget' => '<div class="hive-widget hive_spotlight_widget">',
     'after_widget' => '</div>',
     'before_title' => '<h3>',
     'after_title' => '</h3>',
