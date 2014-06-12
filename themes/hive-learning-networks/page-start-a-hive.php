@@ -36,18 +36,22 @@
               <p>
                 f you would like more information about starting a Hive in your community, please email us.
               </p>
-              <p>
-                === [ BUTTON: email us ] ===
-              </p>
+              <div>
+                <a class="btn hive-btn full-width" mailto="info@hivelearningnetworkds.org">
+                  Email Us
+                </a>
+              </div>
             </div>
             <div class="subsection">
               <h3>The Hive Cookbook</h3>
               <p>
                 The Hive Cookbook contains detailed information about the global Hive Community.
               </p>
-              <p>
-                === [ BUTTON: read the cookbook ] ===
-              </p>
+              <div>
+                <a class="btn hive-btn full-width" href="https://wiki.mozilla.org/Webmaker/HiveCookbook">
+                  Read the Cookbook
+                </a>
+              </div>
             </div>
           </div>
         </div>

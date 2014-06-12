@@ -121,7 +121,7 @@ class Hive_Spotlight_Widget extends WP_Widget {
     if ( ! empty( $img_url ) )
       echo '<div><img src=' . $img_url . ' /></div>';
     echo '<div>' . $content . '</div>';
-    echo '<div><a href="' . $read_more_link . '" class="read-more">Read More</div>';
+    echo '<div><a href="' . $read_more_link . '" class="read-more">Read More</a></div>';
     echo '</div>' . $args['after_widget'];
   }
 

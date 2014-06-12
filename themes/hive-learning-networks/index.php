@@ -7,16 +7,7 @@
         <div class="row">
           <!-- left half -->
           <div class="col-md-6">
-            <div class="row">
-              <div class="col-md-6">
-                <div style="border: 3px solid #555; width: 100%; height: 100px; text-align: center">logo</div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-md-12" id="video-container">
-                <div style="border: 3px solid #555; width: 100%; height: 300px; text-align: center">video</div>
-              </div>
-            </div>
+            <div style="border: 3px solid #555; width: 100%; height: 300px; text-align: center">video</div>
           </div>
           <!-- right half -->
           <div class="col-md-3">

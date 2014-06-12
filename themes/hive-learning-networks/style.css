@@ -12,7 +12,7 @@ License URI:
 /*
 
 hive-yellow: #FFDD2E
-hive-orange: #FAA73F
+hive-orange: #FAA73F rgba(250,167,63,1)
 hive-blue:   #ADCDEC
 hive-grey:   #939598
 
@@ -35,7 +35,10 @@ body {
 }
 
 body {
-  background: #E6E6E6;
+  background: url(img/hive_bg@2x.png) #E6E6E6;
+  background-size: 47px 80px;
+  font-family: 'Merriweather', serif;
+  font-weight: 400;
 }
 
 #wrap {
@@ -48,6 +51,45 @@ body {
 #tabzilla {
   z-index: 10000;
 }
+
+
+/* ********************************************************
+*  Typography
+*/
+
+h1,
+.h1,
+h3,
+.h3,
+nav,
+.hive-list {
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+h2,
+.h2,
+h4,
+.h4,
+.hive-btn {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.read-more {
+  font-family: 'Merriweather', serif;
+  font-weight: 700;
+}
+
+.published-date,
+.page-description {
+  font-family: 'Merriweather', serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
 
 h1,
 .h1,
@@ -63,17 +105,28 @@ h3,
 h1,
 .h1 {
   color: #FFDD2E;
+  font-size: 45px;
+  letter-spacing: 2px;
+}
+
+h2,
+.h2,
+h2 > *,
+.h2 > * {
+  color: #FAA73F;
 }
 
 h3,
 .h3 {
   color: #3583D1;
   text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: 1px;
 }
 
 h4,
 .h4 {
-  color: #FFDD2E;
+  color: #414451;
 }
 
 .all-cap {
@@ -82,7 +135,12 @@ h4,
 
 .read-more {
   float: right;
+  display: block;
   font-style: italic;
+}
+
+.read-more::after {
+  content: " »";
 }
 
 /* ********************************************************
@@ -91,6 +149,7 @@ h4,
 
 nav {
   text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 .navbar {
@@ -102,7 +161,6 @@ nav {
 
 .navbar a {
   color: #FFF;
-  font-weight: bold;
 }
 
 .navbar-nav > li > a {
@@ -114,7 +172,7 @@ nav {
 
 .nav > li > a:hover, .nav > li > a:focus,
 .current-menu-item a {
-  background: linear-gradient(rgba(255,255,255,0.2), #FFDD2E);
+  background: linear-gradient(rgba(250,167,63,0.3) 40%, #FFDD2E);
 }
 
 .navbar-toggle {
@@ -127,6 +185,15 @@ nav {
   background-color: #fff;
 }
 
+#site-nav #header-logo {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#site-nav #header-logo img {
+  /*max-width: 130px;*/
+  max-height: 60px;
+}
 
 /* ********************************************************
 *  Footer
@@ -137,12 +204,42 @@ footer {
   padding-top: 20px;
   padding-bottom: 20px;
   margin-top: 100px;
+  line-height: 70px;
 }
 
 footer > .container {
   margin-top: 0;
   margin-bottom: 0;
 }
+
+footer img {
+  max-height: 70px;
+  max-width: 100px;
+  vertical-align: middle;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+
+/* ********************************************************
+*  Banner
+*/
+
+.btn.hive-btn {
+  background: #FAA73F;
+  color: #FFF;
+  text-transform: uppercase;
+  font-size: 20px;
+  padding: 10px 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 0;
+}
+
+.btn.hive-btn.full-width {
+  width: 100%;
+}
+
 
 /* ********************************************************
 *  Banner
@@ -208,7 +305,6 @@ footer > .container {
 .hive-list {
   color: #FFF;
   padding-left: 0;
-  text-transform: uppercase;
   list-style-type: none;
 }
 
@@ -245,6 +341,30 @@ footer > .container {
   fill: #ADCDEC;
   stroke: #ADCDEC;
   stroke-width: 1;
+}
+
+
+/* ********************************************************
+*  Buzz Page
+*/
+
+.blog-feed {
+  border-bottom: 1px solid #ADCDEC;
+  overflow: hidden;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.published-date::before {
+  font-family: FontAwesome;
+  content: "\f073";
+  margin-right: 5px;
+  font-style: normal;
+}
+
+.blog-feed-content {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 

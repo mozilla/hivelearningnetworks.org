@@ -6,6 +6,9 @@
     <title><?php bloginfo('name'); echo (is_home() ? '' : wp_title('&raquo;',false)); ?></title>
     <link href="http://mozorg.cdn.mozilla.net/media/css/tabzilla-min.css" rel="stylesheet" />
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/font-awesome/css/font-awesome.min.css">
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,900' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Merriweather:700italic,400,400italic' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>">
     <script src="<?php echo get_template_directory_uri(); ?>/js/jquery-2.1.1.min.js"></script>
     <?php wp_head(); ?>
@@ -25,6 +28,9 @@
           </div>
           <div class="collapse navbar-collapse" id="site-nav">
             <ul class="nav navbar-nav">
+              <li class="menu-item menu-item-type-post_type menu-item-object-page">
+                <a href="/" id="header-logo"><img src="<?php echo get_template_directory_uri(); ?>/img/hive_logo.png" /></a>
+              </li>
               <?php
                 if (has_nav_menu('header-nav')) {
                   wp_nav_menu(array(

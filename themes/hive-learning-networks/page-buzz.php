@@ -23,7 +23,9 @@
     <div class="container">
       <div class="row">
         <div class="col-md-8" id="main">
-          <div id="recent-blog"></div>
+          <h3>Planet Hive Blog</h3>
+          <div id="recent-blog">
+          </div>
         </div>
         <div class="col-md-4" id="sidebar">
           <div id="sidebar-container">
@@ -49,12 +51,20 @@
     success: function(data) {
       console.log(data);
       console.log(JSON.stringify(data.responseData.feed.entries.slice(0,1)));
-      $.each(data.responseData.feed.entries.slice(0,10), function(idx, post){
-          var thehtml = "<a href='" + post.link + "' target='_blank'>" + post.title + "</a><br />" +
-                        "<div>" + post.content + "</div>" +
-                        "<div>" + post.contentSnippet + "</div>" +
+      $.each(data.responseData.feed.entries, function(idx, post){
+        var thehtml = "<div class='blog-feed'>" +
+                        "<h2><a href='" + post.link + "'>" + post.title + "</a></h2>" +
+                        "<div class='published-date'>" + post.publishedDate + "</div>" +
+                        "<div><p class='blog-feed-content'>" + post.content + "</p></div>" +
+                        // "<div><p>" + post.contentSnippet + "</p></div>" +
                         "<div>" + post.link + "</div>" +
-                        "<div>" + post.publishedDate + "</div><br /><br />";
+                        "<div><a class='read-more' href='" + post.link + "'>Read More</a></div>" +
+                      "</div>";
+          // var thehtml = "<a href='" + post.link + "' target='_blank'>" + post.title + "</a><br />" +
+          //               "<div>" + post.content + "</div>" +
+          //               "<div>" + post.contentSnippet + "</div>" +
+          //               "<div>" + post.link + "</div>" +
+          //               "<div>" + post.publishedDate + "</div><br /><br />";
 
           $("#recent-blog").append(thehtml);
       });

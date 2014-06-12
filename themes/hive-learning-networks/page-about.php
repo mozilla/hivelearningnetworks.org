@@ -36,9 +36,11 @@
               <p>
                 The Hive mailing list is the best way to learn about Hive global activity and find opportunities to become involved.
               </p>
-              <p>
-                === [ BUTTON: join our mailing list ] ===
-              </p>
+              <div>
+                <a class="btn hive-btn full-width" href="https://sendto.mozilla.org/page/s/hive-learning-networks-updates">
+                  Join our mailing list
+                </a>
+              </div>
             </div>
           </div>
         </div>
