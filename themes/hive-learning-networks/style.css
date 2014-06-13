@@ -44,8 +44,8 @@ body {
 #wrap {
   min-height: 100%;
   height: auto;
-  margin: 0 auto -60px auto;  /* footer height + margin-top */
-  padding: 0 0 60px; /* footer height + margin-top */
+  margin: 0 auto -160px auto;  /* footer height + #main: margin-bottom */
+  padding: 0 0 160px; /* footer height + #main: margin-bottom */
 }
 
 #tabzilla {
@@ -531,6 +531,52 @@ h4.contact-name {
   margin-bottom: 10px;
 }
 
+
+/* ********************************************************
+*  Coming Soon page
+*/
+
+body.page-template-page-coming-soon-php {
+  background-image: none;
+  background: linear-gradient(#B5B5B5 2%, #FFF 40%, #FFF 100%);
+}
+
+body.page-template-page-coming-soon-php nav {
+  display: none;
+}
+
+body.page-template-page-coming-soon-php .logo {
+  width: 250px;
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+body.page-template-page-coming-soon-php .coming-soon-message {
+  margin-bottom: 100px;
+}
+
+body.page-template-page-coming-soon-php h1 {
+  color: #FAA73F;
+}
+
+body.page-template-page-coming-soon-php h2,
+body.page-template-page-coming-soon-php h2 > * {
+  color: #3583D1;
+}
+
+@media (max-width: 768px) {
+  body.page-template-page-coming-soon-php .logo {
+    width: 250px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  body.page-template-page-coming-soon-php h1 {
+    font-size: 30px;
+  }
+  body.page-template-page-coming-soon-php h2 {
+    font-size: 20px;
+  }
+}
 
 
 /* ********************************************************

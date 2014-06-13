@@ -1,8 +1,6 @@
-
-
   <?php
   /*
-  Template Name: Locations page
+  Template Name: "Locations" page
   */
 
   get_header(); ?>
