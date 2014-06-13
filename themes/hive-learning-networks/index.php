@@ -8,7 +8,7 @@
             <div id="welcome-box">
               <h2>Welcome to</h2>
               <h1>Hive Learning Networks</h1>
-              <p>
+              <p class="page-description">
                  We are a growing constellation of communities around the globe that are championing digital skills and web literacy through connected learning.
               </p>
             </div>

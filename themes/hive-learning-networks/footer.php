@@ -2,12 +2,12 @@
       <div class="container">
         <div class="row">
           <div class="col-md-2">
-            <a href="">
+            <a href="http://www.mozilla.org">
               <img src="<?php echo get_template_directory_uri(); ?>/img/hive_mozillafooterlogo.png" />
             </a>
           </div>
           <div class="col-md-2">
-            <a href="">
+            <a href="http://www.macfound.org/">
               <img src="<?php echo get_template_directory_uri(); ?>/img/hive_mffooterlogo.png" />
             </a>
           </div>
