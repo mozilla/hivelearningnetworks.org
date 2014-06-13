@@ -30,7 +30,7 @@ class Short_Intro_Widget extends WP_Widget {
 
     echo $args['before_widget'];
     if ( ! empty( $title ) )
-      echo '<div><b>' . $title . '</b></div>';
+      echo '<a class="the-place">' . $title . '</a>';
     echo '<div class="the-intro">' . $short_intro . '</div>';
     echo $args['after_widget'];
   }
@@ -119,9 +119,9 @@ class Hive_Spotlight_Widget extends WP_Widget {
     if ( ! empty( $title ) )
       echo $args['before_title'] . $title . $args['after_title'];
     if ( ! empty( $img_url ) )
-      echo '<div><img src=' . $img_url . ' /></div>';
-    echo '<div>' . $content . '</div>';
-    echo '<div><a href="' . $read_more_link . '" class="read-more">Read More</a></div>';
+      echo '<div><a href="' . $read_more_link . '"><img src=' . $img_url . ' /></a></div>';
+    echo '<p>' . $content . '</p>';
+    echo '<p><a href="' . $read_more_link . '" class="read-more">Read More</a></p>';
     echo $args['after_widget'];
   }
 

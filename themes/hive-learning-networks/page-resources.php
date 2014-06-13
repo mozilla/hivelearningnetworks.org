@@ -5,7 +5,7 @@
 
   get_header(); ?>
 
-    <div class="general-banner">
+    <div class="general-banner" id="resources-banner">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
@@ -14,7 +14,9 @@
                   if ( have_posts() ) : while( have_posts() ) : the_post(); the_title(); endwhile; endif;
               ?>
             </h1>
-            <p class="page-description">Page description</p>
+            <div class="page-description">
+              <p>Use these Hive logos for your events, websites and printed materials. The Hive Cookbook offers more in-depth information about Hive events, communities and learning networks.</p>
+            </div>
           </div>
         </div>
       </div>

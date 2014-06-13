@@ -5,7 +5,7 @@
 
   get_header(); ?>
 
-    <div class="general-banner">
+    <div class="general-banner" id="about-banner">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
@@ -14,9 +14,9 @@
                   if ( have_posts() ) : while( have_posts() ) : the_post(); the_title(); endwhile; endif;
               ?>
             </h1>
-            <p class="page-description">
-              Hive Learning Networks prepare youth to thrive in school, work, and civic life. We empower educators to build connected learning experiences and teach the  digital literacy skills essential for young people to discover and shape their world.
-            </p>
+            <div class="page-description">
+              <p>Hive Learning Networks prepare youth to thrive in school, work, and civic life. We empower educators to build connected learning experiences and teach the  digital literacy skills essential for young people to discover and shape their world</p>
+            </div>
           </div>
         </div>
       </div>

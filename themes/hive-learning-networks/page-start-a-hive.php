@@ -5,7 +5,7 @@
 
   get_header(); ?>
 
-    <div class="general-banner">
+    <div class="general-banner" id="start-a-hive-banner">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
@@ -14,9 +14,9 @@
                   if ( have_posts() ) : while( have_posts() ) : the_post(); the_title(); endwhile; endif;
               ?>
             </h1>
-            <p class="page-description">
-              Hives empower educators to build  connected learning experiences and teach the  digital literacy skills  to youth. Become involved through our graduated levels of engagement.
-            </p>
+            <div class="page-description">
+              <p>Hives empower educators to build  connected learning experiences and teach the  digital literacy skills to youth. Become involved through our graduated levels of engagement.</p>
+            </div>
           </div>
         </div>
       </div>

@@ -56,7 +56,7 @@ function hive_register_sidebars() {
   ) );;
 
   register_sidebar( array(
-    'name' => 'Hive Spotlight',
+    'name' => 'Hive Spotlight (Buzz Page)',
     'id' => 'hive-spotlight',
     'before_widget' => '<div class="hive-widget hive_spotlight_widget">',
     'after_widget' => '</div>',

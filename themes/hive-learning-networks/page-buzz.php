@@ -5,7 +5,7 @@
 
   get_header(); ?>
 
-    <div class="general-banner">
+    <div class="general-banner" id="buzz-banner">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
@@ -14,7 +14,9 @@
                   if ( have_posts() ) : while( have_posts() ) : the_post(); the_title(); endwhile; endif;
               ?>
             </h1>
-            <p class="page-description">Page description</p>
+            <div class="page-description">
+              <p>Learn about the great work of our global Hive Communities and Hive Learning Networks.</p>
+            </div>
           </div>
         </div>
       </div>
@@ -33,7 +35,6 @@
               <?php if ( dynamic_sidebar('hive-spotlight') ) : else : endif; ?>
             </div>
             <!-- Twitter feed #HiveBuzz -->
-            <h3>Twitter feed</h3>
             <a class="twitter-timeline" href="https://twitter.com/search?q=%23HiveBuzz" data-widget-id="475056322170216448">Tweets about "#HiveBuzz"</a>
             <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
           </div>
