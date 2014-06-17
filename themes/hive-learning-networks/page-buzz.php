@@ -45,33 +45,47 @@
 </div> <!-- closing #wrap -->
 
 <script>
-  // sample code taken from http://designshack.net/articles/javascript/build-an-automated-rss-feed-list-with-jquery/
   var planetHiveRSS = "http://planet.hivelearningnetworks.org/rss";
   $.ajax({
-    url: document.location.protocol + '//ajax.googleapis.com/ajax/services/feed/load?v=1.0&num=10&callback=?&q=' + encodeURIComponent(planetHiveRSS),
-    dataType: 'json',
+    url: document.location.protocol + "//ajax.googleapis.com/ajax/services/feed/load?v=1.0&q=" + encodeURIComponent(planetHiveRSS),
+    type: "GET",
+    data: {
+      num: 10,
+      output: "json"
+    },
+    dataType: "jsonp",
+    error: function(jqXHR, textStatus, errorThrown) {
+      console.log("Cannot load Planet Hive feeds.");
+    },
     success: function(data) {
       console.log(data);
-      console.log(JSON.stringify(data.responseData.feed.entries.slice(0,1)));
       $.each(data.responseData.feed.entries, function(idx, post){
+        var title = post.title;
+        var publishedDate = new Date( post.publishedDate );
+        var excerpt = post.content;
+        var link = post.link;
+        publishedDate =
+                  ["January","February","March","April","May","June","July","August","September","October","November","December"][ publishedDate.getMonth() ] +
+                  " " +
+                  publishedDate.getDate() +
+                  ", " +
+                  publishedDate.getFullYear();
+
+
         var thehtml = "<div class='blog-feed'>" +
-                        "<h2><a href='" + post.link + "'>" + post.title + "</a></h2>" +
-                        "<div class='published-date'>" + post.publishedDate + "</div>" +
+                        "<h2><a href='" + link + "'>" + title + "</a></h2>" +
+                        "<div class='published-date'>" + publishedDate + "</div>" +
                         "<div><p class='blog-feed-content'>" + post.content + "</p></div>" +
                         // "<div><p>" + post.contentSnippet + "</p></div>" +
-                        "<div>" + post.link + "</div>" +
-                        "<div><a class='read-more' href='" + post.link + "'>Read More</a></div>" +
+                        "<div>" + link + "</div>" +
+                        "<div><a class='read-more' href='" + link + "'>Read More</a></div>" +
                       "</div>";
-          // var thehtml = "<a href='" + post.link + "' target='_blank'>" + post.title + "</a><br />" +
-          //               "<div>" + post.content + "</div>" +
-          //               "<div>" + post.contentSnippet + "</div>" +
-          //               "<div>" + post.link + "</div>" +
-          //               "<div>" + post.publishedDate + "</div><br /><br />";
 
           $("#recent-blog").append(thehtml);
       });
     }
   });
+
 </script>
 
 <?php get_footer(); ?>

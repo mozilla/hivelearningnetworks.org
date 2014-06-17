@@ -44,14 +44,22 @@ body {
 #wrap {
   min-height: 100%;
   height: auto;
-  margin: 0 auto -160px auto;  /* footer height + #main: margin-bottom */
-  padding: 0 0 160px; /* footer height + #main: margin-bottom */
+  margin: 0 auto -100px auto;  /* #main: margin-bottom */
+  padding: 0 0 100px; /* #main: margin-bottom */
 }
 
 #tabzilla {
   z-index: 10000;
 }
 
+a {
+  color: #29ABE2;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #3583D1;
+}
 
 /* ********************************************************
 *  Typography
@@ -90,6 +98,7 @@ h4,
   font-weight: 700;
 }
 
+#hive-intro-box .twitter,
 .published-date,
 .page-description,
 .contact-title {
@@ -441,8 +450,21 @@ footer p {
   cursor: pointer;
 }
 
-.hive-list .the-intro {
+.hive-list .the-details {
   display: none;
+}
+
+#hive-intro-box .twitter {
+  display: block;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+#hive-intro-box .twitter:before {
+  content: "\f099";
+  font-family: FontAwesome;
+  margin-right: 5px;
 }
 
 
@@ -453,14 +475,14 @@ footer p {
 
 #hives-map-section {
   background: #4EB0F9;
-  background: linear-gradient(#3583D1 4c0%, #ADCDEC);
+  background: linear-gradient(#3583D1 40%, #ADCDEC);
   padding-top: 50px;
   padding-bottom: 100px;
 }
 
 #hives-map-section svg path {
-  fill: #ADCDEC;
-  stroke: #ADCDEC;
+  fill: rgba(255,255,255,0.5);
+  stroke: rgba(255,255,255,0);
   stroke-width: 1;
 }
 
@@ -564,7 +586,7 @@ body.page-template-page-coming-soon-php h2 > * {
   color: #3583D1;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   body.page-template-page-coming-soon-php .logo {
     width: 250px;
     margin-top: 50px;
@@ -608,5 +630,12 @@ body.page-template-page-coming-soon-php h2 > * {
   .navbar .container,
   .navbar-collapse {
     padding-left: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  footer > *,
+  footer p {
+    text-align: center !important;
   }
 }
