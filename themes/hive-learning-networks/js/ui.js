@@ -1,4 +1,3 @@
-// $("#hive-intro-menu").css("background", "red");
 
 $("#hive-intro-menu .hive-list li").click(function(event) {
   var placeName = $(this).find(".the-place").text();
@@ -15,4 +14,21 @@ $("#hive-intro-menu .hive-list li").click(function(event) {
                       .text("Visit Website");
   // hide the general info
   $("#hive-intro-box .general-cta").hide();
+});
+
+
+
+/* ****************************************
+*  "Locations" Page
+*/
+
+$("#locations-menu div:not(#hive-coming-menu) a").click(function(){
+  var locationSelected = $(this).data("profile");
+    console.log( locationSelected );
+  // highlight selected item
+  $("#locations-menu li.active").removeClass("active");
+  $(this).parent("li").addClass("active");
+  // show corresponding sections, hide the rest
+  $(".hive-profile").parent(".container").hide();
+  $(".hive-profile[data-profile="+ locationSelected +"]").parent(".container").show();
 });

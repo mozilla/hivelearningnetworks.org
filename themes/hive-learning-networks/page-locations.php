@@ -22,28 +22,28 @@
             <div id="hive-networks-menu">
               <h4 class="all-caps">Hive Learning Networks</h4>
               <ul class="hive-list no-bullet">
-                <li class="active"><a>Chicago</a></li>
-                <li><a>New York City</a></li>
-                <li><a>Pittsburgh</a></li>
-                <li><a>Toronto</a></li>
+                <li><a data-profile="chicago">Chicago</a></li>
+                <li><a data-profile="nyc">New York City</a></li>
+                <li><a data-profile="pittsburgh">Pittsburgh</a></li>
+                <li><a data-profile="toronto">Toronto</a></li>
               </ul>
             </div>
             <div id="hive-communities-menu">
               <h4 class="all-caps">Hive Learning Communities</h4>
               <ul class="hive-list no-bullet">
-                <li><a>Berlin</a></li>
-                <li><a>Chattanooga</a></li>
-                <li><a>India</a></li>
-                <li><a>Indonesia</a></li>
-                <li><a>Kansas City</a></li>
+                <li><a data-profile="berlin">Berlin</a></li>
+                <li><a data-profile="chattanooga">Chattanooga</a></li>
+                <li><a data-profile="india">India</a></li>
+                <li><a data-profile="indonesia">Indonesia</a></li>
+                <li><a data-profile="kansas-city">Kansas City</a></li>
               </ul>
             </div>
             <div id="hive-coming-menu">
               <h4 class="all-caps">Hive Coming Soon</h4>
               <ul class="hive-list no-bullet">
-                <li><a>San Francisco Bay Area</a></li>
-                <li><a>Vancouver</a></li>
-                <li><a>Denver</a></li>
+                <li><a data-profile="">San Francisco Bay Area</a></li>
+                <li><a data-profile="">Vancouver</a></li>
+                <li><a data-profile="">Denver</a></li>
               </ul>
             </div>
           </div>
@@ -60,7 +60,7 @@
 
       <!-- Info for Hive Chicago Starts ======================================== -->
       <div class="container">
-        <div class="hive-profile">
+        <div class="hive-profile" data-profile="chicago">
           <div class="row">
             <!-- left half =========================== -->
             <div class="col-md-8">
@@ -111,7 +111,7 @@
               </div>
               <div class="row contact-card">
                 <div class="col-md-4">
-                  <div class="contact-photo"><img src="<?php echo get_template_directory_uri(); ?>/img/contacts/" /></div>
+                  <div class="contact-photo"><img src="<?php echo get_template_directory_uri(); ?>/img/contacts/RobertFriedman.jpg" /></div>
                 </div>
                 <div class="col-md-8">
                   <h4 class="contact-name">Robert Friedman</h4>
@@ -144,7 +144,7 @@
 
       <!-- Info for Hive NYC Starts ======================================== -->
       <div class="container">
-        <div class="hive-profile">
+        <div class="hive-profile" data-profile="nyc">
           <div class="row">
             <!-- left half =========================== -->
             <div class="col-md-8">
@@ -195,7 +195,7 @@
               </div>
               <div class="row contact-card">
                 <div class="col-md-4">
-                  <div class="contact-photo"><img src="<?php echo get_template_directory_uri(); ?>/img/contacts/" /></div>
+                  <div class="contact-photo"><img src="<?php echo get_template_directory_uri(); ?>/img/contacts/JuliaVallera.jpg" /></div>
                 </div>
                 <div class="col-md-8">
                   <h4 class="contact-name">Julia Vallera</h4>
@@ -215,7 +215,7 @@
 
       <!-- Info for Hive Pittsburgh Starts ======================================== -->
       <div class="container">
-        <div class="hive-profile">
+        <div class="hive-profile" data-profile="pittsburgh">
           <div class="row">
             <!-- left half =========================== -->
             <div class="col-md-8">
@@ -254,7 +254,7 @@
               </div>
               <div class="row contact-card">
                 <div class="col-md-4">
-                  <div class="contact-photo"><img src="<?php echo get_template_directory_uri(); ?>/img/contacts/" /></div>
+                  <div class="contact-photo"><img src="<?php echo get_template_directory_uri(); ?>/img/contacts/CathyLewisLong.jpg" /></div>
                 </div>
                 <div class="col-md-8">
                   <h4 class="contact-name">Cathy Lewis Long</h4>
@@ -267,7 +267,7 @@
               </div>
               <div class="row contact-card">
                 <div class="col-md-4">
-                  <div class="contact-photo"><img src="<?php echo get_template_directory_uri(); ?>/img/contacts/" /></div>
+                  <div class="contact-photo"><img src="<?php echo get_template_directory_uri(); ?>/img/contacts/MattHannigan.jpg" /></div>
                 </div>
                 <div class="col-md-8">
                   <h4 class="contact-name">Matt Hannigan</h4>
@@ -279,7 +279,7 @@
               </div>
               <div class="row contact-card">
                 <div class="col-md-4">
-                  <div class="contact-photo"><img src="<?php echo get_template_directory_uri(); ?>/img/contacts/" /></div>
+                  <div class="contact-photo"><img src="<?php echo get_template_directory_uri(); ?>/img/contacts/DustinStiver.jpg" /></div>
                 </div>
                 <div class="col-md-8">
                   <h4 class="contact-name">Dustin Stiver</h4>
@@ -299,7 +299,7 @@
 
       <!-- Info for Hive Toronto Starts ======================================== -->
       <div class="container">
-        <div class="hive-profile">
+        <div class="hive-profile" data-profile="toronto">
           <div class="row">
             <!-- left half =========================== -->
             <div class="col-md-8">
@@ -383,7 +383,7 @@
 
       <!-- Info for Hive Berlin Starts ======================================== -->
       <div class="container">
-        <div class="hive-profile">
+        <div class="hive-profile" data-profile="berlin">
           <div class="row">
             <!-- left half =========================== -->
             <div class="col-md-8">
@@ -467,7 +467,7 @@
 
       <!-- Info for Hive Chattanooga Starts ======================================== -->
       <div class="container">
-        <div class="hive-profile">
+        <div class="hive-profile" data-profile="chattanooga">
           <div class="row">
             <!-- left half =========================== -->
             <div class="col-md-8">
@@ -538,7 +538,7 @@
 
       <!-- Info for Hive India Starts ======================================== -->
       <div class="container">
-        <div class="hive-profile">
+        <div class="hive-profile" data-profile="india">
           <div class="row">
             <!-- left half =========================== -->
             <div class="col-md-8">
@@ -577,7 +577,7 @@
               </div>
               <div class="row contact-card">
                 <div class="col-md-4">
-                  <div class="contact-photo"><img src="<?php echo get_template_directory_uri(); ?>/img/contacts/" /></div>
+                  <div class="contact-photo"><img src="<?php echo get_template_directory_uri(); ?>/img/contacts/VikasBurri.jpg" /></div>
                 </div>
                 <div class="col-md-8">
                   <h4 class="contact-name">Vikas Burri</h4>
@@ -597,7 +597,7 @@
 
       <!-- Info for Hive Indonesia Starts ======================================== -->
       <div class="container">
-        <div class="hive-profile">
+        <div class="hive-profile" data-profile="indonesia">
           <div class="row">
             <!-- left half =========================== -->
             <div class="col-md-8">
@@ -612,7 +612,7 @@
                 </div>
                 <div class="col-md-6">
                   <ul class="no-bullet related-sites">
-                    <li><a class="main-website" href="http://hive.mozilla.web.id/"></a></li>
+                    <li><a class="main-website" href="http://hive.mozilla.web.id/">http://hive.mozilla.web.id/</a></li>
                     <li><a class="twitter" href="https://twitter.com/ID_Hive">https://twitter.com/ID_Hive</a></li>
                   </ul>
                 </div>
@@ -654,7 +654,7 @@
 
       <!-- Info for Hive Kansas City Starts ======================================== -->
       <div class="container">
-        <div class="hive-profile">
+        <div class="hive-profile" data-profile="kansas-city">
           <div class="row">
             <!-- left half =========================== -->
             <div class="col-md-8">
@@ -721,7 +721,8 @@
         </div>
       </div>
       <!-- Info for Hive Kansas City Ends ===== -->
+    </div>
 
-</div>
+</div> <!-- closing #wrap -->
 
 <?php get_footer("locations"); ?>

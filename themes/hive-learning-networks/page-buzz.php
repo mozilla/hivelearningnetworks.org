@@ -70,18 +70,25 @@
                   publishedDate.getDate() +
                   ", " +
                   publishedDate.getFullYear();
-
+        var postContent = post.content.replace("[…]", "..."); // some hacks
 
         var thehtml = "<div class='blog-feed'>" +
                         "<h2><a href='" + link + "'>" + title + "</a></h2>" +
                         "<div class='published-date'>" + publishedDate + "</div>" +
-                        "<div><p class='blog-feed-content'>" + post.content + "</p></div>" +
-                        // "<div><p>" + post.contentSnippet + "</p></div>" +
-                        "<div>" + link + "</div>" +
+                        "<div><p class='blog-feed-content'>" + postContent + "</p></div>" +
                         "<div><a class='read-more' href='" + link + "'>Read More</a></div>" +
                       "</div>";
 
           $("#recent-blog").append(thehtml);
+
+          // more hacks
+          $("#recent-blog p").has("a[rel=nofollow]").each(function() {
+            var source = $(this).find("a[rel=nofollow]")[1];
+            $(this).parents(".blog-feed").find(".published-date").before( $(source).attr("class", "feed-source") );
+            $(this).remove();
+          });
+
+
       });
     }
   });
