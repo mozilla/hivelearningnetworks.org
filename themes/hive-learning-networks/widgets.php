@@ -26,12 +26,15 @@ class Short_Intro_Widget extends WP_Widget {
    */
   public function widget( $args, $instance ) {
     $title = apply_filters( 'widget_title', $instance['title'] );
-    $short_intro = $instance['short_intro'];
+    $website = $instance['website'];
+    $twitter = $instance['twitter'];
 
     echo $args['before_widget'];
-    if ( ! empty( $title ) )
-      echo '<a class="the-place">' . $title . '</a>';
-    echo '<div class="the-intro">' . $short_intro . '</div>';
+    if ( ! empty( $title ) ) echo '<a class="the-place">' . $title . '</a>';
+    echo '<div class="the-details">';
+    if ( ! empty( $website ) ) echo '<div class="website-url">' . $website . '</div>';
+    if ( ! empty( $twitter ) ) echo '<div class="twitter-handle">' . $twitter . '</div>';
+    echo '</div>';
     echo $args['after_widget'];
   }
 
@@ -44,7 +47,8 @@ class Short_Intro_Widget extends WP_Widget {
    */
   public function form( $instance ) {
     $title = empty( $instance['title'] ) ? '' : esc_attr( $instance['title'] );
-    $short_intro = empty( $instance['short_intro'] ) ? '' : esc_attr( $instance['short_intro'] );
+    $website = empty( $instance['website'] ) ? '' : esc_attr( $instance['website'] );
+    $twitter = empty( $instance['twitter'] ) ? '' : esc_attr( $instance['twitter'] );
 
     ?>
     <p>
@@ -52,8 +56,12 @@ class Short_Intro_Widget extends WP_Widget {
       <input class="widefat" id="<?php echo $this->get_field_id( 'title' ); ?>" name="<?php echo $this->get_field_name( 'title' ); ?>" type="text" value="<?php echo esc_attr( $title ); ?>">
     </p>
     <p>
-      <label for="<?php echo $this->get_field_id( 'short_intro' ); ?>"><?php _e( 'Short Intro:' ); ?></label>
-      <textarea class="widefat" id="<?php echo $this->get_field_id( 'short_intro' ); ?>" name="<?php echo $this->get_field_name( 'short_intro' ); ?>"><?php echo esc_attr( $short_intro ); ?></textarea>
+      <label for="<?php echo $this->get_field_id( 'website' ); ?>"><?php _e( 'Website URL:' ); ?></label>
+      <input class="widefat" id="<?php echo $this->get_field_id( 'website' ); ?>" name="<?php echo $this->get_field_name( 'website' ); ?>" type="text" value="<?php echo esc_attr( $website ); ?>">
+    </p>
+    <p>
+      <label for="<?php echo $this->get_field_id( 'twitter' ); ?>"><?php _e( 'Twitter handle (please include @):' ); ?></label>
+      <input class="widefat" id="<?php echo $this->get_field_id( 'twitter' ); ?>" name="<?php echo $this->get_field_name( 'twitter' ); ?>" type="text" value="<?php echo esc_attr( $twitter ); ?>">
     </p>
     <?php
   }
@@ -71,7 +79,8 @@ class Short_Intro_Widget extends WP_Widget {
   public function update( $new_instance, $old_instance ) {
     $instance = array();
     $instance['title'] = ( ! empty( $new_instance['title'] ) ) ? strip_tags( $new_instance['title'] ) : '';
-    $instance['short_intro'] = ( ! empty( $new_instance['short_intro'] ) ) ? $new_instance['short_intro'] : '';
+    $instance['website'] = ( ! empty( $new_instance['website'] ) ) ? $new_instance['website'] : '';
+    $instance['twitter'] = ( ! empty( $new_instance['twitter'] ) ) ? $new_instance['twitter'] : '';
 
     return $instance;
   }

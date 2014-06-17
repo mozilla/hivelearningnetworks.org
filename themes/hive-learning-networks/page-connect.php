@@ -48,28 +48,28 @@
               </div>
             </div>
             <div class="row contact-card">
-              <div class="col-md-2">
-                <div class="placeholder-img round"></div>
+              <div class="col-md-4">
+                <div class="contact-photo"><img src="<?php echo get_template_directory_uri(); ?>/img/contacts/" /></div>
               </div>
-              <div class="col-md-10">
-                <h4 class="contact-name">First Last</h4>
-                <div class="contact-title">I'm the title</div>
+              <div class="col-md-8">
+                <h4 class="contact-name">Chris Lawrence</h4>
+                <div class="contact-title">Senior Director, Hive Learning Networks</div>
                 <ul class="no-bullet">
-                  <li><a mailto="">E-mail</a></li>
-                  <li><a href="">Twiiter</a></li>
+                  <li><a class="mailbox" href="mailto:clawrence@mozillafoundation.org">clawrence@mozillafoundation.org</a></li>
+                  <li><a class="twitter" href="http://twitter.com/@chrislarry33">@chrislarry33</a></li>
                 </ul>
               </div>
             </div>
             <div class="row contact-card">
-              <div class="col-md-2">
-                <div class="placeholder-img round"></div>
+              <div class="col-md-4">
+                <div class="contact-photo"><img src="<?php echo get_template_directory_uri(); ?>/img/contacts/LainieDeCoursy.jpg" /></div>
               </div>
-              <div class="col-md-10">
-                <h4 class="contact-name">First Last</h4>
-                <div class="contact-title">I'm the title</div>
+              <div class="col-md-8">
+                <h4 class="contact-name">Lainie DeCoursy</h4>
+                <div class="contact-title">Communications Manager, Hive Learning Networks</div>
                 <ul class="no-bullet">
-                  <li><a mailto="">E-mail</a></li>
-                  <li><a href="">Twiiter</a></li>
+                  <li><a class="mailbox" href="mailto:lainie@mozillafoundation.org">lainie@mozillafoundation.org</a></li>
+                  <li><a class="twitter" href="http://twitter.com/@ldecoursy">@ldecoursy</a></li>
                 </ul>
               </div>
             </div>

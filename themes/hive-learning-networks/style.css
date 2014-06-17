@@ -44,14 +44,22 @@ body {
 #wrap {
   min-height: 100%;
   height: auto;
-  margin: 0 auto -160px auto;  /* footer height + #main: margin-bottom */
-  padding: 0 0 160px; /* footer height + #main: margin-bottom */
+  margin: 0 auto -100px auto;  /* #main: margin-bottom */
+  padding: 0 0 100px; /* #main: margin-bottom */
 }
 
 #tabzilla {
   z-index: 10000;
 }
 
+a {
+  color: #29ABE2;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #3583D1;
+}
 
 /* ********************************************************
 *  Typography
@@ -90,6 +98,7 @@ h4,
   font-weight: 700;
 }
 
+#hive-intro-box .twitter,
 .published-date,
 .page-description,
 .contact-title {
@@ -132,6 +141,11 @@ h3,
   text-transform: uppercase;
   font-size: 20px;
   letter-spacing: 1px;
+}
+
+#main h3,
+#hive-profile-section h3 {
+  margin-bottom: 20px;
 }
 
 h4,
@@ -417,12 +431,14 @@ footer p {
   color: #FFF;
 }
 
+.hive-list li {
+  padding: 5px;
+  letter-spacing: 1px;
+}
+
 .hive-list li.hive-widget {
-  padding-top: 5px;
-  padding-bottom: 5px;
   margin-bottom: 0;
   color: #3583D1;
-  letter-spacing: 1px;
 }
 
 .hive-list li:not(:last-child) {
@@ -433,16 +449,25 @@ footer p {
   display: none;
 }
 
-.hive-list .the-place {
-  font-weight: bold;
-}
-
 .hive-list .the-place:hover {
   cursor: pointer;
 }
 
-.hive-list .the-intro {
+.hive-list .the-details {
   display: none;
+}
+
+#hive-intro-box .twitter {
+  display: block;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+#hive-intro-box .twitter:before {
+  content: "\f099";
+  font-family: FontAwesome;
+  margin-right: 5px;
 }
 
 
@@ -453,14 +478,30 @@ footer p {
 
 #hives-map-section {
   background: #4EB0F9;
-  background: linear-gradient(#3583D1 4c0%, #ADCDEC);
+  background: linear-gradient(#3583D1 40%, #ADCDEC);
   padding-top: 50px;
   padding-bottom: 100px;
 }
 
+#locations-menu li a {
+  color: #fff;
+}
+
+#locations-menu div:not(#hive-coming-menu) li a {
+  cursor: pointer;
+}
+
+#locations-menu li.active {
+  background: linear-gradient(to right, rgba(255,255,255,1), rgba(255,255,255,0));
+}
+
+#locations-menu li.active a {
+  color: #3583D1;
+}
+
 #hives-map-section svg path {
-  fill: #ADCDEC;
-  stroke: #ADCDEC;
+  fill: rgba(255,255,255,0.5);
+  stroke: rgba(255,255,255,0);
   stroke-width: 1;
 }
 
@@ -469,25 +510,85 @@ footer p {
   stroke-width: 3px;
 }
 
+#hive-networks-menu {
+  margin-top: 50px;
+}
+
+#hive-networks-menu h4 {
+  color: #FFDD2E;
+}
+
 #hives-map-section svg polygon.networks {
   stroke: #FFDD2E;
+}
+
+#hive-communities-menu h4 {
+  color: #FAA73F;
 }
 
 #hives-map-section svg polygon.communities {
   stroke: #FAA73F;
 }
 
+#hive-coming-menu h4 {
+  color: #e6e6e6;
+}
 #hives-map-section svg polygon.comingSoon {
   stroke: #e6e6e6;
 }
 
 #hive-profile-section {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  margin-top: -100px;
+  margin-bottom: 100px;
 }
 
-#hive-profile-section h3 {
-  margin-bottom: 20px;
+#hive-profile-section .container {
+  padding: 25px 50px 25px 50px;
+  background: #fff;
+}
+
+#hive-profile-section .container:not(.hide):first-child {
+  padding-top: 50px;
+}
+
+#hive-profile-section .container:not(.hide) .hive-profile:not(:last-child) {
+  padding-bottom: 25px;
+  border-bottom: 1px solid #ADCDEC;
+}
+
+.hive-logo img {
+  width: 100%;
+  max-width: 200px;
+}
+
+.related-sites .main-website:before,
+.related-sites .other-sites:before {
+  content: "\f015";
+  font-family: FontAwesome;
+  display: inline-block;
+  width: 20px;
+}
+
+.related-sites .twitter:before,
+.contact-card .twitter:before {
+  content: "\f099";
+  font-family: FontAwesome;
+  display: inline-block;
+  width: 20px;
+}
+
+.related-sites .facebook:before {
+  content: "\f09a";
+  font-family: FontAwesome;
+  display: inline-block;
+  width: 20px;
+}
+
+.contact-card .mailbox:before {
+  content: "\f003";
+  font-family: FontAwesome;
+  display: inline-block;
+  width: 20px;
 }
 
 .hive-description {
@@ -498,6 +599,12 @@ footer p {
   margin-bottom: 15px;
 }
 
+.contact-photo img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
 h4.contact-name {
   margin-bottom: 0;
 }
@@ -506,6 +613,11 @@ h4.contact-name {
   margin-bottom: 10px;
 }
 
+.contact-card li {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
 
 
 /* ********************************************************
@@ -519,11 +631,28 @@ h4.contact-name {
   padding-bottom: 30px;
 }
 
+.blog-feed:first-child {
+  padding-top: 15px;
+}
+
+.feed-source::before {
+  font-family: FontAwesome;
+  content: "\f0ac";
+  margin-right: 5px;
+  font-style: normal;
+}
+
 .published-date::before {
   font-family: FontAwesome;
   content: "\f073";
   margin-right: 5px;
   font-style: normal;
+}
+
+.feed-source,
+.published-date {
+  display: inline-block;
+  margin-right: 15px;
 }
 
 .blog-feed-content {
@@ -564,7 +693,7 @@ body.page-template-page-coming-soon-php h2 > * {
   color: #3583D1;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   body.page-template-page-coming-soon-php .logo {
     width: 250px;
     margin-top: 50px;
@@ -608,5 +737,12 @@ body.page-template-page-coming-soon-php h2 > * {
   .navbar .container,
   .navbar-collapse {
     padding-left: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  footer > *,
+  footer p {
+    text-align: center !important;
   }
 }
