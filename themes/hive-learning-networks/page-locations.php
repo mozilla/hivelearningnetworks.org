@@ -71,7 +71,11 @@
               </div>
               <div class="row">
                 <div class="col-md-6">
-                  <div class="hive-logo"><img src="<?php echo get_template_directory_uri(); ?>/img/hive-logos/hive_logo_chicago.png" /></div>
+                  <div class="hive-logo">
+                    <a href="http://hivechicago.org">
+                      <img src="<?php echo get_template_directory_uri(); ?>/img/hive-logos/Chicago.png" />
+                    </a>
+                  </div>
                 </div>
                 <div class="col-md-6">
                   <ul class="no-bullet related-sites">
@@ -124,7 +128,7 @@
               </div>
               <div class="row contact-card">
                 <div class="col-md-4">
-                  <div class="contact-photo"><img src="<?php echo get_template_directory_uri(); ?>/img/contacts/" /></div>
+                  <div class="contact-photo"><img src="<?php echo get_template_directory_uri(); ?>/img/contacts/ElsaRodriguez.jpg" /></div>
                 </div>
                 <div class="col-md-8">
                   <h4 class="contact-name">Elsa Rodriguez</h4>
@@ -155,7 +159,11 @@
               </div>
               <div class="row">
                 <div class="col-md-6">
-                  <div class="hive-logo"><img src="<?php echo get_template_directory_uri(); ?>/img/hive-logos/hive_logo_newyork.png" /></div>
+                  <div class="hive-logo">
+                    <a href="http://hivenyc.org">
+                      <img src="<?php echo get_template_directory_uri(); ?>/img/hive-logos/NYC.png" />
+                    </a>
+                  </div>
                 </div>
                 <div class="col-md-6">
                   <ul class="no-bullet related-sites">
@@ -226,7 +234,11 @@
               </div>
               <div class="row">
                 <div class="col-md-6">
-                  <div class="hive-logo"><img src="<?php echo get_template_directory_uri(); ?>/img/hive-logos/xxx.png" /></div>
+                  <div class="hive-logo">
+                    <a href="http://hivepgh.sproutfund.org/">
+                      <img src="<?php echo get_template_directory_uri(); ?>/img/hive-logos/Pittsburgh.png" />
+                    </a>
+                  </div>
                 </div>
                 <div class="col-md-6">
                   <ul class="no-bullet related-sites">
@@ -310,7 +322,11 @@
               </div>
               <div class="row">
                 <div class="col-md-6">
-                  <div class="hive-logo"><img src="<?php echo get_template_directory_uri(); ?>/img/hive-logos/xxx.png" /></div>
+                  <div class="hive-logo">
+                    <a href="http://hivetoronto.org">
+                      <img src="<?php echo get_template_directory_uri(); ?>/img/hive-logos/Toronto.png" />
+                    </a>
+                  </div>
                 </div>
                 <div class="col-md-6">
                   <ul class="no-bullet related-sites">
@@ -350,7 +366,7 @@
               </div>
               <div class="row contact-card">
                 <div class="col-md-4">
-                  <div class="contact-photo"><img src="<?php echo get_template_directory_uri(); ?>/img/contacts/" /></div>
+                  <div class="contact-photo"><div class="placeholder"><i class="fa fa-user"></i></div></div>
                 </div>
                 <div class="col-md-8">
                   <h4 class="contact-name">Karen Smith</h4>
@@ -394,7 +410,11 @@
               </div>
               <div class="row">
                 <div class="col-md-6">
-                  <div class="hive-logo"><img src="<?php echo get_template_directory_uri(); ?>/img/hive-logos/xxx.png" /></div>
+                  <div class="hive-logo">
+                    <a href="http://hiveberlin.org/">
+                      <img src="<?php echo get_template_directory_uri(); ?>/img/hive-logos/Berlin.png" />
+                    </a>
+                  </div>
                 </div>
                 <div class="col-md-6">
                   <ul class="no-bullet related-sites">
@@ -434,7 +454,7 @@
               </div>
               <div class="row contact-card">
                 <div class="col-md-4">
-                  <div class="contact-photo"><img src="<?php echo get_template_directory_uri(); ?>/img/contacts/" /></div>
+                  <div class="contact-photo"><div class="placeholder"><i class="fa fa-user"></i></div></div>
                 </div>
                 <div class="col-md-8">
                   <h4 class="contact-name">Valentin</h4>
@@ -447,7 +467,7 @@
               </div>
               <div class="row contact-card">
                 <div class="col-md-4">
-                  <div class="contact-photo"><img src="<?php echo get_template_directory_uri(); ?>/img/contacts/" /></div>
+                  <div class="contact-photo"><div class="placeholder"><i class="fa fa-user"></i></div></div>
                 </div>
                 <div class="col-md-8">
                   <h4 class="contact-name">Silva</h4>
@@ -478,7 +498,11 @@
               </div>
               <div class="row">
                 <div class="col-md-6">
-                  <div class="hive-logo"><img src="<?php echo get_template_directory_uri(); ?>/img/hive-logos/xxx.png" /></div>
+                  <div class="hive-logo">
+                    <a href="http://www.mozilla.org/gigabit/">
+                      <img src="<?php echo get_template_directory_uri(); ?>/img/hive-logos/Chattanooga.png" />
+                    </a>
+                  </div>
                 </div>
                 <div class="col-md-6">
                   <ul class="no-bullet related-sites">
@@ -505,7 +529,7 @@
               </div>
               <div class="row contact-card">
                 <div class="col-md-4">
-                  <div class="contact-photo"><img src="<?php echo get_template_directory_uri(); ?>/img/contacts/" /></div>
+                  <div class="contact-photo"><div class="placeholder"><i class="fa fa-user"></i></div></div>
                 </div>
                 <div class="col-md-8">
                   <h4 class="contact-name">Lindsey Frost Cleary</h4>
@@ -518,7 +542,7 @@
               </div>
               <div class="row contact-card">
                 <div class="col-md-4">
-                  <div class="contact-photo"><img src="<?php echo get_template_directory_uri(); ?>/img/contacts/" /></div>
+                  <div class="contact-photo"><div class="placeholder"><i class="fa fa-user"></i></div></div>
                 </div>
                 <div class="col-md-8">
                   <h4 class="contact-name">Geoff Millener</h4>
@@ -549,7 +573,11 @@
               </div>
               <div class="row">
                 <div class="col-md-6">
-                  <div class="hive-logo"><img src="<?php echo get_template_directory_uri(); ?>/img/hive-logos/xxx.png" /></div>
+                  <div class="hive-logo">
+                    <a href="http://hive.mozillaindia.org/">
+                      <img src="<?php echo get_template_directory_uri(); ?>/img/hive-logos/India.png" />
+                    </a>
+                  </div>
                 </div>
                 <div class="col-md-6">
                   <ul class="no-bullet related-sites">
@@ -608,7 +636,11 @@
               </div>
               <div class="row">
                 <div class="col-md-6">
-                  <div class="hive-logo"><img src="<?php echo get_template_directory_uri(); ?>/img/hive-logos/xxx.png" /></div>
+                  <div class="hive-logo">
+                    <a href="http://hive.mozilla.web.id/">
+                      <img src="<?php echo get_template_directory_uri(); ?>/img/hive-logos/Indonesia.png" />
+                    </a>
+                  </div>
                 </div>
                 <div class="col-md-6">
                   <ul class="no-bullet related-sites">
@@ -634,7 +666,7 @@
               </div>
               <div class="row contact-card">
                 <div class="col-md-4">
-                  <div class="contact-photo"><img src="<?php echo get_template_directory_uri(); ?>/img/contacts/" /></div>
+                  <div class="contact-photo"><div class="placeholder"><i class="fa fa-user"></i></div></div>
                 </div>
                 <div class="col-md-8">
                   <h4 class="contact-name">Benny Chandra</h4>
@@ -665,7 +697,11 @@
               </div>
               <div class="row">
                 <div class="col-md-6">
-                  <div class="hive-logo"><img src="<?php echo get_template_directory_uri(); ?>/img/hive-logos/xxx.png" /></div>
+                  <div class="hive-logo">
+                    <a href="http://www.mozilla.org/gigabit/">
+                      <img src="<?php echo get_template_directory_uri(); ?>/img/hive-logos/KansasCity.png" />
+                    </a>
+                  </div>
                 </div>
                 <div class="col-md-6">
                   <ul class="no-bullet related-sites">

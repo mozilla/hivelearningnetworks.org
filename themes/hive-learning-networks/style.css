@@ -491,10 +491,12 @@ footer p {
   cursor: pointer;
 }
 
+#locations-menu li:hover,
 #locations-menu li.active {
   background: linear-gradient(to right, rgba(255,255,255,1), rgba(255,255,255,0));
 }
 
+#locations-menu li:hover a,
 #locations-menu li.active a {
   color: #3583D1;
 }
@@ -547,14 +549,19 @@ footer p {
   background: #fff;
 }
 
-#hive-profile-section .container:not(.hide):first-child {
+#hive-profile-section .container:not(.hide):first-of-type {
   padding-top: 50px;
 }
 
-#hive-profile-section .container:not(.hide) .hive-profile:not(:last-child) {
-  padding-bottom: 25px;
+#hive-profile-section .container:not(.hide):not(:last-of-type) .hive-profile {
   border-bottom: 1px solid #ADCDEC;
+  padding-bottom: 25px;
 }
+
+#hive-profile-section .containe:not(.hide):last-of-type .hive-profile {
+  padding-bottom: 50px;
+}
+
 
 .hive-logo img {
   width: 100%;
@@ -599,10 +606,22 @@ footer p {
   margin-bottom: 15px;
 }
 
-.contact-photo img {
+.contact-photo img,
+.contact-photo .placeholder {
   width: 100px;
   height: 100px;
   border-radius: 50%;
+}
+
+.contact-photo .placeholder {
+  background: #ADCDEC;
+  color: #3583D1;
+  text-align: center;
+  font-size: 70px;
+}
+
+.contact-photo .placeholder {
+  background: #ADCDEC;
 }
 
 h4.contact-name {
