@@ -20,6 +20,7 @@
         <div class="container">
           <a href="http://www.mozilla.org/" id="tabzilla">mozilla</a>
           <div class="navbar-header">
+            <a href="/" class="header-logo"><img src="<?php echo get_template_directory_uri(); ?>/img/hive_logo.png" /></a>
             <a class="btn btn-navbar navbar-toggle" data-toggle="collapse" data-target="#site-nav">
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
@@ -29,7 +30,7 @@
           <div class="collapse navbar-collapse" id="site-nav">
             <ul class="nav navbar-nav">
               <li class="menu-item menu-item-type-post_type menu-item-object-page">
-                <a href="/" id="header-logo"><img src="<?php echo get_template_directory_uri(); ?>/img/hive_logo.png" /></a>
+                <a href="/" class="header-logo"><img src="<?php echo get_template_directory_uri(); ?>/img/hive_logo.png" /></a>
               </li>
               <?php
                 if (has_nav_menu('header-nav')) {
