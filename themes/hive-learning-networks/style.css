@@ -214,23 +214,33 @@ nav {
 
 .navbar-toggle {
   border: none;
-  background: #666;
-  color: red;
+  background: #fff;
+  border-radius: 0;
+  padding: 13px 10px;
 }
 
 .navbar-toggle .icon-bar {
-  background-color: #fff;
+  background-color: #3583D1;
+  width: 25px;
+  height: 3px;
 }
 
-#site-nav #header-logo {
+.navbar .header-logo {
   padding-top: 5px;
   padding-bottom: 5px;
 }
 
-#site-nav #header-logo img {
-  /*max-width: 130px;*/
+.navbar-header .header-logo img {
   max-height: 60px;
 }
+.navbar-header .header-logo {
+  margin-left: 10px;
+}
+
+.navbar-nav .header-logo img {
+  max-height: 60px;
+}
+
 
 /* ********************************************************
 *  Footer
@@ -271,7 +281,7 @@ footer p {
   color: #FFF;
   text-transform: uppercase;
   font-size: 20px;
-  padding: 10px 30px;
+  padding: 10px 0;
   margin-top: 10px;
   margin-bottom: 10px;
   border-radius: 0;
@@ -279,6 +289,10 @@ footer p {
 
 .btn.hive-btn.full-width {
   width: 100%;
+}
+.btn.hive-btn:not(.full-width) {
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 
@@ -296,11 +310,6 @@ footer p {
 
 .general-banner > * {
   color: #fff !important;
-}
-
-.general-banner .container {
-  padding-left: 0;
-  padding-right: 0;
 }
 
 .general-banner h1 {
@@ -323,24 +332,36 @@ footer p {
   color: #fff;
 }
 
+#home-banner {
+  background-image: url(img/hive_banner_landing.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 200px;
+}
+
 #about-banner {
   background-image: url(img/hive_banner_about.jpg);
+  background-size: cover;
 }
 
 #buzz-banner {
   background-image: url(img/hive_banner_buzz.png);
+  background-size: cover;
 }
 
 #start-a-hive-banner {
   background-image: url(img/hive_banner_startahive.png);
+  background-size: cover;
 }
 
 #resources-banner {
-  /*background-image: url();*/
+  /*background-image: url();
+  background-size: cover;*/
 }
 
 #connect-banner {
   background-image: url(img/hive_banner_connect.jpg);
+  background-size: cover;
 }
 
 
@@ -383,13 +404,6 @@ footer p {
 /* ********************************************************
 *  Home page
 */
-
-#home-banner {
-  background-image: url(img/hive_banner_landing.png);
-  background-repeat: no-repeat;
-  background-size: 100%;
-  padding-bottom: 200px;
-}
 
 #welcome-box {
   text-align: center;
@@ -757,11 +771,93 @@ body.page-template-page-coming-soon-php h2 > * {
   .navbar-collapse {
     padding-left: 0;
   }
+  .navbar-header .header-logo {
+    display: none;
+  }
+  .general-banner .container {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
 
 @media (max-width: 768px) {
   footer > *,
   footer p {
     text-align: center !important;
+  }
+  #tabzilla,
+  .navbar-nav .header-logo {
+    display: none;
+  }
+  .navbar-nav > li > a {
+    padding: 10px;
+  }
+  h1,
+  .h1 {
+    font-size: 30px;
+  }
+
+  h2,
+  .h2 {
+    font-size: 25px;
+  }
+
+  h3,
+  .h3 {
+    font-size: 18px;
+  }
+  .btn.hive-btn {
+    font-size: 15px;
+  }
+  #main  {
+    margin-bottom: 30px;
+  }
+  /* *****************
+  *  Banner
+  */
+  #home-banner {
+    background-image: url(img/hive_banner_landing_mobile.png);
+    padding-bottom: 200px;
+  }
+  #about-banner {
+    background-image: url(img/hive_banner_about_mobile.jpg);
+  }
+  #buzz-banner {
+    background-image: url(img/hive_banner_buzz_mobile.png);
+  }
+  #start-a-hive-banner {
+    background-image: url(img/hive_banner_startahive_mobile.png);
+  }
+  #resources-banner {
+    /*background-image: url();
+    background-size: cover;*/
+  }
+  #connect-banner {
+    background-image: url(img/hive_banner_connect_mobile.jpg);
+  }
+  /* *****************
+  *  Home Page
+  */
+  #welcome-box {
+    margin: 30px 0 30px 0;
+  }
+  #hive-intro-box {
+    margin: 30px 0;
+  }
+  /* *****************
+  *  Locations Page
+  */
+  #hive-profile-section .hive-profile h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  #hive-profile-section .hive-logo,
+  .contact-photo {
+    margin-bottom: 10px;
+  }
+
+  .contact-card {
+    /*text-align: center;*/
+    margin-bottom: 25px;
   }
 }
