@@ -29,6 +29,9 @@ $("#locations-menu div:not(#hive-coming-menu) a").click(function(){
   $("#locations-menu li.active").removeClass("active");
   $(this).parent("li").addClass("active");
   // show corresponding sections, hide the rest
-  $(".hive-profile").parent(".container").hide();
-  $(".hive-profile[data-profile="+ locationSelected +"]").parent(".container").show();
+  $(".hive-profile").parent(".container").addClass("hide");
+  // profile section of the selected item
+  var profile = $(".hive-profile[data-profile="+ locationSelected +"]").parent(".container");
+  profile.removeClass("hide");
+  $("html, body").animate({ scrollTop: profile.offset().top }, "slow");
 });

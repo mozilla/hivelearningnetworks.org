@@ -48,10 +48,10 @@
               </div>
             </div>
             <div class="row contact-card">
-              <div class="col-md-4">
-                <div class="contact-photo"><img src="<?php echo get_template_directory_uri(); ?>/img/contacts/" /></div>
+              <div class="col-md-2">
+                <div class="contact-photo"><img src="<?php echo get_template_directory_uri(); ?>/img/contacts/ChrisLawrence.jpg" /></div>
               </div>
-              <div class="col-md-8">
+              <div class="col-md-10">
                 <h4 class="contact-name">Chris Lawrence</h4>
                 <div class="contact-title">Senior Director, Hive Learning Networks</div>
                 <ul class="no-bullet">
@@ -61,10 +61,10 @@
               </div>
             </div>
             <div class="row contact-card">
-              <div class="col-md-4">
+              <div class="col-md-2">
                 <div class="contact-photo"><img src="<?php echo get_template_directory_uri(); ?>/img/contacts/LainieDeCoursy.jpg" /></div>
               </div>
-              <div class="col-md-8">
+              <div class="col-md-10">
                 <h4 class="contact-name">Lainie DeCoursy</h4>
                 <div class="contact-title">Communications Manager, Hive Learning Networks</div>
                 <ul class="no-bullet">
