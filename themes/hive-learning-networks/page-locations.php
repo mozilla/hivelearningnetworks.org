@@ -18,8 +18,34 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md-3">
-
+          <div class="col-md-3" id="locations-menu">
+            <div id="hive-networks-menu">
+              <h4 class="all-caps">Hive Learning Networks</h4>
+              <ul class="hive-list no-bullet">
+                <li class="active"><a>Chicago</a></li>
+                <li><a>New York City</a></li>
+                <li><a>Pittsburgh</a></li>
+                <li><a>Toronto</a></li>
+              </ul>
+            </div>
+            <div id="hive-communities-menu">
+              <h4 class="all-caps">Hive Learning Communities</h4>
+              <ul class="hive-list no-bullet">
+                <li><a>Berlin</a></li>
+                <li><a>Chattanooga</a></li>
+                <li><a>India</a></li>
+                <li><a>Indonesia</a></li>
+                <li><a>Kansas City</a></li>
+              </ul>
+            </div>
+            <div id="hive-coming-menu">
+              <h4 class="all-caps">Hive Coming Soon</h4>
+              <ul class="hive-list no-bullet">
+                <li><a>San Francisco Bay Area</a></li>
+                <li><a>Vancouver</a></li>
+                <li><a>Denver</a></li>
+              </ul>
+            </div>
           </div>
           <div class="col-md-9">
             <div id="hive-map">
@@ -29,74 +55,672 @@
       </div>
     </div>
 
-    <!-- Info for Hive Berlin Starts ======================================== -->
+    <!-- Profile sections starts ============================ -->
+    <div id="hive-profile-section">
 
-    <div class="container" id="hive-profile-section">
-      <div class="row">
-        <!-- left half =========================== -->
-        <div class="col-md-8">
+      <!-- Info for Hive Chicago Starts ======================================== -->
+      <div class="container">
+        <div class="hive-profile">
           <div class="row">
-            <div class="col-md-12">
-              <h3 class="the-hive-name">Hive Berlin</h3>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-6">
-              <div style="width: 100%; height: 120px; background: #ccc"></div>
-            </div>
-            <div class="col-md-6">
-              <ul class="no-bullet">
-                <li><a href="">Blog</a></li>
-                <li><a href="">Twiiter</a></li>
-                <li><a href="">Facebook</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="row hive-description">
-            <div class="col-md-12">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque volutpat posuere arcu, facilisis faucibus sem laoreet ac. Nulla luctus laoreet libero non malesuada. Ut cursus massa non dolor ullamcorper posuere. Vestibulum tellus libero, feugiat non nulla ut, pellentesque dignissim eros. Pellentesque lobortis elementum sodales. Praesent vitae facilisis urna. Donec scelerisque eros at enim elementum, id pharetra urna adipiscing. Nulla vitae augue eget purus malesuada egestas in iaculis ligula. Nunc non nibh sit amet velit vehicula tincidunt a venenatis sapien. Fusce dignissim fermentum sapien vel ultrices. Nam ut dui quam. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec convallis vestibulum pretium. Donec sed consectetur velit. Ut hendrerit nunc egestas nunc tempus cursus. Aliquam vel lectus tortor.
-              </p>
-            </div>
-          </div>
-        </div>
-        <!-- right half (contacts) =========================== -->
-        <div class="col-md-4">
-          <div class="row">
-            <div class="col-md-12">
-              <h3 class="the-hive-contacts">Hive Berlin Contacts</h3>
-            </div>
-          </div>
-          <div class="row contact-card">
-            <div class="col-md-4">
-              <div class="placeholder-img round"></div>
-            </div>
+            <!-- left half =========================== -->
             <div class="col-md-8">
-              <h4 class="contact-name">First Last</h4>
-              <div class="contact-title">I'm the title</div>
-              <ul class="no-bullet">
-                <li><a mailto="">E-mail</a></li>
-                <li><a href="">Twiiter</a></li>
-              </ul>
+              <div class="row">
+                <div class="col-md-12">
+                  <h3 class="the-hive-name">Hive Chicago</h3>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="hive-logo"><img src="<?php echo get_template_directory_uri(); ?>/img/hive-logos/hive_logo_chicago.png" /></div>
+                </div>
+                <div class="col-md-6">
+                  <ul class="no-bullet related-sites">
+                    <li><a class="main-website" href="http://hivechicago.org">http://hivechicago.org</a></li>
+                    <li><a class="twitter" href="http://twitter.com/hivechicagobuzz">http://twitter.com/hivechicagobuzz</a></li>
+                    <li><a class="facebook" href="https://www.facebook.com/hivelearningnetworkchicago">https://www.facebook.com/hivelearningnetworkchicago</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="row hive-description">
+                <div class="col-md-12">
+                  <p>
+                    The Hive Chicago Learning Network, was founded in 2009 at DePaul University and the Chicago Community Trust (CCT) through grants from the John D. and Catherine T. MacArthur Foundation. Joining the Mozilla family in 2013, they now boast 56 member organizations and steward over $1 Million in project funding opportunities through the Hive Fund for Connected Learning at CCT, still supported by MacArthur and joined by the Burberry Foundation.
+                  </p>
+                </div>
+              </div>
             </div>
-          </div>
-          <div class="row contact-card">
+            <!-- right half (contacts) =========================== -->
             <div class="col-md-4">
-              <div class="placeholder-img round"></div>
-            </div>
-            <div class="col-md-8">
-              <h4 class="contact-name">First Last</h4>
-              <div class="contact-title">I'm the title</div>
-              <ul class="no-bullet">
-                <li><a mailto="">E-mail</a></li>
-                <li><a href="">Twiiter</a></li>
-              </ul>
+              <div class="row">
+                <div class="col-md-12">
+                  <h3 class="the-hive-contacts">Hive Chicago Contacts</h3>
+                </div>
+              </div>
+              <div class="row contact-card">
+                <div class="col-md-4">
+                  <div class="contact-photo"><img src="<?php echo get_template_directory_uri(); ?>/img/contacts/SamDyson.jpg" /></div>
+                </div>
+                <div class="col-md-8">
+                  <h4 class="contact-name">Sam Dyson</h4>
+                  <div class="contact-title">Director</div>
+                  <ul class="no-bullet">
+                    <li><a class="mailbox" href="mailto:sam@mozillafoundation.org">sam@mozillafoundation.org</a></li>
+                    <li><a class="twitter" href="http://twitter.com/@samueledyson">@samueledyson</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="row contact-card">
+                <div class="col-md-4">
+                  <div class="contact-photo"><img src="<?php echo get_template_directory_uri(); ?>/img/contacts/" /></div>
+                </div>
+                <div class="col-md-8">
+                  <h4 class="contact-name">Robert Friedman</h4>
+                  <div class="contact-title">Portfolio Strategist</div>
+                  <ul class="no-bullet">
+                    <li><a class="mailbox" href="mailto:robert@mozillafoundation.org">robert@mozillafoundation.org</a></li>
+                    <li><a class="twitter" href="http://twitter.com/@omnignorant">@omnignorant</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="row contact-card">
+                <div class="col-md-4">
+                  <div class="contact-photo"><img src="<?php echo get_template_directory_uri(); ?>/img/contacts/" /></div>
+                </div>
+                <div class="col-md-8">
+                  <h4 class="contact-name">Elsa Rodriguez</h4>
+                  <div class="contact-title">Programs Manager</div>
+                  <ul class="no-bullet">
+                    <li><a class="mailbox" href="mailto:robert@mozillafoundation.org">elsa@mozillafoundation.org</a></li>
+                    <li><a class="twitter" href="http://twitter.com/@erodizzle">@erodizzle</a></li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <!-- Info for Hive Berlin Ends ===== -->
+      <!-- Info for Hive Chicago Ends ===== -->
+
+
+      <!-- Info for Hive NYC Starts ======================================== -->
+      <div class="container">
+        <div class="hive-profile">
+          <div class="row">
+            <!-- left half =========================== -->
+            <div class="col-md-8">
+              <div class="row">
+                <div class="col-md-12">
+                  <h3 class="the-hive-name">Hive NYC</h3>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="hive-logo"><img src="<?php echo get_template_directory_uri(); ?>/img/hive-logos/hive_logo_newyork.png" /></div>
+                </div>
+                <div class="col-md-6">
+                  <ul class="no-bullet related-sites">
+                    <li><a class="main-website" href="http://hivenyc.org">http://hivenyc.org</a></li>
+                    <li><a class="twitter" href="http://twitter.com/hivelearningnyc">http://twitter.com/hivelearningnyc</a></li>
+                    <li><a class="facebook" href="http://facebook.com/hivelearningnyc">http://facebook.com/hivelearningnyc</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="row hive-description">
+                <div class="col-md-12">
+                  <p>
+                    Hive NYC was founded in 2009 as part of The MacArthur Foundation’s Digital Media and Learning initiative, and Mozilla became its steward in 2011. It is a thriving network of more than 55 non-profit organizations across the city, who have access to funding to support their work through The Hive Digital Media Learning Fund, a collaborative donor fund in The New York Community Trust.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- right half (contacts) =========================== -->
+            <div class="col-md-4">
+              <div class="row">
+                <div class="col-md-12">
+                  <h3 class="the-hive-contacts">Hive NYC Contacts</h3>
+                </div>
+              </div>
+              <div class="row contact-card">
+                <div class="col-md-4">
+                  <div class="contact-photo"><img src="<?php echo get_template_directory_uri(); ?>/img/contacts/LeahGilliam.jpg" /></div>
+                </div>
+                <div class="col-md-8">
+                  <h4 class="contact-name">Leah Gilliam</h4>
+                  <div class="contact-title">Director</div>
+                  <ul class="no-bullet">
+                    <li><a class="mailbox" href="mailto:leah@mozillafoundation.org">leah@mozillafoundation.org</a></li>
+                    <li><a class="twitter" href="http://twitter.com/@leahatplay">@leahatplay</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="row contact-card">
+                <div class="col-md-4">
+                  <div class="contact-photo"><img src="<?php echo get_template_directory_uri(); ?>/img/contacts/" /></div>
+                </div>
+                <div class="col-md-8">
+                  <h4 class="contact-name">Julia Vallera</h4>
+                  <div class="contact-title">Programs Manager</div>
+                  <ul class="no-bullet">
+                    <li><a class="mailbox" href="mailto:julia@mozillafoundation.org">julia@mozillafoundation.org</a></li>
+                    <li><a class="twitter" href="http://twitter.com/@colorwheelz">@colorwheelz</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Info for Hive NYC Ends ===== -->
+
+
+      <!-- Info for Hive Pittsburgh Starts ======================================== -->
+      <div class="container">
+        <div class="hive-profile">
+          <div class="row">
+            <!-- left half =========================== -->
+            <div class="col-md-8">
+              <div class="row">
+                <div class="col-md-12">
+                  <h3 class="the-hive-name">Hive Pittsburgh</h3>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="hive-logo"><img src="<?php echo get_template_directory_uri(); ?>/img/hive-logos/xxx.png" /></div>
+                </div>
+                <div class="col-md-6">
+                  <ul class="no-bullet related-sites">
+                    <li><a class="main-website" href="http://hivepgh.sproutfund.org/">http://hivepgh.sproutfund.org/</a></li>
+                    <li><a class="other-sites" href="http://remakelearning.org/blog/">http://remakelearning.org/blog/</a></li>
+                    <li><a class="twitter" href="http://twitter.com/hivepgh">http://twitter.com/hivepgh</a></li>
+                    <li><a class="facebook" href="https://www.facebook.com/hivepgh">https://www.facebook.com/hivepgh</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="row hive-description">
+                <div class="col-md-12">
+                  <p>
+                    Hive Pittsburgh was established in 2013. Hive Pittsburgh is a program of The Sprout Fund and part of the Pittsburgh Kids+Creativity Network, representing more than 100 organizations including schools, museums, libraries, afterschool programs, and community centers. Lead support for the Hive Learning Network in Pittsburgh is provided by the John D. and Catherine T. MacArthur Foundation and the Grable Foundation.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- right half (contacts) =========================== -->
+            <div class="col-md-4">
+              <div class="row">
+                <div class="col-md-12">
+                  <h3 class="the-hive-contacts">Hive Pittsburgh Contacts</h3>
+                </div>
+              </div>
+              <div class="row contact-card">
+                <div class="col-md-4">
+                  <div class="contact-photo"><img src="<?php echo get_template_directory_uri(); ?>/img/contacts/" /></div>
+                </div>
+                <div class="col-md-8">
+                  <h4 class="contact-name">Cathy Lewis Long</h4>
+                  <div class="contact-title">Program Director</div>
+                  <ul class="no-bullet">
+                    <li><a class="mailbox" href="mailto:cathy@sproutfund.org">cathy@sproutfund.org</a></li>
+                    <li><a class="twitter" href="http://twitter.com/@cathylewislong">@cathylewislong</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="row contact-card">
+                <div class="col-md-4">
+                  <div class="contact-photo"><img src="<?php echo get_template_directory_uri(); ?>/img/contacts/" /></div>
+                </div>
+                <div class="col-md-8">
+                  <h4 class="contact-name">Matt Hannigan</h4>
+                  <div class="contact-title">Co-Director</div>
+                  <ul class="no-bullet">
+                    <li><a class="mailbox" href="mailto:matt@sproutfund.org">matt@sproutfund.org</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="row contact-card">
+                <div class="col-md-4">
+                  <div class="contact-photo"><img src="<?php echo get_template_directory_uri(); ?>/img/contacts/" /></div>
+                </div>
+                <div class="col-md-8">
+                  <h4 class="contact-name">Dustin Stiver</h4>
+                  <div class="contact-title">Program Officer</div>
+                  <ul class="no-bullet">
+                    <li><a class="mailbox" href="mailto:dustin@sproutfund.org">dustin@sproutfund.org</a></li>
+                    <li><a class="twitter" href="http://twitter.com/@dustinstiver">@dustinstiver</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Info for Hive Pittsburgh Ends ===== -->
+
+
+      <!-- Info for Hive Toronto Starts ======================================== -->
+      <div class="container">
+        <div class="hive-profile">
+          <div class="row">
+            <!-- left half =========================== -->
+            <div class="col-md-8">
+              <div class="row">
+                <div class="col-md-12">
+                  <h3 class="the-hive-name">Hive Toronto</h3>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="hive-logo"><img src="<?php echo get_template_directory_uri(); ?>/img/hive-logos/xxx.png" /></div>
+                </div>
+                <div class="col-md-6">
+                  <ul class="no-bullet related-sites">
+                    <li><a class="main-website" href="http://hivetoronto.org">http://hivetoronto.org</a></li>
+                    <li><a class="twitter" href="http://twitter.com/hivetoronto">http://twitter.com/hivetoronto</a></li>
+                    <li><a class="facebook" href="http://facebook.com/hivetoronto">http://facebook.com/hivetoronto</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="row hive-description">
+                <div class="col-md-12">
+                  <p>
+                    Hive Toronto was founded in 2012, and is currently comprised of 42 member organizations from the general Toronto and surrounding areas. Hive Toronto is stewarded by Mozilla, and supported by the Ontario Trillium Foundation (OTF), the Office of the Privacy Commissioner of Canada (OPC), and the Canadian Internet Registration Authority (CIRA).
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- right half (contacts) =========================== -->
+            <div class="col-md-4">
+              <div class="row">
+                <div class="col-md-12">
+                  <h3 class="the-hive-contacts">Hive Toronto Contacts</h3>
+                </div>
+              </div>
+              <div class="row contact-card">
+                <div class="col-md-4">
+                  <div class="contact-photo"><img src="<?php echo get_template_directory_uri(); ?>/img/contacts/KathrynMeisner.jpg" /></div>
+                </div>
+                <div class="col-md-8">
+                  <h4 class="contact-name">Kathryn Meisner</h4>
+                  <div class="contact-title">Director</div>
+                  <ul class="no-bullet">
+                    <li><a class="mailbox" href="mailto:kathryn@mozillafoundation.org">kathryn@mozillafoundation.org</a></li>
+                    <li><a class="twitter" href="http://twitter.com/@kathrynmeisner">@kathrynmeisner</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="row contact-card">
+                <div class="col-md-4">
+                  <div class="contact-photo"><img src="<?php echo get_template_directory_uri(); ?>/img/contacts/" /></div>
+                </div>
+                <div class="col-md-8">
+                  <h4 class="contact-name">Karen Smith</h4>
+                  <div class="contact-title">Mitacs Elevate Post-doctoral Research Fellow</div>
+                  <ul class="no-bullet">
+                    <li><a class="mailbox" href="mailto:karen@hivetoronto.org">karen@hivetoronto.org</a></li>
+                    <li><a class="twitter" href="http://twitter.com/@smithisgeneric">@smithisgeneric</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="row contact-card">
+                <div class="col-md-4">
+                  <div class="contact-photo"><img src="<?php echo get_template_directory_uri(); ?>/img/contacts/ColinLacey.jpg" /></div>
+                </div>
+                <div class="col-md-8">
+                  <h4 class="contact-name">Colin Lacey</h4>
+                  <div class="contact-title">Communications and Event Coordinator</div>
+                  <ul class="no-bullet">
+                    <li><a class="mailbox" href="mailto:colin@hivetoronto.org">colin@hivetoronto.org</a></li>
+                    <li><a class="twitter" href="http://twitter.com/@CDLacey">@CDLacey</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Info for Hive Toronto Ends ===== -->
+
+
+      <!-- Info for Hive Berlin Starts ======================================== -->
+      <div class="container">
+        <div class="hive-profile">
+          <div class="row">
+            <!-- left half =========================== -->
+            <div class="col-md-8">
+              <div class="row">
+                <div class="col-md-12">
+                  <h3 class="the-hive-name">Hive Berlin</h3>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="hive-logo"><img src="<?php echo get_template_directory_uri(); ?>/img/hive-logos/xxx.png" /></div>
+                </div>
+                <div class="col-md-6">
+                  <ul class="no-bullet related-sites">
+                    <li><a class="main-website" href="http://hiveberlin.org/">http://hiveberlin.org/</a></li>
+                    <li><a class="twitter" href="http://twitter.com/hiveberlin">http://twitter.com/hiveberlin</a></li>
+                    <li><a class="other-sites" href="http://www.meetup.com/Hive-Berlin/">http://www.meetup.com/Hive-Berlin/</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="row hive-description">
+                <div class="col-md-12">
+                  <p>
+                    Hive Berlin is an aspiring learning network led by two co-founding organizations, Wikimedia Germany and Mozilla, in collaboration with the Free University of Berlin. We have a special focus on the positive social impact of free knowledge and web literacy, as well as connecting to Berlin's growing tech scene.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- right half (contacts) =========================== -->
+            <div class="col-md-4">
+              <div class="row">
+                <div class="col-md-12">
+                  <h3 class="the-hive-contacts">Hive Berlin Contacts</h3>
+                </div>
+              </div>
+              <div class="row contact-card">
+                <div class="col-md-4">
+                  <div class="contact-photo"><img src="<?php echo get_template_directory_uri(); ?>/img/contacts/MichelleThorne.jpg" /></div>
+                </div>
+                <div class="col-md-8">
+                  <h4 class="contact-name">Michelle Thorne</h4>
+                  <div class="contact-title">Director of Global Strategy, Mozilla Webmaker</div>
+                  <ul class="no-bullet">
+                    <li><a class="mailbox" href="mailto:michelle@mozillafoundation.org">michelle@mozillafoundation.org</a></li>
+                    <li><a class="twitter" href="http://twitter.com/@thornet">@thornet</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="row contact-card">
+                <div class="col-md-4">
+                  <div class="contact-photo"><img src="<?php echo get_template_directory_uri(); ?>/img/contacts/" /></div>
+                </div>
+                <div class="col-md-8">
+                  <h4 class="contact-name">Valentin</h4>
+                  <div class="contact-title"></div>
+                  <ul class="no-bullet">
+                    <li><a class="mailbox" href="mailto:"></a></li>
+                    <li><a class="twitter" href="http://twitter.com/@">@</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="row contact-card">
+                <div class="col-md-4">
+                  <div class="contact-photo"><img src="<?php echo get_template_directory_uri(); ?>/img/contacts/" /></div>
+                </div>
+                <div class="col-md-8">
+                  <h4 class="contact-name">Silva</h4>
+                  <div class="contact-title"></div>
+                  <ul class="no-bullet">
+                    <li><a class="mailbox" href="mailto:"></a></li>
+                    <li><a class="twitter" href="http://twitter.com/@">@</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Info for Hive Berlin Ends ===== -->
+
+
+      <!-- Info for Hive Chattanooga Starts ======================================== -->
+      <div class="container">
+        <div class="hive-profile">
+          <div class="row">
+            <!-- left half =========================== -->
+            <div class="col-md-8">
+              <div class="row">
+                <div class="col-md-12">
+                  <h3 class="the-hive-name">Hive Chattanooga</h3>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="hive-logo"><img src="<?php echo get_template_directory_uri(); ?>/img/hive-logos/xxx.png" /></div>
+                </div>
+                <div class="col-md-6">
+                  <ul class="no-bullet related-sites">
+                    <li><a class="main-website" href="http://www.mozilla.org/gigabit/">http://www.mozilla.org/gigabit/</a></li>
+                    <li><a class="other-sites" href="https://blog.mozilla.org/gigabit/">https://blog.mozilla.org/gigabit/</a></li>
+                    <li><a class="twitter" href="http://twitter.com/@mozillagigabit">http://twitter.com/@mozillagigabit</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="row hive-description">
+                <div class="col-md-12">
+                  <p>
+                    Established in 2014, Hive Learning Community in Chattanooga supports connected learning experiences in the Chattanooga, Tennessee metropolitan region. Hive CHA fuels the creation of these learning experiences through the Gigabit Community Fund, a National Science Foundation supported initiative to fund the development of gigabit-enabled workforce development and education applications and associated curricula.  Learn more at mozilla.org/gigabit.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- right half (contacts) =========================== -->
+            <div class="col-md-4">
+              <div class="row">
+                <div class="col-md-12">
+                  <h3 class="the-hive-contacts">Hive Chattanooga Contacts</h3>
+                </div>
+              </div>
+              <div class="row contact-card">
+                <div class="col-md-4">
+                  <div class="contact-photo"><img src="<?php echo get_template_directory_uri(); ?>/img/contacts/" /></div>
+                </div>
+                <div class="col-md-8">
+                  <h4 class="contact-name">Lindsey Frost Cleary</h4>
+                  <div class="contact-title">Community Catalyst</div>
+                  <ul class="no-bullet">
+                    <li><a class="mailbox" href="mailto:lindsey@mozillafoundaiton.org">lindsey@mozillafoundaiton.org</a></li>
+                    <li><a class="twitter" href="http://twitter.com/@frostcleary">@frostcleary</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="row contact-card">
+                <div class="col-md-4">
+                  <div class="contact-photo"><img src="<?php echo get_template_directory_uri(); ?>/img/contacts/" /></div>
+                </div>
+                <div class="col-md-8">
+                  <h4 class="contact-name">Geoff Millener</h4>
+                  <div class="contact-title">Project Coordinator</div>
+                  <ul class="no-bullet">
+                    <li><a class="mailbox" href="mailto:"></a></li>
+                    <li><a class="twitter" href="http://twitter.com/@">@</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Info for Hive Chattanooga Ends ===== -->
+
+
+      <!-- Info for Hive India Starts ======================================== -->
+      <div class="container">
+        <div class="hive-profile">
+          <div class="row">
+            <!-- left half =========================== -->
+            <div class="col-md-8">
+              <div class="row">
+                <div class="col-md-12">
+                  <h3 class="the-hive-name">Hive India</h3>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="hive-logo"><img src="<?php echo get_template_directory_uri(); ?>/img/hive-logos/xxx.png" /></div>
+                </div>
+                <div class="col-md-6">
+                  <ul class="no-bullet related-sites">
+                    <li><a class="main-website" href="http://hive.mozillaindia.org/">http://hive.mozillaindia.org/</a></li>
+                    <li><a class="other-sites" href="http://hiveindia.tumblr.com/">http://hiveindia.tumblr.com/</a></li>
+                    <li><a class="twitter" href="https://twitter.com/hiveindia">https://twitter.com/hiveindia</a></li>
+                    <li><a class="facebook" href="https://www.facebook.com/HiveIndia">https://www.facebook.com/HiveIndia</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="row hive-description">
+                <div class="col-md-12">
+                  <p>
+                    Hive India promotes experiential learning through the interests of young people and the creative use of digital media. Hive India, founded in September 2013, is an attempt to map and empower a community of educators and creative people who share a passion to innovate, evolve and change the learning landscape.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- right half (contacts) =========================== -->
+            <div class="col-md-4">
+              <div class="row">
+                <div class="col-md-12">
+                  <h3 class="the-hive-contacts">Hive India Contacts</h3>
+                </div>
+              </div>
+              <div class="row contact-card">
+                <div class="col-md-4">
+                  <div class="contact-photo"><img src="<?php echo get_template_directory_uri(); ?>/img/contacts/" /></div>
+                </div>
+                <div class="col-md-8">
+                  <h4 class="contact-name">Vikas Burri</h4>
+                  <div class="contact-title"></div>
+                  <ul class="no-bullet">
+                    <li><a class="mailbox" href="mailto:vikas.burri@gmail.com">vikas.burri@gmail.com</a></li>
+                    <li><a class="twitter" href="http://twitter.com/@vikasburri">@vikasburri</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Info for Hive India Ends ===== -->
+
+
+      <!-- Info for Hive Indonesia Starts ======================================== -->
+      <div class="container">
+        <div class="hive-profile">
+          <div class="row">
+            <!-- left half =========================== -->
+            <div class="col-md-8">
+              <div class="row">
+                <div class="col-md-12">
+                  <h3 class="the-hive-name">Hive Indonesia</h3>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="hive-logo"><img src="<?php echo get_template_directory_uri(); ?>/img/hive-logos/xxx.png" /></div>
+                </div>
+                <div class="col-md-6">
+                  <ul class="no-bullet related-sites">
+                    <li><a class="main-website" href="http://hive.mozilla.web.id/"></a></li>
+                    <li><a class="twitter" href="https://twitter.com/ID_Hive">https://twitter.com/ID_Hive</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="row hive-description">
+                <div class="col-md-12">
+                  <p>
+
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- right half (contacts) =========================== -->
+            <div class="col-md-4">
+              <div class="row">
+                <div class="col-md-12">
+                  <h3 class="the-hive-contacts">Hive Indonesia Contacts</h3>
+                </div>
+              </div>
+              <div class="row contact-card">
+                <div class="col-md-4">
+                  <div class="contact-photo"><img src="<?php echo get_template_directory_uri(); ?>/img/contacts/" /></div>
+                </div>
+                <div class="col-md-8">
+                  <h4 class="contact-name">Benny Chandra</h4>
+                  <div class="contact-title"></div>
+                  <ul class="no-bullet">
+                    <li><a class="mailbox" href="mailto:bennychandra@gmail.com">bennychandra@gmail.com</a></li>
+                    <li><a class="twitter" href="http://twitter.com/@bennychandra">@bennychandra</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Info for Hive Indonesia Ends ===== -->
+
+
+      <!-- Info for Hive Kansas City Starts ======================================== -->
+      <div class="container">
+        <div class="hive-profile">
+          <div class="row">
+            <!-- left half =========================== -->
+            <div class="col-md-8">
+              <div class="row">
+                <div class="col-md-12">
+                  <h3 class="the-hive-name">Hive Kansas City</h3>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="hive-logo"><img src="<?php echo get_template_directory_uri(); ?>/img/hive-logos/xxx.png" /></div>
+                </div>
+                <div class="col-md-6">
+                  <ul class="no-bullet related-sites">
+                    <li><a class="main-website" href="http://www.mozilla.org/gigabit/">http://www.mozilla.org/gigabit/</a></li>
+                    <li><a class="other-sites" href="https://blog.mozilla.org/gigabit/">https://blog.mozilla.org/gigabit/</a></li>
+                    <li><a class="twitter" href="http://twitter.com/@mozillagigabit">http://twitter.com/@mozillagigabit</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="row hive-description">
+                <div class="col-md-12">
+                  <p>
+                    Established  in 2014, Hive Learning Community in Kansas City supports connected  learning experiences in the the Greater Kansas City metropolitan area. Hive KC fuels the creation of these learning experiences through the  Gigabit Community Fund, a National Science Foundation supported initiative to fund the development of gigabit-enabled workforce  development and education applications and associated curricula.  Learn more at <a href="http://mozilla.org/gigabit">mozilla.org/gigabit</a>.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- right half (contacts) =========================== -->
+            <div class="col-md-4">
+              <div class="row">
+                <div class="col-md-12">
+                  <h3 class="the-hive-contacts">Hive Kansas City Contacts</h3>
+                </div>
+              </div>
+              <div class="row contact-card">
+                <div class="col-md-4">
+                  <div class="contact-photo"><img src="<?php echo get_template_directory_uri(); ?>/img/contacts/KariKeefe.jpeg" /></div>
+                </div>
+                <div class="col-md-8">
+                  <h4 class="contact-name">Kari Keefe</h4>
+                  <div class="contact-title">Community Catalyst</div>
+                  <ul class="no-bullet">
+                    <li><a class="mailbox" href="mailto:kari@mozillafoundation.org">kari@mozillafoundation.org</a></li>
+                    <li><a class="twitter" href="http://twitter.com/@karikeefe">@karikeefe</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="row contact-card">
+                <div class="col-md-4">
+                  <div class="contact-photo"><img src="<?php echo get_template_directory_uri(); ?>/img/contacts/ShannonAccardo.jpeg" /></div>
+                </div>
+                <div class="col-md-8">
+                  <h4 class="contact-name">Shannon Accardo</h4>
+                  <div class="contact-title">Project Coordinator</div>
+                  <ul class="no-bullet">
+                    <li><a class="mailbox" href="mailto:shannon@mozillafoundation.org">shannon@mozillafoundation.org</a></li>
+                    <li><a class="twitter" href="http://twitter.com/@8spicer8">@8spicer8</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Info for Hive Kansas City Ends ===== -->
 
 </div>
 
