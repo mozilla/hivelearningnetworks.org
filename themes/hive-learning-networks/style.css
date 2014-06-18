@@ -342,6 +342,7 @@ footer p {
 #about-banner {
   background-image: url(img/hive_banner_about.jpg);
   background-size: cover;
+  /*background-position: 0 -200px;*/
 }
 
 #buzz-banner {
@@ -505,12 +506,12 @@ footer p {
   cursor: pointer;
 }
 
-#locations-menu li:hover,
+#locations-menu div:not(#hive-coming-menu) li:hover,
 #locations-menu li.active {
   background: linear-gradient(to right, rgba(255,255,255,1), rgba(255,255,255,0));
 }
 
-#locations-menu li:hover a,
+#locations-menu div:not(#hive-coming-menu) li:hover a,
 #locations-menu li.active a {
   color: #3583D1;
 }
@@ -646,6 +647,7 @@ h4.contact-name {
   margin-bottom: 10px;
 }
 
+.related-sites,
 .contact-card li {
   white-space: nowrap;
   text-overflow: ellipsis;

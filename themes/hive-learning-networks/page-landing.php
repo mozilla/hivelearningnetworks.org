@@ -38,7 +38,7 @@
           <div class="col-md-3 col-sm-6" id="hive-intro-box">
             <h2>Get Updates from Hive</h2>
             <p class="general-cta">
-              Join our mailing list to learn about Hive and fine opportunities to get involved.
+              Join our mailing list to learn about Hive and find opportunities to get involved.
             </p>
             <a class="twitter hide"></a>
             <div>
@@ -48,7 +48,7 @@
             </div>
           </div>
           <div class="col-md-3 col-sm-6" id="hive-intro-menu">
-            <h4 class="all-caps">Hive Networks</h4>
+            <h4 class="all-caps">Hive Learning Networks</h4>
             <div>
               <ul class="hive-list networks no-bullet">
                 <?php if ( dynamic_sidebar('hive-short-intro-networks-widget') ) : else : endif; ?>

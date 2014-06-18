@@ -79,9 +79,9 @@
                 </div>
                 <div class="col-md-6">
                   <ul class="no-bullet related-sites">
-                    <li><a class="main-website" href="http://hivechicago.org">http://hivechicago.org</a></li>
-                    <li><a class="twitter" href="http://twitter.com/hivechicagobuzz">http://twitter.com/hivechicagobuzz</a></li>
-                    <li><a class="facebook" href="https://www.facebook.com/hivelearningnetworkchicago">https://www.facebook.com/hivelearningnetworkchicago</a></li>
+                    <li><a class="main-website" href="http://hivechicago.org">hivechicago.org</a></li>
+                    <li><a class="twitter" href="http://twitter.com/hivechicagobuzz">twitter.com/hivechicagobuzz</a></li>
+                    <li><a class="facebook" href="https://www.facebook.com/hivelearningnetworkchicago">www.facebook.com/hivelearningnetworkchicago</a></li>
                   </ul>
                 </div>
               </div>
@@ -167,9 +167,9 @@
                 </div>
                 <div class="col-md-6">
                   <ul class="no-bullet related-sites">
-                    <li><a class="main-website" href="http://hivenyc.org">http://hivenyc.org</a></li>
-                    <li><a class="twitter" href="http://twitter.com/hivelearningnyc">http://twitter.com/hivelearningnyc</a></li>
-                    <li><a class="facebook" href="http://facebook.com/hivelearningnyc">http://facebook.com/hivelearningnyc</a></li>
+                    <li><a class="main-website" href="http://hivenyc.org">hivenyc.org</a></li>
+                    <li><a class="twitter" href="http://twitter.com/hivelearningnyc">twitter.com/hivelearningnyc</a></li>
+                    <li><a class="facebook" href="http://facebook.com/hivelearningnyc">facebook.com/hivelearningnyc</a></li>
                   </ul>
                 </div>
               </div>
@@ -242,10 +242,10 @@
                 </div>
                 <div class="col-md-6">
                   <ul class="no-bullet related-sites">
-                    <li><a class="main-website" href="http://hivepgh.sproutfund.org/">http://hivepgh.sproutfund.org/</a></li>
-                    <li><a class="other-sites" href="http://remakelearning.org/blog/">http://remakelearning.org/blog/</a></li>
-                    <li><a class="twitter" href="http://twitter.com/hivepgh">http://twitter.com/hivepgh</a></li>
-                    <li><a class="facebook" href="https://www.facebook.com/hivepgh">https://www.facebook.com/hivepgh</a></li>
+                    <li><a class="main-website" href="http://hivepgh.sproutfund.org/">hivepgh.sproutfund.org/</a></li>
+                    <li><a class="other-sites" href="http://remakelearning.org/blog/">remakelearning.org/blog/</a></li>
+                    <li><a class="twitter" href="http://twitter.com/hivepgh">twitter.com/hivepgh</a></li>
+                    <li><a class="facebook" href="https://www.facebook.com/hivepgh">www.facebook.com/hivepgh</a></li>
                   </ul>
                 </div>
               </div>
@@ -330,9 +330,9 @@
                 </div>
                 <div class="col-md-6">
                   <ul class="no-bullet related-sites">
-                    <li><a class="main-website" href="http://hivetoronto.org">http://hivetoronto.org</a></li>
-                    <li><a class="twitter" href="http://twitter.com/hivetoronto">http://twitter.com/hivetoronto</a></li>
-                    <li><a class="facebook" href="http://facebook.com/hivetoronto">http://facebook.com/hivetoronto</a></li>
+                    <li><a class="main-website" href="http://hivetoronto.org">hivetoronto.org</a></li>
+                    <li><a class="twitter" href="http://twitter.com/hivetoronto">twitter.com/hivetoronto</a></li>
+                    <li><a class="facebook" href="http://facebook.com/hivetoronto">facebook.com/hivetoronto</a></li>
                   </ul>
                 </div>
               </div>
@@ -418,8 +418,8 @@
                 </div>
                 <div class="col-md-6">
                   <ul class="no-bullet related-sites">
-                    <li><a class="main-website" href="http://hiveberlin.org/">http://hiveberlin.org/</a></li>
-                    <li><a class="twitter" href="http://twitter.com/hiveberlin">http://twitter.com/hiveberlin</a></li>
+                    <li><a class="main-website" href="http://hiveberlin.org/">hiveberlin.org/</a></li>
+                    <li><a class="twitter" href="http://twitter.com/hiveberlin">twitter.com/hiveberlin</a></li>
                     <li><a class="other-sites" href="http://www.meetup.com/Hive-Berlin/">http://www.meetup.com/Hive-Berlin/</a></li>
                   </ul>
                 </div>
@@ -506,9 +506,9 @@
                 </div>
                 <div class="col-md-6">
                   <ul class="no-bullet related-sites">
-                    <li><a class="main-website" href="http://www.mozilla.org/gigabit/">http://www.mozilla.org/gigabit/</a></li>
-                    <li><a class="other-sites" href="https://blog.mozilla.org/gigabit/">https://blog.mozilla.org/gigabit/</a></li>
-                    <li><a class="twitter" href="http://twitter.com/@mozillagigabit">http://twitter.com/@mozillagigabit</a></li>
+                    <li><a class="main-website" href="http://www.mozilla.org/gigabit/">www.mozilla.org/gigabit/</a></li>
+                    <li><a class="other-sites" href="https://blog.mozilla.org/gigabit/">blog.mozilla.org/gigabit/</a></li>
+                    <li><a class="twitter" href="http://twitter.com/@mozillagigabit">twitter.com/@mozillagigabit</a></li>
                   </ul>
                 </div>
               </div>
@@ -581,10 +581,10 @@
                 </div>
                 <div class="col-md-6">
                   <ul class="no-bullet related-sites">
-                    <li><a class="main-website" href="http://hive.mozillaindia.org/">http://hive.mozillaindia.org/</a></li>
-                    <li><a class="other-sites" href="http://hiveindia.tumblr.com/">http://hiveindia.tumblr.com/</a></li>
-                    <li><a class="twitter" href="https://twitter.com/hiveindia">https://twitter.com/hiveindia</a></li>
-                    <li><a class="facebook" href="https://www.facebook.com/HiveIndia">https://www.facebook.com/HiveIndia</a></li>
+                    <li><a class="main-website" href="http://hive.mozillaindia.org/">hive.mozillaindia.org/</a></li>
+                    <li><a class="other-sites" href="http://hiveindia.tumblr.com/">hiveindia.tumblr.com/</a></li>
+                    <li><a class="twitter" href="https://twitter.com/hiveindia">twitter.com/hiveindia</a></li>
+                    <li><a class="facebook" href="https://www.facebook.com/HiveIndia">www.facebook.com/HiveIndia</a></li>
                   </ul>
                 </div>
               </div>
@@ -644,8 +644,8 @@
                 </div>
                 <div class="col-md-6">
                   <ul class="no-bullet related-sites">
-                    <li><a class="main-website" href="http://hive.mozilla.web.id/">http://hive.mozilla.web.id/</a></li>
-                    <li><a class="twitter" href="https://twitter.com/ID_Hive">https://twitter.com/ID_Hive</a></li>
+                    <li><a class="main-website" href="http://hive.mozilla.web.id/">hive.mozilla.web.id/</a></li>
+                    <li><a class="twitter" href="https://twitter.com/ID_Hive">twitter.com/ID_Hive</a></li>
                   </ul>
                 </div>
               </div>
@@ -705,9 +705,9 @@
                 </div>
                 <div class="col-md-6">
                   <ul class="no-bullet related-sites">
-                    <li><a class="main-website" href="http://www.mozilla.org/gigabit/">http://www.mozilla.org/gigabit/</a></li>
-                    <li><a class="other-sites" href="https://blog.mozilla.org/gigabit/">https://blog.mozilla.org/gigabit/</a></li>
-                    <li><a class="twitter" href="http://twitter.com/@mozillagigabit">http://twitter.com/@mozillagigabit</a></li>
+                    <li><a class="main-website" href="http://www.mozilla.org/gigabit/">www.mozilla.org/gigabit/</a></li>
+                    <li><a class="other-sites" href="https://blog.mozilla.org/gigabit/">blog.mozilla.org/gigabit/</a></li>
+                    <li><a class="twitter" href="http://twitter.com/@mozillagigabit">twitter.com/@mozillagigabit</a></li>
                   </ul>
                 </div>
               </div>
