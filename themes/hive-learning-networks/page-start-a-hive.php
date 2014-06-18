@@ -15,7 +15,7 @@
               ?>
             </h1>
             <div class="page-description">
-              <p>Hives empower educators to build  connected learning experiences and teach the  digital literacy skills to youth. Become involved through our graduated levels of engagement.</p>
+              <p>Hives empower educators to build connected learning experiences in ways that are open and networked. Learn more about how to get involved with Hive through various tiers of engagement.</p>
             </div>
           </div>
         </div>
@@ -32,24 +32,24 @@
         <div class="col-md-4" id="sidebar">
           <div id="sidebar-container">
             <div class="subsection">
-              <h3>Have questions?</h3>
-              <p>
-                f you would like more information about starting a Hive in your community, please email us.
-              </p>
-              <div>
-                <a class="btn hive-btn full-width" mailto="info@hivelearningnetworkds.org">
-                  Email Us
-                </a>
-              </div>
-            </div>
-            <div class="subsection">
               <h3>The Hive Cookbook</h3>
               <p>
-                The Hive Cookbook contains detailed information about the global Hive Community.
+                The Hive Cookbook contains more details about how to start a Hive in your community.
               </p>
               <div>
                 <a class="btn hive-btn full-width" href="https://wiki.mozilla.org/Webmaker/HiveCookbook">
                   Read the Cookbook
+                </a>
+              </div>
+            </div>
+            <div class="subsection">
+              <h3>Have questions?</h3>
+              <p>
+                If you would like more information about starting a Hive in your community, please email us.
+              </p>
+              <div>
+                <a class="btn hive-btn full-width" mailto="info@hivelearningnetworks.org">
+                  Email Us
                 </a>
               </div>
             </div>

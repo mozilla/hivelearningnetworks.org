@@ -15,7 +15,7 @@
               ?>
             </h1>
             <div class="page-description">
-              <p>Learn about the great work of our global Hive Communities and Hive Learning Networks.</p>
+              <p>Learn about the great work happening in Hive communities around the world.</p>
             </div>
           </div>
         </div>

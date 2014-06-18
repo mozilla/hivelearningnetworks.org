@@ -32,7 +32,7 @@
               <div class="col-md-12">
                 <h3>Get Involved</h3>
                 <p>
-                  Sign up for the Hive mailing list -- it's the best way to learn about global Hive activity and find opportunities to become involved.
+                  Sign up for the Hive mailing list - Sign up for the Hive mailing list to learn about Hive activity around the globe and find opportunities to become involved.
                 </p>
                 <div>
                   <a class="btn hive-btn" href="https://sendto.mozilla.org/page/s/hive-learning-networks-updates">Get Updates</a>
@@ -40,11 +40,11 @@
               </div>
             </div>
           </div>
-          <!-- Hive Global Contact ========== -->
+          <!-- Hive Global Contacts ========== -->
           <div>
             <div class="row">
               <div class="col-md-12">
-                <h3>Hive Global Contact</h3>
+                <h3>Hive Global Contacts</h3>
               </div>
             </div>
             <div class="row contact-card">
@@ -81,7 +81,7 @@
           <div id="sidebar-container">
             <h3>Connect with Us</h3>
             <div>
-              <a mailto="info@hivelearningnetworkds.org">info@hivelearningnetworkds.org</a>
+              <a href="mailto:info@hivelearningnetworks.org">info@hivelearningnetworks.org</a>
             </div>
           </div>
         </div>
