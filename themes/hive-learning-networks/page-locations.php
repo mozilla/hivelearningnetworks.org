@@ -62,13 +62,13 @@
       <div class="container">
         <div class="hive-profile" data-profile="chicago">
           <div class="row">
+            <div class="col-md-12">
+              <h3 class="the-hive-name">Hive Chicago</h3>
+            </div>
+          </div>
+          <div class="row">
             <!-- left half =========================== -->
             <div class="col-md-8">
-              <div class="row">
-                <div class="col-md-12">
-                  <h3 class="the-hive-name">Hive Chicago</h3>
-                </div>
-              </div>
               <div class="row">
                 <div class="col-md-6">
                   <div class="hive-logo">
@@ -96,9 +96,6 @@
             <!-- right half (contacts) =========================== -->
             <div class="col-md-4">
               <div class="row">
-                <div class="col-md-12">
-                  <h3 class="the-hive-contacts">Hive Chicago Contacts</h3>
-                </div>
               </div>
               <div class="row contact-card">
                 <div class="col-md-4">
@@ -150,13 +147,13 @@
       <div class="container">
         <div class="hive-profile" data-profile="nyc">
           <div class="row">
+            <div class="col-md-12">
+              <h3 class="the-hive-name">Hive NYC</h3>
+            </div>
+          </div>
+          <div class="row">
             <!-- left half =========================== -->
             <div class="col-md-8">
-              <div class="row">
-                <div class="col-md-12">
-                  <h3 class="the-hive-name">Hive NYC</h3>
-                </div>
-              </div>
               <div class="row">
                 <div class="col-md-6">
                   <div class="hive-logo">
@@ -183,11 +180,6 @@
             </div>
             <!-- right half (contacts) =========================== -->
             <div class="col-md-4">
-              <div class="row">
-                <div class="col-md-12">
-                  <h3 class="the-hive-contacts">Hive NYC Contacts</h3>
-                </div>
-              </div>
               <div class="row contact-card">
                 <div class="col-md-4">
                   <div class="contact-photo"><img src="<?php echo get_template_directory_uri(); ?>/img/contacts/LeahGilliam.jpg" /></div>
@@ -225,13 +217,13 @@
       <div class="container">
         <div class="hive-profile" data-profile="pittsburgh">
           <div class="row">
+            <div class="col-md-12">
+              <h3 class="the-hive-name">Hive Pittsburgh</h3>
+            </div>
+          </div>
+          <div class="row">
             <!-- left half =========================== -->
             <div class="col-md-8">
-              <div class="row">
-                <div class="col-md-12">
-                  <h3 class="the-hive-name">Hive Pittsburgh</h3>
-                </div>
-              </div>
               <div class="row">
                 <div class="col-md-6">
                   <div class="hive-logo">
@@ -259,11 +251,6 @@
             </div>
             <!-- right half (contacts) =========================== -->
             <div class="col-md-4">
-              <div class="row">
-                <div class="col-md-12">
-                  <h3 class="the-hive-contacts">Hive Pittsburgh Contacts</h3>
-                </div>
-              </div>
               <div class="row contact-card">
                 <div class="col-md-4">
                   <div class="contact-photo"><img src="<?php echo get_template_directory_uri(); ?>/img/contacts/CathyLewisLong.jpg" /></div>
@@ -313,13 +300,13 @@
       <div class="container">
         <div class="hive-profile" data-profile="toronto">
           <div class="row">
+            <div class="row">
+              <div class="col-md-12">
+                <h3 class="the-hive-name">Hive Toronto</h3>
+              </div>
+            </div>
             <!-- left half =========================== -->
             <div class="col-md-8">
-              <div class="row">
-                <div class="col-md-12">
-                  <h3 class="the-hive-name">Hive Toronto</h3>
-                </div>
-              </div>
               <div class="row">
                 <div class="col-md-6">
                   <div class="hive-logo">
@@ -346,11 +333,6 @@
             </div>
             <!-- right half (contacts) =========================== -->
             <div class="col-md-4">
-              <div class="row">
-                <div class="col-md-12">
-                  <h3 class="the-hive-contacts">Hive Toronto Contacts</h3>
-                </div>
-              </div>
               <div class="row contact-card">
                 <div class="col-md-4">
                   <div class="contact-photo"><img src="<?php echo get_template_directory_uri(); ?>/img/contacts/KathrynMeisner.jpg" /></div>
@@ -401,13 +383,13 @@
       <div class="container">
         <div class="hive-profile" data-profile="berlin">
           <div class="row">
+            <div class="col-md-12">
+              <h3 class="the-hive-name">Hive Berlin</h3>
+            </div>
+          </div>
+          <div class="row">
             <!-- left half =========================== -->
             <div class="col-md-8">
-              <div class="row">
-                <div class="col-md-12">
-                  <h3 class="the-hive-name">Hive Berlin</h3>
-                </div>
-              </div>
               <div class="row">
                 <div class="col-md-6">
                   <div class="hive-logo">
@@ -434,11 +416,6 @@
             </div>
             <!-- right half (contacts) =========================== -->
             <div class="col-md-4">
-              <div class="row">
-                <div class="col-md-12">
-                  <h3 class="the-hive-contacts">Hive Berlin Contacts</h3>
-                </div>
-              </div>
               <div class="row contact-card">
                 <div class="col-md-4">
                   <div class="contact-photo"><img src="<?php echo get_template_directory_uri(); ?>/img/contacts/MichelleThorne.jpg" /></div>
@@ -489,13 +466,13 @@
       <div class="container">
         <div class="hive-profile" data-profile="chattanooga">
           <div class="row">
+            <div class="col-md-12">
+              <h3 class="the-hive-name">Hive Chattanooga</h3>
+            </div>
+          </div>
+          <div class="row">
             <!-- left half =========================== -->
             <div class="col-md-8">
-              <div class="row">
-                <div class="col-md-12">
-                  <h3 class="the-hive-name">Hive Chattanooga</h3>
-                </div>
-              </div>
               <div class="row">
                 <div class="col-md-6">
                   <div class="hive-logo">
@@ -522,11 +499,6 @@
             </div>
             <!-- right half (contacts) =========================== -->
             <div class="col-md-4">
-              <div class="row">
-                <div class="col-md-12">
-                  <h3 class="the-hive-contacts">Hive Chattanooga Contacts</h3>
-                </div>
-              </div>
               <div class="row contact-card">
                 <div class="col-md-4">
                   <div class="contact-photo"><div class="placeholder"><i class="fa fa-user"></i></div></div>
@@ -564,13 +536,13 @@
       <div class="container">
         <div class="hive-profile" data-profile="india">
           <div class="row">
+            <div class="col-md-12">
+              <h3 class="the-hive-name">Hive India</h3>
+            </div>
+          </div>
+          <div class="row">
             <!-- left half =========================== -->
             <div class="col-md-8">
-              <div class="row">
-                <div class="col-md-12">
-                  <h3 class="the-hive-name">Hive India</h3>
-                </div>
-              </div>
               <div class="row">
                 <div class="col-md-6">
                   <div class="hive-logo">
@@ -598,11 +570,6 @@
             </div>
             <!-- right half (contacts) =========================== -->
             <div class="col-md-4">
-              <div class="row">
-                <div class="col-md-12">
-                  <h3 class="the-hive-contacts">Hive India Contacts</h3>
-                </div>
-              </div>
               <div class="row contact-card">
                 <div class="col-md-4">
                   <div class="contact-photo"><img src="<?php echo get_template_directory_uri(); ?>/img/contacts/VikasBurri.jpg" /></div>
@@ -627,13 +594,13 @@
       <div class="container">
         <div class="hive-profile" data-profile="indonesia">
           <div class="row">
+            <div class="col-md-12">
+              <h3 class="the-hive-name">Hive Indonesia</h3>
+            </div>
+          </div>
+          <div class="row">
             <!-- left half =========================== -->
             <div class="col-md-8">
-              <div class="row">
-                <div class="col-md-12">
-                  <h3 class="the-hive-name">Hive Indonesia</h3>
-                </div>
-              </div>
               <div class="row">
                 <div class="col-md-6">
                   <div class="hive-logo">
@@ -659,11 +626,6 @@
             </div>
             <!-- right half (contacts) =========================== -->
             <div class="col-md-4">
-              <div class="row">
-                <div class="col-md-12">
-                  <h3 class="the-hive-contacts">Hive Indonesia Contacts</h3>
-                </div>
-              </div>
               <div class="row contact-card">
                 <div class="col-md-4">
                   <div class="contact-photo"><div class="placeholder"><i class="fa fa-user"></i></div></div>
@@ -688,13 +650,13 @@
       <div class="container">
         <div class="hive-profile" data-profile="kansas-city">
           <div class="row">
+            <div class="col-md-12">
+              <h3 class="the-hive-name">Hive Kansas City</h3>
+            </div>
+          </div>
+          <div class="row">
             <!-- left half =========================== -->
             <div class="col-md-8">
-              <div class="row">
-                <div class="col-md-12">
-                  <h3 class="the-hive-name">Hive Kansas City</h3>
-                </div>
-              </div>
               <div class="row">
                 <div class="col-md-6">
                   <div class="hive-logo">
@@ -721,11 +683,6 @@
             </div>
             <!-- right half (contacts) =========================== -->
             <div class="col-md-4">
-              <div class="row">
-                <div class="col-md-12">
-                  <h3 class="the-hive-contacts">Hive Kansas City Contacts</h3>
-                </div>
-              </div>
               <div class="row contact-card">
                 <div class="col-md-4">
                   <div class="contact-photo"><img src="<?php echo get_template_directory_uri(); ?>/img/contacts/KariKeefe.jpeg" /></div>

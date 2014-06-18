@@ -287,6 +287,11 @@ footer p {
   border-radius: 0;
 }
 
+.btn.hive-btn:hover {
+  background: #FFDD2E;
+  color: #3583D1;
+}
+
 .btn.hive-btn.full-width {
   width: 100%;
 }
