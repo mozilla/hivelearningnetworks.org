@@ -348,7 +348,7 @@
               </div>
               <div class="row contact-card">
                 <div class="col-md-4">
-                  <div class="contact-photo"><div class="placeholder"><i class="fa fa-user"></i></div></div>
+                  <div class="contact-photo"><img src="<?php echo get_template_directory_uri(); ?>/img/contacts/KarenSmith.jpg" /></div>
                 </div>
                 <div class="col-md-8">
                   <h4 class="contact-name">Karen Smith</h4>
@@ -431,27 +431,25 @@
               </div>
               <div class="row contact-card">
                 <div class="col-md-4">
-                  <div class="contact-photo"><div class="placeholder"><i class="fa fa-user"></i></div></div>
+                  <div class="contact-photo"><img src="<?php echo get_template_directory_uri(); ?>/img/contacts/ValentinMünscher.jpg" /></div>
                 </div>
                 <div class="col-md-8">
-                  <h4 class="contact-name">Valentin</h4>
-                  <div class="contact-title"></div>
+                  <h4 class="contact-name">Valentin Münscher</h4>
+                  <div class="contact-title">Projektmanager / Project Manager<br />Bereich Bildung & Wissen / Department Education & Knowledge</div>
                   <ul class="no-bullet">
-                    <li><a class="mailbox" href="mailto:"></a></li>
-                    <li><a class="twitter" href="http://twitter.com/@">@</a></li>
+                    <li><a class="mailbox" href="mailto:valentin.muenscher@wikimedia.de">valentin.muenscher@wikimedia.de</a></li>
                   </ul>
                 </div>
               </div>
               <div class="row contact-card">
                 <div class="col-md-4">
-                  <div class="contact-photo"><div class="placeholder"><i class="fa fa-user"></i></div></div>
+                  <div class="contact-photo"><img src="<?php echo get_template_directory_uri(); ?>/img/contacts/SilviaArlt.jpg" /></div>
                 </div>
                 <div class="col-md-8">
-                  <h4 class="contact-name">Silva</h4>
-                  <div class="contact-title"></div>
+                  <h4 class="contact-name">Silvia Arlt</h4>
+                  <div class="contact-title">Projektkoordinatorin / Project Coordinator </div>
                   <ul class="no-bullet">
-                    <li><a class="mailbox" href="mailto:"></a></li>
-                    <li><a class="twitter" href="http://twitter.com/@">@</a></li>
+                    <li><a class="mailbox" href="mailto:silvia.arlt@wikimedia.de">silvia.arlt@wikimedia.de</a></li>
                   </ul>
                 </div>
               </div>
@@ -501,7 +499,7 @@
             <div class="col-md-4">
               <div class="row contact-card">
                 <div class="col-md-4">
-                  <div class="contact-photo"><div class="placeholder"><i class="fa fa-user"></i></div></div>
+                  <div class="contact-photo"><img src="<?php echo get_template_directory_uri(); ?>/img/contacts/LindseyFrostCleary.jpg" /></div>
                 </div>
                 <div class="col-md-8">
                   <h4 class="contact-name">Lindsey Frost Cleary</h4>
@@ -514,14 +512,14 @@
               </div>
               <div class="row contact-card">
                 <div class="col-md-4">
-                  <div class="contact-photo"><div class="placeholder"><i class="fa fa-user"></i></div></div>
+                  <div class="contact-photo"><img src="<?php echo get_template_directory_uri(); ?>/img/contacts/GeoffMillener.jpg" /></div>
                 </div>
                 <div class="col-md-8">
                   <h4 class="contact-name">Geoff Millener</h4>
                   <div class="contact-title">Project Coordinator</div>
                   <ul class="no-bullet">
-                    <li><a class="mailbox" href="mailto:"></a></li>
-                    <li><a class="twitter" href="http://twitter.com/@">@</a></li>
+                    <li><a class="mailbox" href="mailto:geoff@mozillafoundation.org">geoff@mozillafoundation.org</a></li>
+                    <li><a class="twitter" href="http://twitter.com/@gmillener ">@gmillener</a></li>
                   </ul>
                 </div>
               </div>
@@ -613,13 +611,14 @@
                   <ul class="no-bullet related-sites">
                     <li><a class="main-website" href="http://hive.mozilla.web.id/">hive.mozilla.web.id/</a></li>
                     <li><a class="twitter" href="https://twitter.com/ID_Hive">twitter.com/ID_Hive</a></li>
+                    <li><a class="facebook" href="https://www.facebook.com/ID.Hive">www.facebook.com/ID.Hive</a></li>
                   </ul>
                 </div>
               </div>
               <div class="row hive-description">
                 <div class="col-md-12">
                   <p>
-
+                    Hive Indonesia was founded in 2013 by Viking Karwur, Benny Chandra, Artanto Ishaam, and Fauzan Alfi after participating in the Webmaker - Mozilla Reps Training Days in Athens, Greece. Their mission is bringing the spirit of learning and making to young people in Indonesia, through collaborations with local government, schools, batik designers, musicians, artists, app makers, robotics engineers, IT communities, and more. They have also hosted Hive Pop-Up events including Hive Surabaya, Hive Bandung, Hive Bekasi, and Hive Jakarta.
                   </p>
                 </div>
               </div>
@@ -628,14 +627,27 @@
             <div class="col-md-4">
               <div class="row contact-card">
                 <div class="col-md-4">
-                  <div class="contact-photo"><div class="placeholder"><i class="fa fa-user"></i></div></div>
+                  <div class="contact-photo"><img src="<?php echo get_template_directory_uri(); ?>/img/contacts/BennyChandra.jpg" /></div>
                 </div>
                 <div class="col-md-8">
                   <h4 class="contact-name">Benny Chandra</h4>
-                  <div class="contact-title"></div>
+                  <div class="contact-title">Co-Founder</div>
                   <ul class="no-bullet">
                     <li><a class="mailbox" href="mailto:bennychandra@gmail.com">bennychandra@gmail.com</a></li>
                     <li><a class="twitter" href="http://twitter.com/@bennychandra">@bennychandra</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="row contact-card">
+                <div class="col-md-4">
+                  <div class="contact-photo"><img src="<?php echo get_template_directory_uri(); ?>/img/contacts/VikingKarwur.jpg" /></div>
+                </div>
+                <div class="col-md-8">
+                  <h4 class="contact-name">Benny ChandraViking Karwur</h4>
+                  <div class="contact-title">Co-Founder</div>
+                  <ul class="no-bullet">
+                    <li><a class="mailbox" href="mailto:vikingkarwur@gmail.com">vikingkarwur@gmail.com</a></li>
+                    <li><a class="twitter" href="http://twitter.com/@vikingkarwur">@vikingkarwur</a></li>
                   </ul>
                 </div>
               </div>
