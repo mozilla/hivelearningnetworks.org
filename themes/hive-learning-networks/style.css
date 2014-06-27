@@ -351,12 +351,12 @@ footer p {
 }
 
 #buzz-banner {
-  background-image: url(img/hive_banner_buzz.png);
+  background-image: url(img/hive_banner_buzz.jpg);
   background-size: cover;
 }
 
 #start-a-hive-banner {
-  background-image: url(img/hive_banner_startahive.png);
+  background-image: url(img/hive_banner_startahive.jpg);
   background-size: cover;
 }
 
@@ -716,7 +716,7 @@ body.page-template-page-coming-soon-php nav {
 
 body.page-template-page-coming-soon-php .logo {
   width: 250px;
-  margin-top: 150px;
+  margin-top: 50px;
   margin-bottom: 150px;
 }
 
@@ -830,10 +830,10 @@ body.page-template-page-coming-soon-php h2 > * {
     background-image: url(img/hive_banner_about_mobile.jpg);
   }
   #buzz-banner {
-    background-image: url(img/hive_banner_buzz_mobile.png);
+    background-image: url(img/hive_banner_buzz_mobile.jpg);
   }
   #start-a-hive-banner {
-    background-image: url(img/hive_banner_startahive_mobile.png);
+    background-image: url(img/hive_banner_startahive_mobile.jpg);
   }
   #resources-banner {
     /*background-image: url();
