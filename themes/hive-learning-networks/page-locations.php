@@ -643,7 +643,7 @@
                   <div class="contact-photo"><img src="<?php echo get_template_directory_uri(); ?>/img/contacts/VikingKarwur.jpg" /></div>
                 </div>
                 <div class="col-md-8">
-                  <h4 class="contact-name">Benny ChandraViking Karwur</h4>
+                  <h4 class="contact-name">Viking Karwur</h4>
                   <div class="contact-title">Co-Founder</div>
                   <ul class="no-bullet">
                     <li><a class="mailbox" href="mailto:vikingkarwur@gmail.com">vikingkarwur@gmail.com</a></li>
