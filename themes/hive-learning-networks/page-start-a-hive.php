@@ -9,11 +9,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <h1>
-              <?php
-                  if ( have_posts() ) : while( have_posts() ) : the_post(); the_title(); endwhile; endif;
-              ?>
-            </h1>
+            <h1 class="page-title">Start a Hive</h1>
             <div class="page-description">
               <p>Hives empower educators to build connected learning experiences in ways that are open and networked. Learn more about how to get involved with Hive through various tiers of engagement.</p>
             </div>
