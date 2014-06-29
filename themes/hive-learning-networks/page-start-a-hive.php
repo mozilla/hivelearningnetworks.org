@@ -24,11 +24,31 @@
 
     <div class="container">
       <div class="row">
+        <!-- Main content =======================================  -->
         <div class="col-md-8" id="main">
-          <?php
-              if ( have_posts() ) : while( have_posts() ) : the_post(); the_content(); endwhile; endif;
-          ?>
+          <div class="subsection">
+            <h3>Step 1: Host an event</h3>
+            <p>
+              If you are interested in bringing Hive to your city, you can start by throwing an event. Find other organizations, educators, librarians, and makers that can work together to create connected learning experiences for youth. Organize a meeting to align goals and plan a Hive event as a first step towards exploring longer-term collaboration.
+            </p>
+          </div>
+
+          <div class="subsection">
+            <h3>Step 2: Build a community</h3>
+            <p>
+              Develop a team and a strategy to adapt Hive tools, practices and frameworks to your local context. Host regular meet-ups and explore other opportunities to drive participation and engagement around Hive’s core principles.
+            </p>
+          </div>
+
+          <div class="subsection">
+            <h3>Step 3: Apply to become a Hive Learning Network</h3>
+            <p>
+              Demonstrate commitment to providing sustainable, connected learning and web literacy opportunities for youth. Other requirements include having at least one dedicated, full-time staff member, an operational budget and a mechanism for funding innovations and partnerships.
+            </p>
+          </div>
+
         </div>
+        <!-- Sidebar =======================================  -->
         <div class="col-md-4" id="sidebar">
           <div id="sidebar-container">
             <div class="subsection">
