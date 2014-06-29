@@ -9,11 +9,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <h1>
-              <?php
-                  if ( have_posts() ) : while( have_posts() ) : the_post(); the_title(); endwhile; endif;
-              ?>
-            </h1>
+            <h1 class="page-title">About Hive Learning Networks</h1>
             <div class="page-description">
               <p>Hive Learning Networks prepare youth to thrive in school, work, and civic life. We empower educators to build connected learning experiences and teach the  digital literacy skills essential for young people to discover and shape their world</p>
             </div>
