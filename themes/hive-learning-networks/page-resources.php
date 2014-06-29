@@ -9,11 +9,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <h1>
-              <?php
-                  if ( have_posts() ) : while( have_posts() ) : the_post(); the_title(); endwhile; endif;
-              ?>
-            </h1>
+            <h1 class="page-title">Resources</h1>
             <div class="page-description">
               <p>Use these Hive logos for your events, websites and printed materials. The Hive Cookbook offers more in-depth information about Hive events, communities and learning networks.</p>
             </div>

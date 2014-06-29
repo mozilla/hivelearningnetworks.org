@@ -9,11 +9,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <h1>
-              <?php
-                  if ( have_posts() ) : while( have_posts() ) : the_post(); the_title(); endwhile; endif;
-              ?>
-            </h1>
+            <h1 class="page-title">#HIVEBUZZ</h1>
             <div class="page-description">
               <p>Learn about the great work happening in Hive communities around the world.</p>
             </div>

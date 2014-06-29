@@ -9,9 +9,7 @@
       <div class="container">
         <div class="row text-center">
           <div class="col-md-8 col-md-offset-2">
-            <h1>
-              Hive Around the World
-            </h1>
+            <h1 class="page-title">Hive Around the World</h1>
             <div class="page-description">
               <p> We are a growing constellation of communities championing digital skills and web literacy through connected learning.</p>
             </div>

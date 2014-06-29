@@ -9,11 +9,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <h1>
-              <?php
-                  if ( have_posts() ) : while( have_posts() ) : the_post(); the_title(); endwhile; endif;
-              ?>
-            </h1>
+            <h1 class="page-title">Connect</h1>
             <div class="page-description">
               <p>We're passionate about promoting connected learning opportunities for youth around the world. Connect with any of the Hive Communities and Hive Learning Networks  -- we welcome your contributions.</p>
             </div>
