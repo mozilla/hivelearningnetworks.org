@@ -568,11 +568,24 @@
             <div class="col-md-4">
               <div class="row contact-card">
                 <div class="col-md-4">
+                  <div class="contact-photo"><img src="<?php echo get_template_directory_uri(); ?>/img/contacts/VineelReddyPindi.jpg" /></div>
+                </div>
+                <div class="col-md-8">
+                  <h4 class="contact-name">Vineel Reddy Pindi</h4>
+                  <div class="contact-title">Founder</div>
+                  <ul class="no-bullet">
+                    <li><a class="mailbox" href="mailto:pindivineelreddy@gmail.com">pindivineelreddy@gmail.com</a></li>
+                    <li><a class="twitter" href="http://twitter.com/@vineelreddy">@vineelreddy</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="row contact-card">
+                <div class="col-md-4">
                   <div class="contact-photo"><img src="<?php echo get_template_directory_uri(); ?>/img/contacts/VikasBurri.jpg" /></div>
                 </div>
                 <div class="col-md-8">
                   <h4 class="contact-name">Vikas Burri</h4>
-                  <div class="contact-title"></div>
+                  <div class="contact-title">Partnerships/Fundraising</div>
                   <ul class="no-bullet">
                     <li><a class="mailbox" href="mailto:vikas.burri@gmail.com">vikas.burri@gmail.com</a></li>
                     <li><a class="twitter" href="http://twitter.com/@vikasburri">@vikasburri</a></li>
