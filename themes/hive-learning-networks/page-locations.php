@@ -433,7 +433,7 @@
                 </div>
                 <div class="col-md-8">
                   <h4 class="contact-name">Valentin Münscher</h4>
-                  <div class="contact-title">Projektmanager / Project Manager<br />Bereich Bildung & Wissen / Department Education & Knowledge</div>
+                  <div class="contact-title">Project Manager<br />Department Education & Knowledge</div>
                   <ul class="no-bullet">
                     <li><a class="mailbox" href="mailto:valentin.muenscher@wikimedia.de">valentin.muenscher@wikimedia.de</a></li>
                   </ul>
@@ -445,7 +445,7 @@
                 </div>
                 <div class="col-md-8">
                   <h4 class="contact-name">Silvia Arlt</h4>
-                  <div class="contact-title">Projektkoordinatorin / Project Coordinator </div>
+                  <div class="contact-title">Project Coordinator</div>
                   <ul class="no-bullet">
                     <li><a class="mailbox" href="mailto:silvia.arlt@wikimedia.de">silvia.arlt@wikimedia.de</a></li>
                   </ul>
