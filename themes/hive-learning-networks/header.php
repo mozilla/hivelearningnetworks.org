@@ -3,6 +3,21 @@
   <head>
     <meta charset="<?php bloginfo('charset'); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- For sharing & search engines -->
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="http://hivelearningnetworks.org/wp-content/themes/hive-learning-networks/img/logo-og.png" />
+    <meta property="og:image:width" content="1400" />
+    <meta property="og:image:height" content="1400" />
+    <meta property="og:site_name" content="Hive Learning Networks" />
+    <meta property="og:title" content="Hive Learning Networks" />
+    <meta property="og:description" content="A growing constellation of communities around the globe that are championing digital skills and web literacy through connected learning." />
+    <meta property="og:url" content="http://hivelearningnetworks.org/" />
+
+    <link rel="canonical" href="http://hivelearningnetworks.org/" />
+    <meta property="description" content="A growing constellation of communities around the globe that are championing digital skills and web literacy through connected learning." />
+    <!-- /sharing -->
+
     <title><?php bloginfo('name'); echo (is_home() ? '' : wp_title('&raquo;',false)); ?></title>
     <link rel="icon" type="image/png" href="<?php echo get_template_directory_uri(); ?>/favicon.png">
     <link href="http://mozorg.cdn.mozilla.net/media/css/tabzilla-min.css" rel="stylesheet" />
