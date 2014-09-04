@@ -54,41 +54,68 @@
       console.log("Cannot load Planet Hive feeds.");
     },
     success: function(data) {
-      console.log(data);
       $.each(data.responseData.feed.entries, function(idx, post){
-        var title = post.title;
-        var publishedDate = new Date( post.publishedDate );
-        var excerpt = post.content;
-        var link = post.link;
-        publishedDate =
-                  ["January","February","March","April","May","June","July","August","September","October","November","December"][ publishedDate.getMonth() ] +
-                  " " +
-                  publishedDate.getDate() +
-                  ", " +
-                  publishedDate.getFullYear();
-        var postContent = post.content.replace("[…]", "..."); // some hacks
-
-        var thehtml = "<div class='blog-feed'>" +
-                        "<h2><a href='" + link + "'>" + title + "</a></h2>" +
-                        "<div class='published-date'>" + publishedDate + "</div>" +
-                        "<div><p class='blog-feed-content'>" + postContent + "</p></div>" +
-                        "<div><a class='read-more' href='" + link + "'>Read More</a></div>" +
-                      "</div>";
-
-          $("#recent-blog").append(thehtml);
-
-          // more hacks
-          $("#recent-blog p").has("a[rel=nofollow]").each(function() {
-            var source = $(this).find("a[rel=nofollow]")[1];
-            $(this).parents(".blog-feed").find(".published-date").before( $(source).attr("class", "feed-source") );
-            $(this).remove();
-          });
-
-
+        $("#recent-blog").append( generatePreview(post) );
       });
     }
   });
 
+  function generatePreview(post) {
+    var title = post.title;
+    var publishedDate = new Date( post.publishedDate );
+    var link = post.link;
+    // extract more info from the blog content
+    var preview = extractMorePostInfo(post.content);
+    var sourceBlogName = preview.sourceBlogName;
+    var sourceBlogURL = preview.sourceBlogURL;
+    var sourceBlog = sourceBlogName != "" ? "<a class='feed-source' rel='nofollow' href='" + sourceBlogURL + "'>" + sourceBlogName + "</a>" : "";
+    var image = (preview.imageURL.length > 0) ? "<img src='"+ preview.imageURL +"' class='preview-img' />" : "";
+    var excerpt = "<p>" + preview.excerpt + "</p>";
+    // display the published date in a more user friendly way
+    publishedDate =
+              ["January","February","March","April","May","June","July","August","September","October","November","December"][ publishedDate.getMonth() ] +
+              " " +
+              publishedDate.getDate() +
+              ", " +
+              publishedDate.getFullYear();
+
+    // generate the HTML to be appended
+    var thehtml = "<div class='blog-feed'>" +
+                    "<h2><a href='" + link + "'>" + title + "</a></h2>" +
+                    sourceBlog +
+                    "<div class='published-date'>" + publishedDate + "</div>" +
+                    "<div class='blog-feed-content'>" + image + excerpt + "</div>" +
+                    "<div><a class='read-more' href='" + link + "'>Read More</a></div>" +
+                  "</div>";
+    return thehtml;
+  }
+
+  function extractMorePostInfo(blogContent) {
+    var $content = $("<div class='content-wrapper'>" + blogContent + "</div>");
+    var source;
+    var sourceBlogURL = "";
+    var sourceBlogName = "";
+    var imageURL = "";
+    var excerpt = "";
+    // the blog source can be found in the last <a rel="nofollow"> element of the blog content
+    if ( $content.find("a[rel=nofollow]").length > 0 ) {
+      source = $content.find("a[rel=nofollow]")[$content.find("a[rel=nofollow]").length-1];
+      sourceBlogURL = source.href;
+      sourceBlogName = source.innerHTML;
+    }
+    // extract image url
+    imageURL = ($content.find("img").length > 0) ? $content.find("img")[0].src : imageURL;
+    // generate excerpt
+    excerpt = ($content.find("p").length > 0) ? ($content.find("p")[0].innerHTML) : excerpt;
+    excerpt = excerpt.length > 0 ? (excerpt + "..") : excerpt;
+
+    return  {
+              sourceBlogName: sourceBlogName,
+              sourceBlogURL: sourceBlogURL,
+              imageURL: imageURL,
+              excerpt: excerpt
+            };
+  }
 </script>
 
 <?php get_footer(); ?>
