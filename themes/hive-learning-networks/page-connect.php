@@ -69,6 +69,19 @@
                 </ul>
               </div>
             </div>
+<div class="row contact-card">
+              <div class="col-md-2">
+                <div class="contact-photo"><img src="http://hivelearningnetworks.org/wp-content/uploads/2014/07/SimonaHeadshot.jpeg" /></div>
+              </div>
+              <div class="col-md-10">
+                <h4 class="contact-name">Simona Ramkisson</h4>
+                <div class="contact-title">Project Manager, Hive Learning Networks</div>
+                <ul class="no-bullet">
+                  <li><a class="mailbox" href="mailto:simona@mozillafoundation.org">simona@mozillafoundation.org</a></li>
+                  <li><a class="twitter" href="http://twitter.com/@simonaramkisson">@simonaramkisson</a></li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
 
