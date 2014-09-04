@@ -684,6 +684,13 @@ h4.contact-name {
   padding-top: 15px;
 }
 
+.blog-feed .preview-img {
+  float: left;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  max-width: 300px;
+}
+
 .feed-source::before {
   font-family: FontAwesome;
   content: "\f0ac";
@@ -796,7 +803,7 @@ body.page-template-page-coming-soon-php h2 > * {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   footer > *,
   footer p {
     text-align: center !important;
@@ -875,5 +882,14 @@ body.page-template-page-coming-soon-php h2 > * {
   .contact-card {
     /*text-align: center;*/
     margin-bottom: 25px;
+  }
+  /* *****************
+  *  Buzz Page
+  */
+  .blog-feed .preview-img {
+    float: none;
+    margin-right: 0;
+    margin-bottom: 15px;
+    max-width: 100%;
   }
 }
