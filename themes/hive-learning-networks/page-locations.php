@@ -204,6 +204,19 @@
                   </ul>
                 </div>
               </div>
+<div class="row contact-card">
+                <div class="col-md-4">
+                  <div class="contact-photo"><img src="http://hivenyc.org/wp-content/uploads/Lynn-Photo1.jpg" /></div>
+                </div>
+                <div class="col-md-8">
+                  <h4 class="contact-name">Lynn Casper</h4>
+                  <div class="contact-title">Coordinator</div>
+                  <ul class="no-bullet">
+                    <li><a class="mailbox" href="mailto:lynn@hivenyc.org">lynn@hivenyc.org</a></li>
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -439,16 +452,7 @@
                   </ul>
                 </div>
               </div>
-              <div class="row contact-card">
-                <div class="col-md-4">
-                  <div class="contact-photo"><img src="<?php echo get_template_directory_uri(); ?>/img/contacts/SilviaArlt.jpg" /></div>
-                </div>
-                <div class="col-md-8">
-                  <h4 class="contact-name">Silvia Arlt</h4>
-                  <div class="contact-title">Project Coordinator</div>
-                  <ul class="no-bullet">
-                    <li><a class="mailbox" href="mailto:silvia.arlt@wikimedia.de">silvia.arlt@wikimedia.de</a></li>
-                  </ul>
+              
                 </div>
               </div>
             </div>
