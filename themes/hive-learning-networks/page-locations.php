@@ -690,7 +690,7 @@
                 </div>
                 <div class="col-md-6">
                   <ul class="no-bullet related-sites">
-                    <li><a class="main-website" href="http://www.mozilla.org/gigabit/">www.mozilla.org/gigabit/</a></li>
+                    <li><a class="main-website" href="http://hivekc.org/ ">hivekc.org</a></li>
                     <li><a class="other-sites" href="https://blog.mozilla.org/gigabit/">blog.mozilla.org/gigabit/</a></li>
                     <li><a class="twitter" href="http://twitter.com/@mozillagigabit">twitter.com/@mozillagigabit</a></li>
                   </ul>
