@@ -29,7 +29,7 @@
             <div id="hive-communities-menu">
               <h4 class="all-caps">Hive Learning Communities</h4>
               <ul class="hive-list no-bullet">
-                <li><a data-profile="berlin">Berlin</a></li>
+                <li><a data-profile="sf-bay-area">Bay Area</a></li>
                 <li><a data-profile="chattanooga">Chattanooga</a></li>
                 <li><a data-profile="india">India</a></li>
                 <li><a data-profile="indonesia">Indonesia</a></li>
@@ -39,7 +39,6 @@
             <div id="hive-coming-menu">
               <h4 class="all-caps">Hive Coming Soon</h4>
               <ul class="hive-list no-bullet">
-                <li><a data-profile="">San Francisco Bay Area</a></li>
                 <li><a data-profile="">Vancouver</a></li>
                 <li><a data-profile="">Denver</a></li>
               </ul>
@@ -389,12 +388,12 @@
       <!-- Info for Hive Toronto Ends ===== -->
 
 
-      <!-- Info for Hive Berlin Starts ======================================== -->
+      <!-- Info for Hive Bay Area Starts ======================================== -->
       <div class="container">
-        <div class="hive-profile" data-profile="berlin">
+        <div class="hive-profile" data-profile="sf-bay-area">
           <div class="row">
             <div class="col-md-12">
-              <h3 class="the-hive-name">Hive Berlin</h3>
+              <h3 class="the-hive-name">Hive Bay Area</h3>
             </div>
           </div>
           <div class="row">
@@ -403,23 +402,21 @@
               <div class="row">
                 <div class="col-md-6">
                   <div class="hive-logo">
-                    <a href="http://hiveberlin.org/">
-                      <img src="<?php echo get_template_directory_uri(); ?>/img/hive-logos/Berlin.png" />
+                    <a href="http://bayareahive.org/">
+                      <img src="<?php echo get_template_directory_uri(); ?>/img/hive-logos/Bay-Area.png" />
                     </a>
                   </div>
                 </div>
                 <div class="col-md-6">
                   <ul class="no-bullet related-sites">
-                    <li><a class="main-website" href="http://hiveberlin.org/">hiveberlin.org/</a></li>
-                    <li><a class="twitter" href="http://twitter.com/hiveberlin">twitter.com/hiveberlin</a></li>
-                    <li><a class="other-sites" href="http://www.meetup.com/Hive-Berlin/">http://www.meetup.com/Hive-Berlin/</a></li>
+                    <li><a class="main-website" href="http://bayareahive.org/">bayareahive.org</a></li>
                   </ul>
                 </div>
               </div>
               <div class="row hive-description">
                 <div class="col-md-12">
                   <p>
-                    Hive Berlin is an aspiring learning network led by two co-founding organizations, Wikimedia Germany and Mozilla, in collaboration with the Free University of Berlin. We have a special focus on the positive social impact of free knowledge and web literacy, as well as connecting to Berlin's growing tech scene.
+                    The Hive Bay Area Learning Community was established in 2014 and is led in collaboration with a Founding Committee comprised of the San Francisco Public Library, Friends of the SF Library, KQED, BAVC, California Academy of Sciences and the National Writing Project. Together, they envision the Bay Area as a connected community where members create programs for youth to follow their passions through the integration and application of digital media and technology in adult-supported environments.
                   </p>
                 </div>
               </div>
@@ -428,26 +425,14 @@
             <div class="col-md-4">
               <div class="row contact-card">
                 <div class="col-md-4">
-                  <div class="contact-photo"><img src="<?php echo get_template_directory_uri(); ?>/img/contacts/MichelleThorne.jpg" /></div>
+                  <div class="contact-photo"><img src="<?php echo get_template_directory_uri(); ?>/img/contacts/ZakiyaHarris.jpg" /></div>
                 </div>
                 <div class="col-md-8">
-                  <h4 class="contact-name">Michelle Thorne</h4>
-                  <div class="contact-title">Director of Global Strategy, Mozilla Webmaker</div>
+                  <h4 class="contact-name">Zakiya Harris</h4>
+                  <div class="contact-title">Director</div>
                   <ul class="no-bullet">
-                    <li><a class="mailbox" href="mailto:michelle@mozillafoundation.org">michelle@mozillafoundation.org</a></li>
-                    <li><a class="twitter" href="http://twitter.com/@thornet">@thornet</a></li>
-                  </ul>
-                </div>
-              </div>
-              <div class="row contact-card">
-                <div class="col-md-4">
-                  <div class="contact-photo"><img src="<?php echo get_template_directory_uri(); ?>/img/contacts/ValentinMünscher.jpg" /></div>
-                </div>
-                <div class="col-md-8">
-                  <h4 class="contact-name">Valentin Münscher</h4>
-                  <div class="contact-title">Project Manager<br />Department Education & Knowledge</div>
-                  <ul class="no-bullet">
-                    <li><a class="mailbox" href="mailto:valentin.muenscher@wikimedia.de">valentin.muenscher@wikimedia.de</a></li>
+                    <li><a class="mailbox" href="mailto:zakiya.harris@friendssfpl.org">zakiya.harris@friendssfpl.org</a></li>
+                    <li><a class="twitter" href="http://twitter.com/@zakiyalharris">@zakiyalharris</a></li>
                   </ul>
                 </div>
               </div>
@@ -455,7 +440,7 @@
           </div>
         </div>
       </div>
-      <!-- Info for Hive Berlin Ends ===== -->
+      <!-- Info for Hive Bay Area Ends ===== -->
 
 
       <!-- Info for Hive Chattanooga Starts ======================================== -->
