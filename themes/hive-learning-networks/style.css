@@ -593,8 +593,7 @@ footer p {
 
 
 .hive-logo img {
-  width: 100%;
-  max-width: 200px;
+  max-height: 100px;
 }
 
 .related-sites .main-website:before,
@@ -714,6 +713,30 @@ h4.contact-name {
 .blog-feed-content {
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+
+/* ********************************************************
+*  Start a Hive Page
+*/
+
+.start-a-hive-steps {
+  overflow: hidden;
+}
+
+.start-a-hive-logo {
+  width: 200px;
+  float: left;
+}
+
+.start-a-hive-logo + .step-details {
+  float: left;
+  width: calc( 100% - 200px);
+}
+
+.start-a-hive-steps .subsection {
+  float: left;
+  margin-bottom: 100px;
 }
 
 
@@ -891,5 +914,16 @@ body.page-template-page-coming-soon-php h2 > * {
     margin-right: 0;
     margin-bottom: 15px;
     max-width: 100%;
+  }
+
+  @media (max-width: 479px) {
+    /* *****************
+    *  Start a Hive Page
+    */
+    .start-a-hive-logo,
+    .start-a-hive-logo + .step-details {
+      width: 100%;
+      float: none;
+    }
   }
 }
