@@ -70,7 +70,7 @@
                 <div class="col-md-6">
                   <div class="hive-logo">
                     <a href="http://hivechicago.org">
-                      <img src="<?php echo get_template_directory_uri(); ?>/img/hive-logos/Chicago.png" />
+                      <img src="<?php echo get_template_directory_uri(); ?>/img/hive-logos/Hive_Networks_Chicago.png" />
                     </a>
                   </div>
                 </div>
@@ -155,7 +155,7 @@
                 <div class="col-md-6">
                   <div class="hive-logo">
                     <a href="http://hivenyc.org">
-                      <img src="<?php echo get_template_directory_uri(); ?>/img/hive-logos/NYC.png" />
+                      <img src="<?php echo get_template_directory_uri(); ?>/img/hive-logos/Hive_Networks_NewYork.png" />
                     </a>
                   </div>
                 </div>
@@ -237,7 +237,7 @@
                 <div class="col-md-6">
                   <div class="hive-logo">
                     <a href="http://hivepgh.sproutfund.org/">
-                      <img src="<?php echo get_template_directory_uri(); ?>/img/hive-logos/Pittsburgh.png" />
+                      <img src="<?php echo get_template_directory_uri(); ?>/img/hive-logos/Hive_Networks_Pittsburgh.png" />
                     </a>
                   </div>
                 </div>
@@ -320,7 +320,7 @@
                 <div class="col-md-6">
                   <div class="hive-logo">
                     <a href="http://hivetoronto.org">
-                      <img src="<?php echo get_template_directory_uri(); ?>/img/hive-logos/Toronto.png" />
+                      <img src="<?php echo get_template_directory_uri(); ?>/img/hive-logos/Hive_Networks_Toronto.png" />
                     </a>
                   </div>
                 </div>
@@ -403,7 +403,7 @@
                 <div class="col-md-6">
                   <div class="hive-logo">
                     <a href="http://bayareahive.org/">
-                      <img src="<?php echo get_template_directory_uri(); ?>/img/hive-logos/Bay-Area.png" />
+                      <img src="<?php echo get_template_directory_uri(); ?>/img/hive-logos/Hive_Community_BayArea.png" />
                     </a>
                   </div>
                 </div>
@@ -458,7 +458,7 @@
                 <div class="col-md-6">
                   <div class="hive-logo">
                     <a href="http://www.mozilla.org/gigabit/">
-                      <img src="<?php echo get_template_directory_uri(); ?>/img/hive-logos/Chattanooga.png" />
+                      <img src="<?php echo get_template_directory_uri(); ?>/img/hive-logos/Hive_Community_Chattanooga.png" />
                     </a>
                   </div>
                 </div>
@@ -528,7 +528,7 @@
                 <div class="col-md-6">
                   <div class="hive-logo">
                     <a href="http://hive.mozillaindia.org/">
-                      <img src="<?php echo get_template_directory_uri(); ?>/img/hive-logos/India.png" />
+                      <img src="<?php echo get_template_directory_uri(); ?>/img/hive-logos/Hive_Community_India.png" />
                     </a>
                   </div>
                 </div>
@@ -599,7 +599,7 @@
                 <div class="col-md-6">
                   <div class="hive-logo">
                     <a href="http://hive.mozilla.web.id/">
-                      <img src="<?php echo get_template_directory_uri(); ?>/img/hive-logos/Indonesia.png" />
+                      <img src="<?php echo get_template_directory_uri(); ?>/img/hive-logos/Hive_Community_Indonesia.png" />
                     </a>
                   </div>
                 </div>
@@ -668,8 +668,8 @@
               <div class="row">
                 <div class="col-md-6">
                   <div class="hive-logo">
-                    <a href="http://www.mozilla.org/gigabit/">
-                      <img src="<?php echo get_template_directory_uri(); ?>/img/hive-logos/KansasCity.png" />
+                    <a href="http://hivekc.org/">
+                      <img src="<?php echo get_template_directory_uri(); ?>/img/hive-logos/Hive_Community_Kansas_City.png" />
                     </a>
                   </div>
                 </div>
