@@ -79,7 +79,7 @@
           </section>
           <!-- Resources pages nav ===== -->
           <div class="row resource-pages-nav">
-            <div class="col-md-offset-6 col-md-6  col-offset-sm-6 col-sm-6">
+            <div class="col-md-offset-6 col-md-6 col-sm-offset-6 col-sm-6">
               <a id="to-next" href="/resources/events">
                 <div class="text">
                   <div class="nav-type">next section</div>

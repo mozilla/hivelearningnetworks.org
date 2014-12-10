@@ -667,6 +667,7 @@ h4.contact-name {
   float: left;
   margin-left: 10px;
   margin-right: 10px;
+  width: calc(100% - 50px);
 }
 .resource-pages-nav .text .nav-type {
   color: #939598;
@@ -988,8 +989,5 @@ body.page-template-page-coming-soon-php h2 > * {
   */
   .resources .subsection img {
     width: 100%;
-  }
-  .resource-pages-nav .text {
-    width: calc(100% - 50px);
   }
 }
