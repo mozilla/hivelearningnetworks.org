@@ -21,7 +21,7 @@
     <title><?php bloginfo('name'); echo (is_home() ? '' : wp_title('&raquo;',false)); ?></title>
     <link rel="icon" type="image/png" href="<?php echo get_template_directory_uri(); ?>/favicon.png">
     <link href="http://mozorg.cdn.mozilla.net/media/css/tabzilla-min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/font-awesome/css/font-awesome.min.css">
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,900' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Merriweather:700italic,400,400italic' rel='stylesheet' type='text/css'>
@@ -64,7 +64,7 @@
                     'theme_location' => 'header-nav',
                     'container' => false,
                     'items_wrap' => '%3$s',
-                    'depth' => 1,
+                    'depth' => 2,
                   ));
                 }
               ?>
