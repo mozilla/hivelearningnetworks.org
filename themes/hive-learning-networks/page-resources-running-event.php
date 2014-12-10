@@ -55,6 +55,29 @@
               <p><a href="<?php echo get_template_directory_uri(); ?>/resources/Hive_2014_BrandGuidelines_ForReview_10_5.pdf">View Hive brand guidelines</a></p>
             </div>
           </section>
+
+          <!-- Resources pages nav ===== -->
+          <div class="row resource-pages-nav">
+            <div class="col-md-6 col-sm-6">
+              <a id="to-prev" href="/resources/at-a-glance">
+                <div class="icon"><i class="fa fa-chevron-circle-left"></i></div>
+                <div class="text">
+                  <div class="nav-type">previous section</div>
+                  <div class="section-title">Hive Learning Network at a glance</div>
+                </div>
+              </a>
+            </div>
+            <div class="col-md-6 col-sm-6">
+              <a id="to-next" href="/resources/community">
+                <div class="text">
+                  <div class="nav-type">next section</div>
+                  <div class="section-title">Building a Hive community</div>
+                </div>
+                <div class="icon"><i class="fa fa-chevron-circle-right"></i></div>
+              </a>
+            </div>
+          </div>
+
         </div>
         <div class="col-md-4" id="sidebar">
           <?php get_template_part( 'resources-sidebar' ); ?>

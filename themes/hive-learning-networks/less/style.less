@@ -12,7 +12,6 @@ License URI: http://www.mozilla.org/MPL/2.0/
 /*
 
 footer-background: #414451;
-links: #29ABE2;
 
 location-background: #3583D1 to #ADCDEC;
 
@@ -26,6 +25,7 @@ location-background: #3583D1 to #ADCDEC;
 @body-copy: #55575C;
 @heading-dark-blue: #3583D1;
 @background-grey: #E6E6E6;
+@link-blue: #29ABE2;
 
 html,
 body {
@@ -52,7 +52,7 @@ body {
 }
 
 a {
-  color: #29ABE2;
+  color: @link-blue;
 }
 
 a:hover {
@@ -223,6 +223,7 @@ nav {
 }
 
 .nav > li > a:hover, .nav > li > a:focus,
+.current_page_ancestor > a,
 .current-menu-item > a {
   background: @hive-yellow;
   background: linear-gradient( fade(@hive-orange,30%) 40%, @hive-yellow);
@@ -802,6 +803,52 @@ h4.contact-name {
   }
 }
 
+.resource-pages-nav {
+  margin-top: 50px;
+  a {
+    color: inherit;
+    margin-top: 15px;
+  }
+  #to-prev {
+    float: left;
+  }
+  #to-next {
+    text-align: right;
+    float: right;
+  }
+  #to-prev:hover,
+  #to-next:hover {
+    .icon,
+    .section-title {
+      color: @heading-dark-blue;
+    }
+  }
+  .icon {
+    color: @hive-orange;
+    background: none;
+    width: auto;
+    height: auto;
+    float: left;
+    font-size: 35px;
+  }
+  .text {
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    .nav-type {
+      color: @hive-grey;
+    }
+    .section-title {
+      font-weight: bold;
+      font-style: italic;
+      font-size: 18px;
+      line-height: 1;
+      color: @link-blue;
+    }
+  }
+}
+
+
 .resources-sidebar-link-hover {
   background: @hive-blue;
   color: #fff;
@@ -970,7 +1017,7 @@ body.page-template-page-coming-soon-php h2 > * {
       overflow: hidden;
       background: #fff;
       li a {
-        padding: 10px 20px;
+        padding: 5px 20px;
         line-height: 20px;
         width: 100%;
         float: left;
@@ -1030,9 +1077,9 @@ body.page-template-page-coming-soon-php h2 > * {
   .navbar-nav > li {
     float: none;
   }
-  .navbar-nav > li >a {
-    padding-top: 10px;
-    padding-bottom: 10px;
+  .navbar-nav > li > a {
+    padding-top: 5px;
+    padding-bottom: 5px;
   }
   .collapse.in {
     display:block !important;
@@ -1151,6 +1198,11 @@ body.page-template-page-coming-soon-php h2 > * {
       img {
         width: 100%;
       }
+    }
+  }
+  .resource-pages-nav {
+    .text {
+      width: calc( 100% - 50px );
     }
   }
 }

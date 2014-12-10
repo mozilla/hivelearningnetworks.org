@@ -62,6 +62,19 @@
             </div>
           </section>
 
+          <!-- Resources pages nav ===== -->
+          <div class="row resource-pages-nav">
+            <div class="col-md-6 col-sm-6">
+              <a id="to-prev" href="/resources/events">
+                <div class="icon"><i class="fa fa-chevron-circle-left"></i></div>
+                <div class="text">
+                  <div class="nav-type">previous section</div>
+                  <div class="section-title">Running a Hive event</div>
+                </div>
+              </a>
+            </div>
+          </div>
+
         </div>
         <div class="col-md-4" id="sidebar">
           <?php get_template_part( 'resources-sidebar' ); ?>

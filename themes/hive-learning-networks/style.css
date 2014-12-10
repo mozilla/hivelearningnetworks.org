@@ -11,7 +11,6 @@ License URI: http://www.mozilla.org/MPL/2.0/
 /*
 
 footer-background: #414451;
-links: #29ABE2;
 
 location-background: #3583D1 to #ADCDEC;
 
@@ -39,7 +38,7 @@ body {
   z-index: 10000;
 }
 a {
-  color: #29ABE2;
+  color: #29abe2;
 }
 a:hover {
   text-decoration: none;
@@ -180,6 +179,7 @@ nav {
 }
 .nav > li > a:hover,
 .nav > li > a:focus,
+.current_page_ancestor > a,
 .current-menu-item > a {
   background: #ffdd2e;
   background: linear-gradient(rgba(250, 167, 63, 0.3) 40%, #ffdd2e);
@@ -635,6 +635,49 @@ h4.contact-name {
   content: "\f019";
   margin-right: 5px;
 }
+.resource-pages-nav {
+  margin-top: 50px;
+}
+.resource-pages-nav a {
+  color: inherit;
+  margin-top: 15px;
+}
+.resource-pages-nav #to-prev {
+  float: left;
+}
+.resource-pages-nav #to-next {
+  text-align: right;
+  float: right;
+}
+.resource-pages-nav #to-prev:hover .icon,
+.resource-pages-nav #to-next:hover .icon,
+.resource-pages-nav #to-prev:hover .section-title,
+.resource-pages-nav #to-next:hover .section-title {
+  color: #3583d1;
+}
+.resource-pages-nav .icon {
+  color: #faa73f;
+  background: none;
+  width: auto;
+  height: auto;
+  float: left;
+  font-size: 35px;
+}
+.resource-pages-nav .text {
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.resource-pages-nav .text .nav-type {
+  color: #939598;
+}
+.resource-pages-nav .text .section-title {
+  font-weight: bold;
+  font-style: italic;
+  font-size: 18px;
+  line-height: 1;
+  color: #29abe2;
+}
 .resources-sidebar-link-hover {
   background: #adcdec;
   color: #fff;
@@ -776,7 +819,7 @@ body.page-template-page-coming-soon-php h2 > * {
     background: #fff;
   }
   .navbar .sub-menu li a {
-    padding: 10px 20px;
+    padding: 5px 20px;
     line-height: 20px;
     width: 100%;
     float: left;
@@ -834,8 +877,8 @@ body.page-template-page-coming-soon-php h2 > * {
     float: none;
   }
   .navbar-nav > li > a {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
   }
   .collapse.in {
     display: block !important;
@@ -945,5 +988,8 @@ body.page-template-page-coming-soon-php h2 > * {
   */
   .resources .subsection img {
     width: 100%;
+  }
+  .resource-pages-nav .text {
+    width: calc(100% - 50px);
   }
 }

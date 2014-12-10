@@ -77,6 +77,18 @@
               <p>Share or distribute this <a href="<?php echo get_template_directory_uri(); ?>/resources/Hive_Global_1pager.pdf">one page flyer</a> to explain the Hive Learning Networks model to potential stakeholders.</p>
             </div>
           </section>
+          <!-- Resources pages nav ===== -->
+          <div class="row resource-pages-nav">
+            <div class="col-md-offset-6 col-md-6  col-offset-sm-6 col-sm-6">
+              <a id="to-next" href="/resources/events">
+                <div class="text">
+                  <div class="nav-type">next section</div>
+                  <div class="section-title">Running a Hive event</div>
+                </div>
+                <div class="icon"><i class="fa fa-chevron-circle-right"></i></div>
+              </a>
+            </div>
+          </div>
         </div>
         <div class="col-md-4" id="sidebar">
           <?php get_template_part( 'resources-sidebar' ); ?>
