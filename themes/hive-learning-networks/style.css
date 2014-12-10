@@ -119,7 +119,8 @@ h3,
   font-size: 20px;
   letter-spacing: 1px;
 }
-.resources #main h3 {
+.resources #main h3,
+.connect #main .subsection h3 {
   color: #000;
   font-weight: 400;
 }
@@ -496,8 +497,8 @@ footer p {
   display: inline-block;
   width: 20px;
 }
-.contact-card .mailbox:before {
-  content: "\f003";
+.mailbox:before {
+  content: "\f0e0";
   font-family: FontAwesome;
   display: inline-block;
   width: 20px;
@@ -669,6 +670,25 @@ h4.contact-name {
   background: #adcdec;
   color: #fff;
   font-weight: 700;
+}
+/* ********************************************************
+*  Locations Page
+*/
+.connect img.badge-preview {
+  width: 100%;
+}
+.connect .btn.hive-btn {
+  margin-bottom: 20px;
+}
+.connect #main .subsection {
+  float: left;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  border-top: 1px solid #adcdec;
+  width: 100%;
+}
+.connect .subsection:last-of-type {
+  border-bottom: 1px solid #adcdec;
 }
 /* ********************************************************
 *  Coming Soon page
