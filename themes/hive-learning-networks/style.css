@@ -330,6 +330,10 @@ footer p {
 #sidebar-container .subsection {
   margin-bottom: 50px;
 }
+#sidebar {
+  padding-left: 25px;
+  padding-right: 25px;
+}
 .placeholder-img {
   display: inline-block;
   width: 100px;
@@ -597,7 +601,7 @@ h4.contact-name {
 *  Resources Pages
 */
 .resources img {
-  max-width: 100%;
+  max-width: 80%;
 }
 .resources img.half {
   max-width: 50%;
@@ -634,6 +638,19 @@ h4.contact-name {
   font-family: "FontAwesome";
   content: "\f019";
   margin-right: 5px;
+}
+.icon-link {
+  display: block;
+}
+.icon-link .h3 {
+  font-weight: 500;
+  color: #29abe2;
+}
+.icon-link:hover .icon {
+  background: #3583d1;
+}
+.icon-link:hover .h3 {
+  color: #3583d1;
 }
 .resource-pages-nav {
   margin-top: 50px;
@@ -798,11 +815,17 @@ body.page-template-page-coming-soon-php h2 > * {
   .resources .download-link {
     margin-bottom: 10px;
   }
+  .resources .icon-link {
+    margin-bottom: 30px;
+  }
   .resources .subsection img {
     width: 70%;
   }
   #resources-sidebar {
     display: none;
+  }
+  #sidebar-container {
+    padding-top: 0;
   }
   .navbar .header-logo {
     margin-left: 10px;

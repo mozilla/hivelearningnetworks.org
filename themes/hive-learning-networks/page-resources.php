@@ -30,16 +30,22 @@
           ?>
           <section class="row">
             <div class="col-md-4 col-sm-4">
-              <div class="icon"><img src="<?php echo get_template_directory_uri(); ?>/resources/Icon_Hive_Learning_Networks_at_a_Glance.png" /></div>
-              <h3 class="text-center"><a href="/resources/at-a-glance">Hive Learning Networks at a Glance</a></h3>
+              <a href="/resources/at-a-glance" class="icon-link">
+                <div class="icon"><img src="<?php echo get_template_directory_uri(); ?>/resources/Icon_Hive_Learning_Networks_at_a_Glance.png" /></div>
+                <p class="h3 text-center">Hive Learning Networks at a Glance</p>
+              </a>
             </div>
             <div class="col-md-4 col-sm-4">
-              <div class="icon"><img src="<?php echo get_template_directory_uri(); ?>/resources/Icon_Resources_for_Running_a_Hive_Event.png" /></div>
-              <h3 class="text-center"><a href="/resources/events">Running a Hive Event</a></h3>
+              <a href="/resources/events" class="icon-link">
+                <div class="icon"><img src="<?php echo get_template_directory_uri(); ?>/resources/Icon_Resources_for_Running_a_Hive_Event.png" /></div>
+                <p class="h3 text-center">Running a Hive Event</p>
+              </a>
             </div>
             <div class="col-md-4 col-sm-4">
-              <div class="icon"><img src="<?php echo get_template_directory_uri(); ?>/resources/Icon_Resources_for_Starting_a_Hive_Community.png" /></div>
-              <h3 class="text-center"><a href="/resources/community">Building a Hive Community</a></h3>
+              <a href="/resources/community" class="icon-link">
+                <div class="icon"><img src="<?php echo get_template_directory_uri(); ?>/resources/Icon_Resources_for_Starting_a_Hive_Community.png" /></div>
+                <p class="h3 text-center">Building a Hive Community</p>
+              </a>
             </div>
           </section>
 

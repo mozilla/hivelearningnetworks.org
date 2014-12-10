@@ -30,7 +30,7 @@
           ?>
           <section class="row">
             <div class="col-md-12">
-              <h3>Hive Inforgraphic</h3>
+              <h3>Hive Infographic</h3>
               <img src="<?php echo get_template_directory_uri(); ?>/resources/Infographic.jpg" />
             </div>
           </section>
