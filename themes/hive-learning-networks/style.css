@@ -603,6 +603,9 @@ h4.contact-name {
 .resources img {
   max-width: 80%;
 }
+.resources img.full {
+  max-width: 100%;
+}
 .resources img.half {
   max-width: 50%;
 }
@@ -653,7 +656,7 @@ h4.contact-name {
   color: #3583d1;
 }
 .resource-pages-nav {
-  margin-top: 50px;
+  margin-top: 70px;
 }
 .resource-pages-nav a {
   color: inherit;
@@ -679,6 +682,7 @@ h4.contact-name {
   height: auto;
   float: left;
   font-size: 35px;
+  margin-bottom: 0;
 }
 .resource-pages-nav .text {
   float: left;

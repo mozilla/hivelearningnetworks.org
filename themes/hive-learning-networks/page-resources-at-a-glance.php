@@ -15,7 +15,7 @@
               ?>
             </h1>
             <div class="page-description">
-              <p>Learn more about the Hive Learning Networks model.</p>
+              <p>Useful information to help you bring the Hive Learning Networks model to your community.</p>
             </div>
           </div>
         </div>
@@ -25,13 +25,11 @@
     <div class="container resources">
       <div class="row">
         <div class="col-md-8" id="main">
-          <?php
-              if ( have_posts() ) : while( have_posts() ) : the_post(); the_content(); endwhile; endif;
-          ?>
           <section class="row">
             <div class="col-md-12">
               <h3>Hive Infographic</h3>
-              <img src="<?php echo get_template_directory_uri(); ?>/resources/Infographic.jpg" />
+              <img src="<?php echo get_template_directory_uri(); ?>/resources/Infographic_Preview.jpg" class="full" />
+              <a href="<?php echo get_template_directory_uri(); ?>/resources/Infographic.jpg" class="download-link text-center">Download Infographic</a>
             </div>
           </section>
 
@@ -44,9 +42,10 @@
               <p>
                 We imagine a time when connected learning is ubiquitous in Hive cities across the globe‘ empowering educators and unlocking opportunities for all youth.
               </p>
-              <h5>Over the next five years, the hive’s ambitious goals in support of its vision are:</h5>
+              <h5>Over the next five years, Hive’s ambitious goals in support of its vision are:</h5>
               <div class="text-center">
-                <img src="<?php echo get_template_directory_uri(); ?>/resources/Goals.gif" class="half" />
+                <img src="<?php echo get_template_directory_uri(); ?>/resources/Goals_Infographic.gif" class="half" />
+                <a href="<?php echo get_template_directory_uri(); ?>/resources/Goals_Infographic.gif" class="download-link text-center">Download Infographic</a>
               </div>
               <h5>Mobilize</h5>
               <p>
