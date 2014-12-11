@@ -327,7 +327,7 @@ footer p {
 #sidebar-container {
   padding: 50px 0;
 }
-#sidebar-container .subsection {
+#sidebar-container .subsection:not(:last-of-type) {
   margin-bottom: 50px;
 }
 #sidebar {

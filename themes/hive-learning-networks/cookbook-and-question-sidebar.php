@@ -1,5 +1,5 @@
 <div id="sidebar-container">
-  <div>
+  <div class="subsection">
     <h3>The Hive Cookbook</h3>
     <p>
       The Hive Cookbook contains more details about how to start a Hive in your community.
@@ -10,7 +10,7 @@
       </a>
     </div>
   </div>
-  <div>
+  <div class="subsection">
     <h3>Have questions?</h3>
     <p>
       If you would like more information about starting a Hive in your community, please email us.
