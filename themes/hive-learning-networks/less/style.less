@@ -1,0 +1,1236 @@
+/*
+Theme Name: Hive Learning Networks
+Theme URI: https://github.com/mozilla/hivelearningnetworks.org
+Description: WordPress theme for hivelearningnetworks.org
+Author: Mozilla
+Author URI: https://github.com/mozilla/hivelearningnetworks.org
+Version: 1.0
+License: Mozilla Public License, version 2.0
+License URI: http://www.mozilla.org/MPL/2.0/
+*/
+
+/*
+
+footer-background: #414451;
+
+location-background: #3583D1 to #ADCDEC;
+
+*/
+
+@hive-yellow: #FFDD2E;
+@hive-orange: #FAA73F;
+@hive-blue: #ADCDEC;
+@hive-grey: #939598;
+
+@body-copy: #55575C;
+@heading-dark-blue: #3583D1;
+@background-grey: #E6E6E6;
+@link-blue: #29ABE2;
+
+html,
+body {
+  height: 100%;
+  color: @body-copy;
+}
+
+body {
+  background: url(img/hive_bg@2x.png) @background-grey;
+  background-size: 47px 80px;
+  font-family: 'Merriweather', serif;
+  font-weight: 400;
+}
+
+#wrap {
+  min-height: 100%;
+  height: auto;
+  margin: 0 auto -100px auto;  /* #main: margin-bottom */
+  padding: 0 0 100px; /* #main: margin-bottom */
+}
+
+#tabzilla {
+  z-index: 10000;
+}
+
+a {
+  color: @link-blue;
+}
+
+a:hover {
+  text-decoration: none;
+  color: @heading-dark-blue;
+}
+
+/* ********************************************************
+*  Typography
+*/
+
+h1,
+.h1,
+h3,
+.h3,
+nav,
+.hive-list {
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+h2,
+.h2,
+h4,
+.h4,
+.hive-btn,
+#resources-sidebar a {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.contact-name {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  text-transform: none;
+}
+
+
+#main .subsection h5,
+.read-more,
+.resources h5 {
+  font-family: 'Merriweather', serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 16px;
+}
+
+#hive-intro-box .twitter,
+.published-date,
+.page-description,
+.contact-title {
+  font-family: 'Merriweather', serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+
+h1,
+.h1 {
+  color: #FFF;
+  font-size: 45px;
+  letter-spacing: 2px;
+}
+
+h2,
+.h2,
+h2 > *,
+.h2 > * {
+  color: @hive-orange;
+}
+
+h3,
+.h3 {
+  color: @heading-dark-blue;
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.resources #main h3,
+.connect #main .subsection h3 {
+  color: #000;
+  font-weight: 400;
+}
+
+#main h3,
+#hive-profile-section h3 {
+  margin-bottom: 20px;
+}
+
+h4,
+.h4 {
+  color: #414451;
+}
+
+#main .subsection h5 {
+  /*margin-bottom: 5px;*/
+}
+
+ul.no-bullet {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.row.with-margin {
+  margin-bottom: 30px;
+}
+
+.all-cap {
+  text-transform: uppercase;
+}
+
+.read-more {
+  float: right;
+  display: block;
+}
+
+.read-more::after {
+  content: " »";
+}
+
+
+
+/* ********************************************************
+*  Navigation Bar / Nav
+*/
+
+nav {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.navbar {
+  margin-bottom: 0;
+  border: none;
+  border-radius: 0;
+  background: @hive-orange;
+  position: relative;
+  .sub-menu {
+    display: none;
+  }
+}
+
+.navbar a {
+  color: #FFF;
+}
+
+.navbar-nav > li > a {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.nav > li > a:hover, .nav > li > a:focus,
+.current_page_ancestor > a,
+.current-menu-item > a {
+  background: @hive-yellow;
+  background: linear-gradient( fade(@hive-orange,30%) 40%, @hive-yellow);
+}
+
+.navbar-toggle {
+  border: none;
+  background: #fff;
+  border-radius: 0;
+  padding: 13px 10px;
+  .icon-bar {
+    background-color: @heading-dark-blue;
+    width: 25px;
+    height: 3px;
+  }
+}
+
+.navbar {
+  .header-logo {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    img {
+      max-height: 60px;
+    }
+  }
+}
+
+.navbar-header {
+  .header-logo {
+    img {
+      display: none;
+    }
+  }
+}
+
+
+/* ********************************************************
+*  Footer
+*/
+
+footer {
+  background: #414451;
+  color: @hive-grey;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  line-height: 80px;
+}
+
+footer > .container {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+footer img {
+  max-height: 80px;
+  max-width: 150px;
+  vertical-align: middle;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+footer p {
+  text-align: right;
+}
+
+
+/* ********************************************************
+*  Button
+*/
+
+.btn.hive-btn {
+  background: @hive-orange;
+  color: #FFF;
+  text-transform: uppercase;
+  font-size: 20px;
+  padding: 10px 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 0;
+}
+
+.btn.hive-btn:hover {
+  background: @hive-yellow;
+  color: @heading-dark-blue;
+}
+
+.btn.hive-btn.full-width {
+  width: 100%;
+}
+.btn.hive-btn:not(.full-width) {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+
+/* ********************************************************
+*  Banner
+*/
+
+.general-banner {
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding-top: 100px;
+  padding-bottom: 200px;
+  color: #FFF;
+}
+
+.general-banner > * {
+  color: #fff !important;
+}
+
+.general-banner h1 {
+  display: inline-block;
+  background: fade(@heading-dark-blue, 70%);;
+  color: #fff;
+  padding: 5px;
+  margin-bottom: 0;
+}
+
+.general-banner .page-description p {
+  display: inline;
+  background: rgba(0,0,0,0.5);
+  white-space: pre-line;
+  padding: 2px;
+}
+
+.page-description {
+  font-size: 20px;
+  color: #fff;
+}
+
+#home-banner {
+  background-image: url(img/hive_banner_landing.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 200px;
+}
+
+#about-banner {
+  background-image: url(img/hive_banner_about.jpg);
+  background-size: cover;
+  /*background-position: 0 -200px;*/
+}
+
+#buzz-banner {
+  background-image: url(img/hive_banner_buzz.jpg);
+  background-size: cover;
+}
+
+#start-a-hive-banner {
+  background-image: url(img/hive_banner_startahive.jpg);
+  background-size: cover;
+}
+
+#resources-banner {
+  background-image: url(img/hive_banner_resources.png);
+  background-size: 30%;
+  background-repeat: repeat;
+  background-color: @heading-dark-blue;
+}
+
+#connect-banner {
+  background-image: url(img/hive_banner_connect.jpg);
+  background-size: cover;
+}
+
+
+
+
+
+/* ********************************************************
+*  Main content
+*/
+
+
+#main {
+  background: #FFF;
+  margin-top: -100px;
+  padding: 40px 30px;
+  margin-bottom: 100px;
+}
+
+#main .subsection {
+  margin-bottom: 35px;
+}
+
+#sidebar-container {
+  padding: 50px 0;
+}
+
+#sidebar-container .subsection:not(:last-of-type) {
+  margin-bottom: 50px;
+}
+
+#sidebar {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.placeholder-img {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background: #ccc;
+  margin: 10px;
+}
+
+.placeholder-img.round {
+  border-radius: 50%;
+}
+
+
+/* ********************************************************
+*  Home page
+*/
+
+#welcome-box {
+  text-align: center;
+  margin: 150px 100px;
+  padding: 50px;
+  background: fade(@heading-dark-blue, 70%);
+}
+
+#welcome-box > * {
+  color: #fff !important;
+}
+
+#home-main {
+  padding-top: 200px;
+  padding-bottom: 150px;
+  margin-top: -400px;
+  background: linear-gradient(
+    rgba(255,255,255,0) 1%,
+    rgba(255,255,255,0.8) 30%,
+    rgba(255,255,255,0.9) 50%,
+    rgba(220,220,220,1) 100%);
+}
+
+#video-container {
+  margin-top: 50px;
+}
+
+#hive-intro-box h2 {
+  color: @body-copy;
+  border-bottom: 2px solid white 50%;
+}
+
+#hive-intro-box .hive-btn {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.hive-list {
+  color: #FFF;
+}
+
+.hive-list li {
+  padding: 5px;
+  letter-spacing: 1px;
+}
+
+.hive-list li.hive-widget {
+  margin-bottom: 0;
+  color: @heading-dark-blue;
+}
+
+.hive-list li:not(:last-child) {
+  border-bottom: 2px solid #FFF;
+}
+
+.hive-list li.widget_short_intro_widget {
+  display: none;
+}
+
+.hive-list .the-place:hover {
+  cursor: pointer;
+}
+
+.hive-list .the-details {
+  display: none;
+}
+
+#hive-intro-box .twitter {
+  display: block;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+#hive-intro-box .twitter:before {
+  content: "\f099";
+  font-family: FontAwesome;
+  margin-right: 5px;
+}
+
+
+
+/* ********************************************************
+*  Locations Page
+*/
+
+#hives-map-section {
+  background: #4EB0F9;
+  background: linear-gradient(@heading-dark-blue 40%, @hive-blue);
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+#locations-menu li a {
+  color: #fff;
+}
+
+#locations-menu div:not(#hive-coming-menu) li a {
+  cursor: pointer;
+}
+
+#locations-menu div:not(#hive-coming-menu) li:hover,
+#locations-menu li.active {
+  background: linear-gradient(to right, rgba(255,255,255,1), rgba(255,255,255,0));
+}
+
+#locations-menu div:not(#hive-coming-menu) li:hover a,
+#locations-menu li.active a {
+  color: @heading-dark-blue;
+}
+
+#hives-map-section svg path {
+  fill: rgba(255,255,255,0.5);
+  stroke: rgba(255,255,255,0);
+  stroke-width: 1;
+}
+
+#hives-map-section svg polygon {
+  fill: none;
+  stroke-width: 3px;
+}
+
+#hive-networks-menu {
+  margin-top: 50px;
+}
+
+#hive-networks-menu h4 {
+  color: @hive-yellow;
+}
+
+#hives-map-section svg polygon.networks {
+  stroke: @hive-yellow;
+}
+
+#hive-communities-menu h4 {
+  color: @hive-orange;
+}
+
+#hives-map-section svg polygon.communities {
+  stroke: @hive-orange;
+}
+
+#hive-coming-menu h4 {
+  color: @background-grey;
+}
+#hives-map-section svg polygon.comingSoon {
+  stroke: @background-grey;
+}
+
+#hive-profile-section {
+  margin-top: -100px;
+  margin-bottom: 100px;
+}
+
+#hive-profile-section .container {
+  padding: 25px 50px 25px 50px;
+  background: #fff;
+}
+
+#hive-profile-section .container:not(.hide):first-of-type {
+  padding-top: 50px;
+}
+
+#hive-profile-section .container:not(.hide):not(:last-of-type) .hive-profile {
+  border-bottom: 1px solid @hive-blue;
+  padding-bottom: 25px;
+}
+
+#hive-profile-section .containe:not(.hide):last-of-type .hive-profile {
+  padding-bottom: 50px;
+}
+
+
+.hive-logo img {
+  max-height: 100px;
+}
+
+.related-sites .main-website:before,
+.related-sites .other-sites:before {
+  content: "\f015";
+  font-family: FontAwesome;
+  display: inline-block;
+  width: 20px;
+}
+
+.related-sites .twitter:before,
+.contact-card .twitter:before {
+  content: "\f099";
+  font-family: FontAwesome;
+  display: inline-block;
+  width: 20px;
+}
+
+.related-sites .facebook:before {
+  content: "\f09a";
+  font-family: FontAwesome;
+  display: inline-block;
+  width: 20px;
+}
+
+.mailbox:before {
+  content: "\f0e0";
+  font-family: FontAwesome;
+  display: inline-block;
+  width: 20px;
+}
+
+.hive-description {
+  margin-top: 30px;
+}
+
+.contact-card {
+  margin-bottom: 15px;
+}
+
+.contact-photo img,
+.contact-photo .placeholder {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.contact-photo .placeholder {
+  background: @hive-blue;
+  color: @heading-dark-blue;
+  text-align: center;
+  font-size: 70px;
+}
+
+.contact-photo .placeholder {
+  background: @hive-blue;
+}
+
+h4.contact-name {
+  margin-bottom: 0;
+}
+
+.contact-title {
+  margin-bottom: 10px;
+}
+
+.related-sites,
+.contact-card li {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+
+/* ********************************************************
+*  Buzz Page
+*/
+
+.blog-feed {
+  border-bottom: 1px solid @hive-blue;
+  overflow: hidden;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.blog-feed:first-child {
+  padding-top: 15px;
+}
+
+.blog-feed .preview-img {
+  float: left;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  max-width: 300px;
+}
+
+.feed-source::before {
+  font-family: FontAwesome;
+  content: "\f0ac";
+  margin-right: 5px;
+  font-style: normal;
+}
+
+.published-date::before {
+  font-family: FontAwesome;
+  content: "\f073";
+  margin-right: 5px;
+  font-style: normal;
+}
+
+.feed-source,
+.published-date {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.blog-feed-content {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+/* ********************************************************
+*  Start a Hive Page
+*/
+
+.start-a-hive-steps {
+  overflow: hidden;
+}
+
+.start-a-hive-logo {
+  width: 150px;
+  float: left;
+}
+
+.start-a-hive-logo + .step-details {
+  float: left;
+  width: calc( 100% - 150px);
+}
+
+.start-a-hive-steps .subsection {
+  float: left;
+  margin-bottom: 100px;
+}
+
+
+/* ********************************************************
+*  Resources Pages
+*/
+
+.resources {
+  img {
+    max-width: 80%;
+  }
+  img.full {
+    max-width: 100%;
+  }
+  img.half {
+    max-width: 50%;
+  }
+  section {
+    padding: 25px 0;
+    overflow: hidden;
+  }
+  section:not(:last-of-type) {
+    border-bottom: 1px solid @hive-blue;
+  }
+  .icon {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    background: #eee;
+    margin: 0 auto 20px auto;
+    text-align: center;
+    img {
+      width: 70px;
+      margin-top: 25px;
+    }
+  }
+  #sidebar {
+    .subsection {
+      padding: 0 15px;
+    }
+  }
+  .download-link,
+  .external-link {
+    display: block;
+    font-style: italic;
+    margin-top: 10px;
+  }
+  .download-link::before {
+    font-family: "FontAwesome";
+    content: "\f019";
+    margin-right: 5px;
+  }
+}
+
+.icon-link {
+  display: block;
+  .h3 {
+    font-weight: 500;
+    color: @link-blue;
+  }
+}
+
+.icon-link:hover {
+  .icon {
+    background: @heading-dark-blue;
+  }
+  .h3 {
+    color: @heading-dark-blue;
+  }
+}
+
+.resource-pages-nav {
+  margin-top: 70px;
+  a {
+    color: inherit;
+    margin-top: 15px;
+  }
+  #to-prev {
+    float: left;
+  }
+  #to-next {
+    text-align: right;
+    float: right;
+  }
+  #to-prev:hover,
+  #to-next:hover {
+    .icon,
+    .section-title {
+      color: @heading-dark-blue;
+    }
+  }
+  .icon {
+    color: @hive-orange;
+    background: none;
+    width: auto;
+    height: auto;
+    float: left;
+    font-size: 35px;
+    margin-bottom: 0;
+  }
+  .text {
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: calc( 100% - 50px );
+    .nav-type {
+      color: @hive-grey;
+    }
+    .section-title {
+      font-weight: bold;
+      font-style: italic;
+      font-size: 18px;
+      line-height: 1;
+      color: @link-blue;
+    }
+  }
+}
+
+
+.resources-sidebar-link-hover {
+  background: @hive-blue;
+  color: #fff;
+}
+
+.resources-subsection:not(:last-of-type) {
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+
+#resources-sidebar {
+  background: #fff;
+  padding: 15px 0;
+  margin-bottom: 20px;
+  h3 {
+    padding-left: 15px;
+  }
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+    text-transform: uppercase;
+    width: 100%;
+  }
+  a {
+    padding: 5px 15px;
+    display: block;
+    width: 100%;
+  }
+  a:hover {
+    .resources-sidebar-link-hover;
+  }
+  li.current-menu-item {
+    a {
+      .resources-sidebar-link-hover;
+      font-weight: 700;
+    }
+  }
+}
+
+/* ********************************************************
+*  Locations Page
+*/
+
+.connect {
+  img.badge-preview {
+    width: 100%;
+  }
+  .btn.hive-btn {
+    margin-bottom: 20px;
+  }
+  #main .subsection {
+    float: left;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    border-top: 1px solid @hive-blue;
+    width: 100%;
+  }
+  .subsection:last-of-type {
+    border-bottom: 1px solid @hive-blue;
+  }
+}
+
+
+/* ********************************************************
+*  Coming Soon page
+*/
+
+body.page-template-page-coming-soon-php {
+  background-image: none;
+  background: linear-gradient(#B5B5B5 2%, #FFF 40%, #FFF 100%);
+}
+
+body.page-template-page-coming-soon-php nav {
+  display: none;
+}
+
+body.page-template-page-coming-soon-php .logo {
+  width: 250px;
+  margin-top: 50px;
+  margin-bottom: 150px;
+}
+
+body.page-template-page-coming-soon-php .coming-soon-message {
+  margin-bottom: 100px;
+}
+
+body.page-template-page-coming-soon-php h1 {
+  color: @hive-orange;
+}
+
+body.page-template-page-coming-soon-php h2,
+body.page-template-page-coming-soon-php h2 > * {
+  color: @heading-dark-blue;
+}
+
+@media (max-width: 767px) {
+  body.page-template-page-coming-soon-php .logo {
+    width: 250px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  body.page-template-page-coming-soon-php h1 {
+    font-size: 30px;
+  }
+  body.page-template-page-coming-soon-php h2 {
+    font-size: 20px;
+  }
+}
+
+
+/* ********************************************************
+*  Widgets
+*/
+
+.hive-widget {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.hive_spotlight_widget {
+  margin-bottom: 50px;
+}
+
+.hive_spotlight_widget img {
+  max-width: 100%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+
+/* ********************************************************
+*  Responsive
+*/
+
+/* *****************
+* Show sub-menus on top nav.
+*/
+@media (max-width: 1000px) {
+  .resources {
+    .download-link {
+      margin-bottom: 10px;
+    }
+    .icon-link {
+      margin-bottom: 30px;
+    }
+    .subsection {
+      img {
+        width: 70%;
+      }
+    }
+  }
+  #resources-sidebar {
+    display: none;
+  }
+  #sidebar-container {
+    padding-top: 0;
+  }
+  .navbar {
+    .header-logo {
+      margin-left: 10px;
+      float: left;
+      img {
+        max-height: 60px;
+        display: block;
+      }
+    }
+    .sub-menu {
+      display: block;
+      list-style: none;
+      padding: 0;
+      overflow: hidden;
+      background: #fff;
+      li a {
+        padding: 5px 20px;
+        line-height: 20px;
+        width: 100%;
+        float: left;
+        color: @body-copy;
+      }
+      li > a:hover,
+      .current-menu-item > a {
+        background: @hive-blue;
+        color: #fff;
+      }
+    }
+  }
+  .navbar-header {
+    .header-logo img {
+      display: block;
+    }
+  }
+  #tabzilla,
+  .navbar-nav .header-logo {
+    display: none;
+  }
+  .nav > li > a:hover,
+  .nav > li > a:focus,
+  .current-menu-item > a {
+    background: @hive-yellow;
+  }
+  .navbar-nav > li > a {
+    padding: 10px;
+  }
+  .navbar-toggle {
+    display: block;
+  }
+  .navbar-header {
+    float: none;
+  }
+  .navbar-left,.navbar-right {
+    float: none !important;
+  }
+  .navbar-toggle {
+    display: block;
+  }
+  .navbar-collapse {
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+  }
+  .navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+  }
+  .navbar-collapse.collapse {
+    display: none!important;
+  }
+  .navbar-nav {
+    float: none!important;
+    margin-top: 7.5px;
+  }
+  .navbar-nav > li {
+    float: none;
+  }
+  .navbar-nav > li > a {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .collapse.in {
+    display:block !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar .container,
+  .navbar-collapse {
+    padding-left: 0;
+  }
+  .general-banner .container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  footer > *,
+  footer p {
+    text-align: center !important;
+  }
+  h1,
+  .h1 {
+    font-size: 30px;
+  }
+
+  h2,
+  .h2 {
+    font-size: 25px;
+  }
+
+  h3,
+  .h3 {
+    font-size: 18px;
+  }
+  .btn.hive-btn {
+    font-size: 15px;
+  }
+  #main  {
+    margin-bottom: 30px;
+  }
+  /* *****************
+  *  Banner
+  */
+  #home-banner {
+    background-image: url(img/hive_banner_landing_mobile.png);
+    padding-bottom: 200px;
+  }
+  #about-banner {
+    background-image: url(img/hive_banner_about_mobile.jpg);
+  }
+  #buzz-banner {
+    background-image: url(img/hive_banner_buzz_mobile.jpg);
+  }
+  #start-a-hive-banner {
+    background-image: url(img/hive_banner_startahive_mobile.jpg);
+  }
+  #resources-banner {
+    /*background-image: url();
+    background-size: cover;*/
+  }
+  #connect-banner {
+    background-image: url(img/hive_banner_connect_mobile.jpg);
+  }
+  /* *****************
+  *  Home Page
+  */
+  #welcome-box {
+    margin: 30px 0 30px 0;
+  }
+  #hive-intro-box {
+    margin: 30px 0;
+  }
+  /* *****************
+  *  Locations Page
+  */
+  #hive-profile-section .hive-profile h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  #hive-profile-section .hive-logo,
+  .contact-photo {
+    margin-bottom: 10px;
+  }
+
+  .contact-card {
+    /*text-align: center;*/
+    margin-bottom: 25px;
+  }
+  /* *****************
+  *  Buzz Page
+  */
+  .blog-feed .preview-img {
+    float: none;
+    margin-right: 0;
+    margin-bottom: 15px;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 479px) {
+  /* *****************
+  *  Start a Hive Page
+  */
+  .start-a-hive-logo,
+  .start-a-hive-logo + .step-details {
+    width: 100%;
+    float: none;
+  }
+  /* *****************
+  *  Resources page
+  */
+  .resources {
+    .subsection {
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
