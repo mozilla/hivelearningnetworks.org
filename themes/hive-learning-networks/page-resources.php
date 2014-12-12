@@ -15,7 +15,7 @@
               ?>
             </h1>
             <div class="page-description">
-              <p>Use these Hive logos for your events, websites and printed materials. The Hive Cookbook offers more in-depth information about Hive events, communities and learning networks.</p>
+              <p>Useful information to help you bring the Hive Learning Networks model to your community.</p>
             </div>
           </div>
         </div>
