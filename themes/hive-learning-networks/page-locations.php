@@ -31,16 +31,16 @@
               <ul class="hive-list no-bullet">
                 <li><a data-profile="sf-bay-area">Bay Area</a></li>
                 <li><a data-profile="chattanooga">Chattanooga</a></li>
+                <li><a data-profile="denver">Denver</a></li>
                 <li><a data-profile="india">India</a></li>
-                <li><a data-profile="indonesia">Indonesia</a></li>
                 <li><a data-profile="kansas-city">Kansas City</a></li>
               </ul>
             </div>
             <div id="hive-coming-menu">
               <h4 class="all-caps">Hive Coming Soon</h4>
               <ul class="hive-list no-bullet">
+                <li><a data-profile="">Mombasa</a></li>
                 <li><a data-profile="">Vancouver</a></li>
-                <li><a data-profile="">Denver</a></li>
               </ul>
             </div>
           </div>
@@ -513,6 +513,60 @@
       <!-- Info for Hive Chattanooga Ends ===== -->
 
 
+      <!-- Info for Hive Denver Starts ======================================== -->
+      <div class="container">
+        <div class="hive-profile" data-profile="denver">
+          <div class="row">
+            <div class="col-md-12">
+              <h3 class="the-hive-name">Hive Denver</h3>
+            </div>
+          </div>
+          <div class="row">
+            <!-- left half =========================== -->
+            <div class="col-md-8">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="hive-logo">
+                    <a href="https://www.facebook.com/hivedenverco">
+                      <img src="<?php echo get_template_directory_uri(); ?>/img/hive-logos/Hive_Community_Denver.png" />
+                    </a>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <ul class="no-bullet related-sites">
+                    <li><a class="facebook" href="https://www.facebook.com/hivedenverco">www.facebook.com/hivedenverco</a></li>
+                    <li><a class="twitter" href="http://twitter.com/@HiveDenver5280">twitter.com/@HiveDenver5280</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="row hive-description">
+                <div class="col-md-12">
+                  <p>
+                    Established in 2014, the Hive Denver Learning Community supports connected learning experiences within the Denver–Boulder corridor. Hive Denver represents connected learning in action; an interconnected platform dedicated to combining and recombining partnerships, practices, and programs for youth, educators, and communities. It is a network buzzing with learning activities that break the boundaries of formal education and workforce preparation. Using design principles, high levels of expertise, and a commitment to engaging youth and educators in making connections between in- and out-of-school environments, Hive Denver acts as a catalyst of connected learning practices and cross-pollinates between industry, organizations, schools, policies, and theories.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- right half (contacts) =========================== -->
+            <div class="col-md-4">
+              <div class="row contact-card">
+                <div class="col-md-4">
+                  <div class="contact-photo"><img src="<?php echo get_template_directory_uri(); ?>/img/contacts/JimStephens.jpg" /></div>
+                </div>
+                <div class="col-md-8">
+                  <h4 class="contact-name">Jim Stephens</h4>
+                  <div class="contact-title"></div>
+                  <ul class="no-bullet">
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Info for Hive Denver Ends ===== -->
+
+
       <!-- Info for Hive India Starts ======================================== -->
       <div class="container">
         <div class="hive-profile" data-profile="india">
@@ -582,76 +636,6 @@
         </div>
       </div>
       <!-- Info for Hive India Ends ===== -->
-
-
-      <!-- Info for Hive Indonesia Starts ======================================== -->
-      <div class="container">
-        <div class="hive-profile" data-profile="indonesia">
-          <div class="row">
-            <div class="col-md-12">
-              <h3 class="the-hive-name">Hive Indonesia</h3>
-            </div>
-          </div>
-          <div class="row">
-            <!-- left half =========================== -->
-            <div class="col-md-8">
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="hive-logo">
-                    <a href="http://hive.mozilla.web.id/">
-                      <img src="<?php echo get_template_directory_uri(); ?>/img/hive-logos/Hive_Community_Indonesia.png" />
-                    </a>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <ul class="no-bullet related-sites">
-                    <li><a class="main-website" href="http://hive.mozilla.web.id/">hive.mozilla.web.id/</a></li>
-                    <li><a class="twitter" href="https://twitter.com/ID_Hive">twitter.com/ID_Hive</a></li>
-                    <li><a class="facebook" href="https://www.facebook.com/ID.Hive">www.facebook.com/ID.Hive</a></li>
-                  </ul>
-                </div>
-              </div>
-              <div class="row hive-description">
-                <div class="col-md-12">
-                  <p>
-                    Hive Indonesia was founded in 2013 by Viking Karwur, Benny Chandra, Artanto Ishaam, and Fauzan Alfi after participating in the Webmaker - Mozilla Reps Training Days in Athens, Greece. Their mission is bringing the spirit of learning and making to young people in Indonesia, through collaborations with local government, schools, batik designers, musicians, artists, app makers, robotics engineers, IT communities, and more. They have also hosted Hive Pop-Up events including Hive Surabaya, Hive Bandung, Hive Bekasi, and Hive Jakarta.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <!-- right half (contacts) =========================== -->
-            <div class="col-md-4">
-              <div class="row contact-card">
-                <div class="col-md-4">
-                  <div class="contact-photo"><img src="<?php echo get_template_directory_uri(); ?>/img/contacts/BennyChandra.jpg" /></div>
-                </div>
-                <div class="col-md-8">
-                  <h4 class="contact-name">Benny Chandra</h4>
-                  <div class="contact-title">Co-Founder</div>
-                  <ul class="no-bullet">
-                    <li><a class="mailbox" href="mailto:bennychandra@gmail.com">bennychandra@gmail.com</a></li>
-                    <li><a class="twitter" href="http://twitter.com/@bennychandra">@bennychandra</a></li>
-                  </ul>
-                </div>
-              </div>
-              <div class="row contact-card">
-                <div class="col-md-4">
-                  <div class="contact-photo"><img src="<?php echo get_template_directory_uri(); ?>/img/contacts/VikingKarwur.jpg" /></div>
-                </div>
-                <div class="col-md-8">
-                  <h4 class="contact-name">Viking Karwur</h4>
-                  <div class="contact-title">Co-Founder</div>
-                  <ul class="no-bullet">
-                    <li><a class="mailbox" href="mailto:vikingkarwur@gmail.com">vikingkarwur@gmail.com</a></li>
-                    <li><a class="twitter" href="http://twitter.com/@vikingkarwur">@vikingkarwur</a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- Info for Hive Indonesia Ends ===== -->
 
 
       <!-- Info for Hive Kansas City Starts ======================================== -->
