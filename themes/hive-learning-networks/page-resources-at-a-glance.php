@@ -15,7 +15,7 @@
               ?>
             </h1>
             <div class="page-description">
-              <p>Useful information to help you bring the Hive Learning Networks model to your community.</p>
+              <p>Learn more about the Hive Learning Networks model.</p>
             </div>
           </div>
         </div>
@@ -45,7 +45,7 @@
               <h5>Over the next five years, Hive’s ambitious goals in support of its vision are:</h5>
               <div class="text-center">
                 <img src="<?php echo get_template_directory_uri(); ?>/resources/Goals_Infographic.gif" class="half" />
-                <a href="<?php echo get_template_directory_uri(); ?>/resources/Goals_Infographic.gif" class="download-link text-center">Download Infographic</a>
+                <a href="<?php echo get_template_directory_uri(); ?>/resources/Goals_Infographic.pdf" class="download-link text-center">Download Infographic</a>
               </div>
               <h5>Mobilize</h5>
               <p>
