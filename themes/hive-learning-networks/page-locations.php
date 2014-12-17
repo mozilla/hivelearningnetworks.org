@@ -502,7 +502,7 @@
                   <div class="contact-title">Project Coordinator</div>
                   <ul class="no-bullet">
                     <li><a class="mailbox" href="mailto:geoff@mozillafoundation.org">geoff@mozillafoundation.org</a></li>
-                    <li><a class="twitter" href="http://twitter.com/@gmillener ">@gmillener</a></li>
+                    <li><a class="twitter" href="http://twitter.com/@gmillener">@gmillener</a></li>
                   </ul>
                 </div>
               </div>
@@ -557,6 +557,34 @@
                   <h4 class="contact-name">Jim Stephens</h4>
                   <div class="contact-title"></div>
                   <ul class="no-bullet">
+                    <li><a class="mailbox" href="mailto:hivedenver@gmail.com">hivedenver@gmail.com</a></li>
+                    <li><a class="twitter" href="http://twitter.com/@rethinktheboxs">@rethinktheboxs</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="row contact-card">
+                <div class="col-md-4">
+                  <div class="contact-photo"><img src="<?php echo get_template_directory_uri(); ?>/img/contacts/SarabethBerk.jpg" /></div>
+                </div>
+                <div class="col-md-8">
+                  <h4 class="contact-name">Sarabeth Berk</h4>
+                  <div class="contact-title"></div>
+                  <ul class="no-bullet">
+                    <li><a class="mailbox" href="mailto:SARABETH_BERK@dpsk12.org">SARABETH_BERK@dpsk12.org</a></li>
+                    <li><a class="twitter" href="http://twitter.com/@sbberk11">@sbberk11</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="row contact-card">
+                <div class="col-md-4">
+                  <div class="contact-photo"><img src="<?php echo get_template_directory_uri(); ?>/img/contacts/PaulKim.jpg" /></div>
+                </div>
+                <div class="col-md-8">
+                  <h4 class="contact-name">Paul Kim</h4>
+                  <div class="contact-title"></div>
+                  <ul class="no-bullet">
+                    <li><a class="mailbox" href="mailto:paul.kim@coloradoacademy.org">paul.kim@coloradoacademy.org</a></li>
+                    <li><a class="twitter" href="http://twitter.com/@pjikim">@pjikim</a></li>
                   </ul>
                 </div>
               </div>
