@@ -45,7 +45,7 @@
                 <div class="subsection">
                   <div class="col-md-12">
                     <h3>Online Discussion Forum</h3>
-                    <p>Ask questions, connect with Hive members from around the world and post your experiences on the <a href="https://webmaker.org/badges/hive-community-member">#teachtheweb online discussion forum</a>.</p>
+                    <p>Ask questions, connect with Hive members from around the world and post your experiences on the <a href="http://discourse.webmaker.org/category/hive">#teachtheweb online discussion forum</a>.</p>
                   </div>
                 </div>
                 <div class="subsection">
