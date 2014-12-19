@@ -34,13 +34,13 @@
                 <li><a data-profile="denver">Denver</a></li>
                 <li><a data-profile="india">India</a></li>
                 <li><a data-profile="kansas-city">Kansas City</a></li>
+                <li><a data-profile="vancouver">Vancouver</a></li>
               </ul>
             </div>
             <div id="hive-coming-menu">
               <h4 class="all-caps">Hive Coming Soon</h4>
               <ul class="hive-list no-bullet">
                 <li><a data-profile="">Mombasa</a></li>
-                <li><a data-profile="">Vancouver</a></li>
               </ul>
             </div>
           </div>
@@ -734,6 +734,88 @@
         </div>
       </div>
       <!-- Info for Hive Kansas City Ends ===== -->
+
+
+      <!-- Info for Hive Vancouver Starts ======================================== -->
+      <div class="container">
+        <div class="hive-profile" data-profile="vancouver">
+          <div class="row">
+            <div class="col-md-12">
+              <h3 class="the-hive-name">Hive Vancouver</h3>
+            </div>
+          </div>
+          <div class="row">
+            <!-- left half =========================== -->
+            <div class="col-md-8">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="hive-logo">
+                    <a href="http://hivevan.org/">
+                      <img src="<?php echo get_template_directory_uri(); ?>/img/hive-logos/Hive_Community_Vancouver.png" />
+                    </a>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <ul class="no-bullet related-sites">
+                    <li><a class="main-website" href="http://hivevan.org/">hivevan.org</a></li>
+                    <li><a class="twitter" href="http://twitter.com/hivelearningvan">twitter.com/hivelearningvan</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="row hive-description">
+                <div class="col-md-12">
+                  <p>
+                    The Hive Vancouver Learning Community was established in 2014 as a collaboration between the Vancouver Public Library, the Museum of Vancouver, Open Media, the Vancouver Maker Foundation, Vancouver Community Laboratory, Mozilla Webmaker and other local organizations working to enrich digital learning opportunities in the Greater Vancouver region. This effort brings together educators, technologists, mentors and institutions to design innovative, self-led digital learning experiences for youth and marginalized groups. Through free hands-on events, resources and programmes, the community aims to enrich the local ecosystem of digital opportunities to help Vancouverites develop key 21st-century skills, together.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- right half (contacts) =========================== -->
+            <div class="col-md-4">
+              <div class="row contact-card">
+                <div class="col-md-4">
+                  <div class="contact-photo"><img src="<?php echo get_template_directory_uri(); ?>/img/contacts/KatBraybrooke.jpeg" /></div>
+                </div>
+                <div class="col-md-8">
+                  <h4 class="contact-name">Kat Braybrooke</h4>
+                  <div class="contact-title">Co-founder</div>
+                  <ul class="no-bullet">
+                    <li><a class="mailbox" href="mailto:hive-van@mozilla.org">hive-van@mozilla.org</a></li>
+                    <li><a class="twitter" href="http://twitter.com/@codekat">@codekat</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="row contact-card">
+                <div class="col-md-4">
+                  <div class="contact-photo"><img src="<?php echo get_template_directory_uri(); ?>/img/contacts/HelenLee.jpeg" /></div>
+                </div>
+                <div class="col-md-8">
+                  <h4 class="contact-name">Helen Lee</h4>
+                  <div class="contact-title">Co-founder</div>
+                  <ul class="no-bullet">
+                    <li><a class="mailbox" href="mailto:hive-van@mozilla.org">hive-van@mozilla.org</a></li>
+                    <li><a class="twitter" href="http://twitter.com/@heli_tomato">@heli_tomato</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="row contact-card">
+                <div class="col-md-4">
+                  <div class="contact-photo"><img src="<?php echo get_template_directory_uri(); ?>/img/contacts/DetheElza.jpg" /></div>
+                </div>
+                <div class="col-md-8">
+                  <h4 class="contact-name">Dethe Elza</h4>
+                  <div class="contact-title">Co-founder</div>
+                  <ul class="no-bullet">
+                    <li><a class="mailbox" href="mailto:hive-van@mozilla.org">hive-van@mozilla.org</a></li>
+                    <li><a class="twitter" href="http://twitter.com/@dethe">@dethe</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Info for Hive Vancouver Ends ===== -->
     </div>
 
 </div> <!-- closing #wrap -->
