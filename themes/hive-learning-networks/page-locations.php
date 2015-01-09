@@ -34,13 +34,13 @@
                 <li><a data-profile="denver">Denver</a></li>
                 <li><a data-profile="india">India</a></li>
                 <li><a data-profile="kansas-city">Kansas City</a></li>
+                <li><a data-profile="mombasa">Mombasa</a></li>
                 <li><a data-profile="vancouver">Vancouver</a></li>
               </ul>
             </div>
             <div id="hive-coming-menu">
               <h4 class="all-caps">Hive Coming Soon</h4>
               <ul class="hive-list no-bullet">
-                <li><a data-profile="">Mombasa</a></li>
               </ul>
             </div>
           </div>
@@ -723,6 +723,78 @@
       </div>
       <!-- Info for Hive Kansas City Ends ===== -->
 
+      <!-- Info for Hive Mombasa Starts ======================================== -->
+      <div class="container">
+        <div class="hive-profile" data-profile="mombasa">
+          <div class="row">
+            <div class="col-md-12">
+              <h3 class="the-hive-name">Hive Mombasa</h3>
+            </div>
+          </div>
+          <div class="row">
+            <!-- left half =========================== -->
+            <div class="col-md-8">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="hive-logo">
+                    <a href="http://mombasatech.org/">
+                      <img src="<?php echo get_template_directory_uri(); ?>/img/hive-logos/Hive_Community_Mombasa.png" />
+                    </a>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <ul class="no-bullet related-sites">
+                    <li><a class="mailbox" href="mailto:info@mombasatech.org">info@mombasatech.org</a></li>
+                    <li><a class="main-website" href="http://mombasatech.org/">mombasatech.org</a></li>
+                    <li><a class="facebook" href="https://www.facebook.com/groups/mombasatech/">www.facebook.com/groups/mombasatech</a></li>
+                    <li><a class="instagram" href="http://instagram.com/mombasatech">instagram.com/mombasatech</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="row hive-description">
+                <div class="col-md-12">
+                  <p>
+                    Hive Mombasa, inaugurated in 2014 is a program of Mombasa Tech, a community-based organization that aims to represent more than 50 organizations including schools, museums, libraries, after-school programs, and community centers within Mombasa City and its environs.
+                  </p>
+                  <p>
+                    Hive Mombasa envisions the city as a connected community where members create programs for youth to follow their passions through the integration and application of digital media and technology in adult-supported environments.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- right half (contacts) =========================== -->
+            <div class="col-md-4">
+              <div class="row contact-card">
+                <div class="col-md-4">
+                  <div class="contact-photo"><img src="<?php echo get_template_directory_uri(); ?>/img/contacts/SaidFuad.png" /></div>
+                </div>
+                <div class="col-md-8">
+                  <h4 class="contact-name">Said Fuad</h4>
+                  <div class="contact-title">Co-founder | Executive Director</div>
+                  <ul class="no-bullet">
+                    <li><a class="mailbox" href="mailto:saidfuad@mombasatech.org">saidfuad@mombasatech.org</a></li>
+                    <li><a class="twitter" href="http://twitter.com/@saeed_fuad">@saeed_fuad</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="row contact-card">
+                <div class="col-md-4">
+                  <div class="contact-photo"><img src="<?php echo get_template_directory_uri(); ?>/img/contacts/AlifiyahGanijee.png" /></div>
+                </div>
+                <div class="col-md-8">
+                  <h4 class="contact-name">Alifiyah Ganijee</h4>
+                  <div class="contact-title">Co-founder | Director of Operations</div>
+                  <ul class="no-bullet">
+                    <li><a class="mailbox" href="mailto:alifiyahganijee@mombasatech.org">alifiyahganijee@mombasatech.org</a></li>
+                    <li><a class="twitter" href="http://twitter.com/@alifyaganijee">@alifyaganijee</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Info for Hive Mombasa Ends ===== -->
 
       <!-- Info for Hive Vancouver Starts ======================================== -->
       <div class="container">
