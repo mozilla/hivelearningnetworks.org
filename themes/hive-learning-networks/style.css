@@ -507,6 +507,12 @@ footer p {
   display: inline-block;
   width: 20px;
 }
+.instagram:before {
+  content: "\f16d";
+  font-family: FontAwesome;
+  display: inline-block;
+  width: 20px;
+}
 .hive-description {
   margin-top: 30px;
 }
