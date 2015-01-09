@@ -10,6 +10,8 @@ $("#hive-intro-menu .hive-list li").click(function(event) {
                         .attr("href", "http://twitter.com/" + twitterHandle)
                         .text(twitterHandle)
                         .removeClass("hide");
+  } else {
+    $("#hive-intro-box .twitter").addClass("hide");
   }
   $("#hive-intro-box .hive-btn")
                       .attr("href", websiteURL)
