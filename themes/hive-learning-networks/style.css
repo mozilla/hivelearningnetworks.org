@@ -373,6 +373,9 @@ footer p {
   padding-left: 0;
   padding-right: 0;
 }
+#hive-intro-box .hive-btn[href=""] {
+  display: none;
+}
 .hive-list {
   color: #FFF;
 }
@@ -396,13 +399,16 @@ footer p {
 .hive-list .the-details {
   display: none;
 }
-#hive-intro-box .twitter {
+#hive-intro-box .twitter:not([href=""]) {
   display: block;
   font-size: 20px;
   margin-top: 10px;
   margin-bottom: 20px;
 }
-#hive-intro-box .twitter:before {
+#hive-intro-box .twitter[href=""] {
+  background: red;
+}
+#hive-intro-box .twitter:not([href=""]):before {
   content: "\f099";
   font-family: FontAwesome;
   margin-right: 5px;
