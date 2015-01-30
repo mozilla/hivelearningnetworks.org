@@ -46,14 +46,21 @@ function hive_register_sidebars() {
     'id' => 'hive-short-intro-networks-widget',
     'before_widget' => '<li class="hive-widget short_intro_widget">',
     'after_widget' => '</li>',
-  ) );;
+  ) );
 
   register_sidebar( array(
     'name' => 'Hive Short Intro - Communities (Home Page)',
     'id' => 'hive-short-intro-communities-widget',
     'before_widget' => '<li class="hive-widget short_intro_widget">',
     'after_widget' => '</li>',
-  ) );;
+  ) );
+
+  register_sidebar( array(
+    'name' => 'Hive Short Intro - Coming Soon (Home Page)',
+    'id' => 'hive-short-intro-coming-soon-widget',
+    'before_widget' => '<li class="hive-widget short_intro_widget">',
+    'after_widget' => '</li>',
+  ) );
 
   register_sidebar( array(
     'name' => 'Hive Spotlight (Buzz Page)',
@@ -62,7 +69,7 @@ function hive_register_sidebars() {
     'after_widget' => '</div>',
     'before_title' => '<h3>',
     'after_title' => '</h3>',
-  ) );;
+  ) );
 }
 
 add_action( 'widgets_init', 'hive_register_sidebars' );

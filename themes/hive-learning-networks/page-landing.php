@@ -40,7 +40,7 @@
             <p class="general-cta">
               Join our mailing list to learn about Hive and find opportunities to get involved.
             </p>
-            <a class="twitter hide"></a>
+            <a class="twitter" href=""></a>
             <div>
               <a class="btn hive-btn full-width" href="https://sendto.mozilla.org/page/s/hive-learning-networks-updates">
                 Join our mailing list
@@ -61,6 +61,15 @@
                 <?php if ( dynamic_sidebar('hive-short-intro-communities-widget') ) : else : endif; ?>
               </ul>
             </div>
+
+            <h4 class="all-caps">Coming Soon</h4>
+            <div>
+              <ul class="hive-list coming-soon no-bullet">
+                <?php if ( dynamic_sidebar('hive-short-intro-coming-soon-widget') ) : else : endif; ?>
+              </ul>
+            </div>
+          </div>
+
           </div>
         </div>
       </div>
