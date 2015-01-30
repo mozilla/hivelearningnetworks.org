@@ -41,6 +41,11 @@
             <div id="hive-coming-menu">
               <h4 class="all-caps">Hive Coming Soon</h4>
               <ul class="hive-list no-bullet">
+                <li><a data-profile="pilani">Pilani</a></li>
+                <li><a data-profile="manchester">Manchester</a></li>
+                <li><a data-profile="margate">Margate</a></li>
+                <li><a data-profile="stoke">Stoke</a></li>
+                <li><a data-profile="cascadia">Cascadia</a></li>
               </ul>
             </div>
           </div>
