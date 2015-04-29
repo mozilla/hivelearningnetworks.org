@@ -32,7 +32,7 @@
                 <li><a data-profile="sf-bay-area">Bay Area</a></li>
                 <li><a data-profile="chattanooga">Chattanooga</a></li>
                 <li><a data-profile="denver">Denver</a></li>
-                <li><a data-profile="india">India</a></li>
+                <li><a data-profile="bangalore">Bangalore</a></li>
                 <li><a data-profile="kansas-city">Kansas City</a></li>
                 <li><a data-profile="mombasa">Mombasa</a></li>
                 <li><a data-profile="vancouver">Vancouver</a></li>
@@ -588,12 +588,12 @@
       <!-- Info for Hive Denver Ends ===== -->
 
 
-      <!-- Info for Hive India Starts ======================================== -->
+      <!-- Info for Hive Bangalore Starts ======================================== -->
       <div class="container">
-        <div class="hive-profile" data-profile="india">
+        <div class="hive-profile" data-profile="bangalore">
           <div class="row">
             <div class="col-md-12">
-              <h3 class="the-hive-name">Hive India</h3>
+              <h3 class="the-hive-name">Hive Bangalore</h3>
             </div>
           </div>
           <div class="row">
@@ -602,24 +602,22 @@
               <div class="row">
                 <div class="col-md-6">
                   <div class="hive-logo">
-                    <a href="http://hive.mozillaindia.org/">
-                      <img src="<?php echo get_template_directory_uri(); ?>/img/hive-logos/Hive_Community_India.png" />
+                    <a href="https://www.facebook.com/HiveBangalore?fref=ts">
+                      <img src="<?php echo get_template_directory_uri(); ?>/img/hive-logos/Hive_Community_Bangalore.png" />
                     </a>
                   </div>
                 </div>
                 <div class="col-md-6">
                   <ul class="no-bullet related-sites">
-                    <li><a class="main-website" href="http://hive.mozillaindia.org/">hive.mozillaindia.org/</a></li>
-                    <li><a class="other-sites" href="http://hiveindia.tumblr.com/">hiveindia.tumblr.com/</a></li>
-                    <li><a class="twitter" href="https://twitter.com/hiveindia">twitter.com/hiveindia</a></li>
-                    <li><a class="facebook" href="https://www.facebook.com/HiveIndia">www.facebook.com/HiveIndia</a></li>
+                    <li><a class="twitter" href="https://twitter.com/@HiveBangalore">twitter.com/@HiveBangalore</a></li>
+                    <li><a class="facebook" href="https://www.facebook.com/HiveBangalore?fref=ts">www.facebook.com/HiveBangalore</a></li>
                   </ul>
                 </div>
               </div>
               <div class="row hive-description">
                 <div class="col-md-12">
                   <p>
-                    Hive India promotes experiential learning through the interests of young people and the creative use of digital media. Hive India, founded in September 2013, is an attempt to map and empower a community of educators and creative people who share a passion to innovate, evolve and change the learning landscape.
+                    Mission: To transform the learning landscape by empowering youth and educators to enact Connected Learning through a diverse network of civic and cultural institutions.
                   </p>
                 </div>
               </div>
@@ -632,7 +630,7 @@
                 </div>
                 <div class="col-md-8">
                   <h4 class="contact-name">Vineel Reddy Pindi</h4>
-                  <div class="contact-title">Founder</div>
+                  <div class="contact-title">Co-founder</div>
                   <ul class="no-bullet">
                     <li><a class="mailbox" href="mailto:pindivineelreddy@gmail.com">pindivineelreddy@gmail.com</a></li>
                     <li><a class="twitter" href="http://twitter.com/@vineelreddy">@vineelreddy</a></li>
@@ -641,14 +639,26 @@
               </div>
               <div class="row contact-card">
                 <div class="col-md-4">
-                  <div class="contact-photo"><img src="<?php echo get_template_directory_uri(); ?>/img/contacts/VikasBurri.jpg" /></div>
+                  <div class="contact-photo"><img src="<?php echo get_template_directory_uri(); ?>/img/contacts/GalaxyKadiyala.jpg" /></div>
                 </div>
                 <div class="col-md-8">
-                  <h4 class="contact-name">Vikas Burri</h4>
-                  <div class="contact-title">Partnerships/Fundraising</div>
+                  <h4 class="contact-name">Galaxy Kadiyala</h4>
+                  <div class="contact-title">Co-founder</div>
                   <ul class="no-bullet">
-                    <li><a class="mailbox" href="mailto:vikas.burri@gmail.com">vikas.burri@gmail.com</a></li>
-                    <li><a class="twitter" href="http://twitter.com/@vikasburri">@vikasburri</a></li>
+                    <li><a class="mailbox" href="mailto:igalaxyk@gmail.com">igalaxyk@gmail.com</a></li>
+                    <li><a class="twitter" href="https://twitter.com/@galaxyk">@galaxyk</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="row contact-card">
+                <div class="col-md-4">
+                  <div class="contact-photo"><img src="<?php echo get_template_directory_uri(); ?>/img/contacts/AaratiRao.jpg" /></div>
+                </div>
+                <div class="col-md-8">
+                  <h4 class="contact-name">Aarati Rao</h4>
+                  <div class="contact-title">Co-founder</div>
+                  <ul class="no-bullet">
+                    <li><a class="mailbox" href="mailto:aaratirao90@gmail.com">aaratirao90@gmail.com</a></li>
                   </ul>
                 </div>
               </div>
@@ -656,7 +666,7 @@
           </div>
         </div>
       </div>
-      <!-- Info for Hive India Ends ===== -->
+      <!-- Info for Hive Bangalore Ends ===== -->
 
 
       <!-- Info for Hive Kansas City Starts ======================================== -->
