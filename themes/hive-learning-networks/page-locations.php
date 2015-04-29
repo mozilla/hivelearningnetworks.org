@@ -337,19 +337,6 @@
             <div class="col-md-4">
               <div class="row contact-card">
                 <div class="col-md-4">
-                  <div class="contact-photo"><img src="<?php echo get_template_directory_uri(); ?>/img/contacts/KathrynMeisner.jpg" /></div>
-                </div>
-                <div class="col-md-8">
-                  <h4 class="contact-name">Kathryn Meisner</h4>
-                  <div class="contact-title">Director</div>
-                  <ul class="no-bullet">
-                    <li><a class="mailbox" href="mailto:kathryn@mozillafoundation.org">kathryn@mozillafoundation.org</a></li>
-                    <li><a class="twitter" href="http://twitter.com/@kathrynmeisner">@kathrynmeisner</a></li>
-                  </ul>
-                </div>
-              </div>
-              <div class="row contact-card">
-                <div class="col-md-4">
                   <div class="contact-photo"><img src="<?php echo get_template_directory_uri(); ?>/img/contacts/KarenSmith.jpg" /></div>
                 </div>
                 <div class="col-md-8">
@@ -358,19 +345,6 @@
                   <ul class="no-bullet">
                     <li><a class="mailbox" href="mailto:karen@hivetoronto.org">karen@hivetoronto.org</a></li>
                     <li><a class="twitter" href="http://twitter.com/@smithisgeneric">@smithisgeneric</a></li>
-                  </ul>
-                </div>
-              </div>
-              <div class="row contact-card">
-                <div class="col-md-4">
-                  <div class="contact-photo"><img src="<?php echo get_template_directory_uri(); ?>/img/contacts/ColinLacey.jpg" /></div>
-                </div>
-                <div class="col-md-8">
-                  <h4 class="contact-name">Colin Lacey</h4>
-                  <div class="contact-title">Communications and Event Coordinator</div>
-                  <ul class="no-bullet">
-                    <li><a class="mailbox" href="mailto:colin@hivetoronto.org">colin@hivetoronto.org</a></li>
-                    <li><a class="twitter" href="http://twitter.com/@CDLacey">@CDLacey</a></li>
                   </ul>
                 </div>
               </div>
@@ -719,19 +693,6 @@
                   </ul>
                 </div>
               </div>
-              <div class="row contact-card">
-                <div class="col-md-4">
-                  <div class="contact-photo"><img src="<?php echo get_template_directory_uri(); ?>/img/contacts/ShannonAccardo.jpeg" /></div>
-                </div>
-                <div class="col-md-8">
-                  <h4 class="contact-name">Shannon Accardo</h4>
-                  <div class="contact-title">Project Coordinator</div>
-                  <ul class="no-bullet">
-                    <li><a class="mailbox" href="mailto:shannon@mozillafoundation.org">shannon@mozillafoundation.org</a></li>
-                    <li><a class="twitter" href="http://twitter.com/@8spicer8">@8spicer8</a></li>
-                  </ul>
-                </div>
-              </div>
             </div>
           </div>
         </div>
@@ -847,19 +808,6 @@
             </div>
             <!-- right half (contacts) =========================== -->
             <div class="col-md-4">
-              <div class="row contact-card">
-                <div class="col-md-4">
-                  <div class="contact-photo"><img src="<?php echo get_template_directory_uri(); ?>/img/contacts/KatBraybrooke.jpeg" /></div>
-                </div>
-                <div class="col-md-8">
-                  <h4 class="contact-name">Kat Braybrooke</h4>
-                  <div class="contact-title">Co-founder</div>
-                  <ul class="no-bullet">
-                    <li><a class="mailbox" href="mailto:hive-van@mozilla.org">hive-van@mozilla.org</a></li>
-                    <li><a class="twitter" href="http://twitter.com/@codekat">@codekat</a></li>
-                  </ul>
-                </div>
-              </div>
               <div class="row contact-card">
                 <div class="col-md-4">
                   <div class="contact-photo"><img src="<?php echo get_template_directory_uri(); ?>/img/contacts/HelenLee.jpeg" /></div>
