@@ -2,3 +2,4 @@
 .DS_Store
 /themes/hive-learning-networks/media/Hive_Video.*
 node_modules/
+/languages/*
