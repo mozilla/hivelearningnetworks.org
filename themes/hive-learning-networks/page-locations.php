@@ -29,10 +29,10 @@
             <div id="hive-communities-menu">
               <h4 class="all-caps">Hive Learning Communities</h4>
               <ul class="hive-list no-bullet">
+                <li><a data-profile="bangalore">Bangalore</a></li>
                 <li><a data-profile="sf-bay-area">Bay Area</a></li>
                 <li><a data-profile="chattanooga">Chattanooga</a></li>
                 <li><a data-profile="denver">Denver</a></li>
-                <li><a data-profile="bangalore">Bangalore</a></li>
                 <li><a data-profile="kansas-city">Kansas City</a></li>
                 <li><a data-profile="mombasa">Mombasa</a></li>
                 <li><a data-profile="vancouver">Vancouver</a></li>
@@ -381,6 +381,87 @@
       <!-- Info for Hive Toronto Ends ===== -->
 
 
+      <!-- Info for Hive Bangalore Starts ======================================== -->
+      <div class="container">
+        <div class="hive-profile" data-profile="bangalore">
+          <div class="row">
+            <div class="col-md-12">
+              <h3 class="the-hive-name">Hive Bangalore</h3>
+            </div>
+          </div>
+          <div class="row">
+            <!-- left half =========================== -->
+            <div class="col-md-8">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="hive-logo">
+                    <a href="https://www.facebook.com/HiveBangalore?fref=ts">
+                      <img src="<?php echo get_template_directory_uri(); ?>/img/hive-logos/Hive_Community_Bangalore.png" />
+                    </a>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <ul class="no-bullet related-sites">
+                    <li><a class="twitter" href="https://twitter.com/@HiveBangalore">twitter.com/@HiveBangalore</a></li>
+                    <li><a class="facebook" href="https://www.facebook.com/HiveBangalore?fref=ts">www.facebook.com/HiveBangalore</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="row hive-description">
+                <div class="col-md-12">
+                  <p>
+                    Mission: To transform the learning landscape by empowering youth and educators to enact Connected Learning through a diverse network of civic and cultural institutions.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- right half (contacts) =========================== -->
+            <div class="col-md-4">
+              <div class="row contact-card">
+                <div class="col-md-4">
+                  <div class="contact-photo"><img src="<?php echo get_template_directory_uri(); ?>/img/contacts/VineelReddyPindi.jpg" /></div>
+                </div>
+                <div class="col-md-8">
+                  <h4 class="contact-name">Vineel Reddy Pindi</h4>
+                  <div class="contact-title">Co-founder</div>
+                  <ul class="no-bullet">
+                    <li><a class="mailbox" href="mailto:pindivineelreddy@gmail.com">pindivineelreddy@gmail.com</a></li>
+                    <li><a class="twitter" href="http://twitter.com/@vineelreddy">@vineelreddy</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="row contact-card">
+                <div class="col-md-4">
+                  <div class="contact-photo"><img src="<?php echo get_template_directory_uri(); ?>/img/contacts/GalaxyKadiyala.jpg" /></div>
+                </div>
+                <div class="col-md-8">
+                  <h4 class="contact-name">Galaxy Kadiyala</h4>
+                  <div class="contact-title">Co-founder</div>
+                  <ul class="no-bullet">
+                    <li><a class="mailbox" href="mailto:igalaxyk@gmail.com">igalaxyk@gmail.com</a></li>
+                    <li><a class="twitter" href="https://twitter.com/@galaxyk">@galaxyk</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="row contact-card">
+                <div class="col-md-4">
+                  <div class="contact-photo"><img src="<?php echo get_template_directory_uri(); ?>/img/contacts/AaratiRao.jpg" /></div>
+                </div>
+                <div class="col-md-8">
+                  <h4 class="contact-name">Aarati Rao</h4>
+                  <div class="contact-title">Co-founder</div>
+                  <ul class="no-bullet">
+                    <li><a class="mailbox" href="mailto:aaratirao90@gmail.com">aaratirao90@gmail.com</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Info for Hive Bangalore Ends ===== -->
+
+
       <!-- Info for Hive Bay Area Starts ======================================== -->
       <div class="container">
         <div class="hive-profile" data-profile="sf-bay-area">
@@ -586,87 +667,6 @@
         </div>
       </div>
       <!-- Info for Hive Denver Ends ===== -->
-
-
-      <!-- Info for Hive Bangalore Starts ======================================== -->
-      <div class="container">
-        <div class="hive-profile" data-profile="bangalore">
-          <div class="row">
-            <div class="col-md-12">
-              <h3 class="the-hive-name">Hive Bangalore</h3>
-            </div>
-          </div>
-          <div class="row">
-            <!-- left half =========================== -->
-            <div class="col-md-8">
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="hive-logo">
-                    <a href="https://www.facebook.com/HiveBangalore?fref=ts">
-                      <img src="<?php echo get_template_directory_uri(); ?>/img/hive-logos/Hive_Community_Bangalore.png" />
-                    </a>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <ul class="no-bullet related-sites">
-                    <li><a class="twitter" href="https://twitter.com/@HiveBangalore">twitter.com/@HiveBangalore</a></li>
-                    <li><a class="facebook" href="https://www.facebook.com/HiveBangalore?fref=ts">www.facebook.com/HiveBangalore</a></li>
-                  </ul>
-                </div>
-              </div>
-              <div class="row hive-description">
-                <div class="col-md-12">
-                  <p>
-                    Mission: To transform the learning landscape by empowering youth and educators to enact Connected Learning through a diverse network of civic and cultural institutions.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <!-- right half (contacts) =========================== -->
-            <div class="col-md-4">
-              <div class="row contact-card">
-                <div class="col-md-4">
-                  <div class="contact-photo"><img src="<?php echo get_template_directory_uri(); ?>/img/contacts/VineelReddyPindi.jpg" /></div>
-                </div>
-                <div class="col-md-8">
-                  <h4 class="contact-name">Vineel Reddy Pindi</h4>
-                  <div class="contact-title">Co-founder</div>
-                  <ul class="no-bullet">
-                    <li><a class="mailbox" href="mailto:pindivineelreddy@gmail.com">pindivineelreddy@gmail.com</a></li>
-                    <li><a class="twitter" href="http://twitter.com/@vineelreddy">@vineelreddy</a></li>
-                  </ul>
-                </div>
-              </div>
-              <div class="row contact-card">
-                <div class="col-md-4">
-                  <div class="contact-photo"><img src="<?php echo get_template_directory_uri(); ?>/img/contacts/GalaxyKadiyala.jpg" /></div>
-                </div>
-                <div class="col-md-8">
-                  <h4 class="contact-name">Galaxy Kadiyala</h4>
-                  <div class="contact-title">Co-founder</div>
-                  <ul class="no-bullet">
-                    <li><a class="mailbox" href="mailto:igalaxyk@gmail.com">igalaxyk@gmail.com</a></li>
-                    <li><a class="twitter" href="https://twitter.com/@galaxyk">@galaxyk</a></li>
-                  </ul>
-                </div>
-              </div>
-              <div class="row contact-card">
-                <div class="col-md-4">
-                  <div class="contact-photo"><img src="<?php echo get_template_directory_uri(); ?>/img/contacts/AaratiRao.jpg" /></div>
-                </div>
-                <div class="col-md-8">
-                  <h4 class="contact-name">Aarati Rao</h4>
-                  <div class="contact-title">Co-founder</div>
-                  <ul class="no-bullet">
-                    <li><a class="mailbox" href="mailto:aaratirao90@gmail.com">aaratirao90@gmail.com</a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- Info for Hive Bangalore Ends ===== -->
 
 
       <!-- Info for Hive Kansas City Starts ======================================== -->
