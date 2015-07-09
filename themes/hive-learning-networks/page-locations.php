@@ -337,14 +337,14 @@
             <div class="col-md-4">
               <div class="row contact-card">
                 <div class="col-md-4">
-                  <div class="contact-photo"><img src="<?php echo get_template_directory_uri(); ?>/img/contacts/KarenSmith.jpg" /></div>
+                  <div class="contact-photo"><img src="http://hivelearningnetworks.org/wp-content/uploads/2014/07/SimonaHeadshot.jpeg" /></div>
                 </div>
                 <div class="col-md-8">
-                  <h4 class="contact-name">Karen Smith</h4>
-                  <div class="contact-title">Mitacs Elevate Post-doctoral Research Fellow</div>
+                  <h4 class="contact-name">Simona Ramkisson</h4>
+                  <div class="contact-title">Project Manager, Hive Learning Networks</div>
                   <ul class="no-bullet">
-                    <li><a class="mailbox" href="mailto:karen@hivetoronto.org">karen@hivetoronto.org</a></li>
-                    <li><a class="twitter" href="http://twitter.com/@smithisgeneric">@smithisgeneric</a></li>
+                    <li><a class="mailbox" href="mailto:simona@mozillafoundation.org">simona@mozillafoundation.org</a></li>
+                    <li><a class="twitter" href="http://twitter.com/@simonaramkisson">@simonaramkisson</a></li>
                   </ul>
                 </div>
               </div>
@@ -541,19 +541,6 @@
                   </ul>
                 </div>
               </div>
-              <div class="row contact-card">
-                <div class="col-md-4">
-                  <div class="contact-photo"><img src="<?php echo get_template_directory_uri(); ?>/img/contacts/GeoffMillener.jpg" /></div>
-                </div>
-                <div class="col-md-8">
-                  <h4 class="contact-name">Geoff Millener</h4>
-                  <div class="contact-title">Project Coordinator</div>
-                  <ul class="no-bullet">
-                    <li><a class="mailbox" href="mailto:geoff@mozillafoundation.org">geoff@mozillafoundation.org</a></li>
-                    <li><a class="twitter" href="http://twitter.com/@gmillener">@gmillener</a></li>
-                  </ul>
-                </div>
-              </div>
             </div>
           </div>
         </div>
@@ -682,14 +669,14 @@
             <div class="col-md-4">
               <div class="row contact-card">
                 <div class="col-md-4">
-                  <div class="contact-photo"><img src="<?php echo get_template_directory_uri(); ?>/img/contacts/KariKeefe.jpeg" /></div>
+                  <div class="contact-photo"><img src="<?php echo get_template_directory_uri(); ?>/img/contacts/LindseyFrostCleary.jpg" /></div>
                 </div>
                 <div class="col-md-8">
-                  <h4 class="contact-name">Kari Keefe</h4>
+                  <h4 class="contact-name">Lindsey Frost Cleary</h4>
                   <div class="contact-title">Community Catalyst</div>
                   <ul class="no-bullet">
-                    <li><a class="mailbox" href="mailto:kari@mozillafoundation.org">kari@mozillafoundation.org</a></li>
-                    <li><a class="twitter" href="http://twitter.com/@karikeefe">@karikeefe</a></li>
+                    <li><a class="mailbox" href="mailto:lindsey@mozillafoundaiton.org">lindsey@mozillafoundaiton.org</a></li>
+                    <li><a class="twitter" href="http://twitter.com/@frostcleary">@frostcleary</a></li>
                   </ul>
                 </div>
               </div>
