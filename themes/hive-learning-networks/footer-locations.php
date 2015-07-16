@@ -1,5 +1,6 @@
     <?php get_template_part( "partials/footer-content" ); ?>
 
+    <?php get_template_part( "location-profile-template" ); ?>
     <script src="<?php echo get_template_directory_uri(); ?>/js/d3.v3.min.js"></script>
     <script src="<?php echo get_template_directory_uri(); ?>/js/topojson.v1.min.js"></script>
     <script>
