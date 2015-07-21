@@ -426,6 +426,7 @@ footer p {
   color: #fff;
 }
 #locations-menu div:not(#hive-coming-menu) li a {
+  display: block;
   cursor: pointer;
 }
 #locations-menu div:not(#hive-coming-menu) li:hover,
@@ -469,20 +470,34 @@ footer p {
 #hive-profile-section {
   margin-top: -100px;
   margin-bottom: 100px;
+  padding: 50px 0;
 }
 #hive-profile-section .container {
   padding: 25px 50px 25px 50px;
   background: #fff;
 }
-#hive-profile-section .container:not(.hide):first-of-type {
-  padding-top: 50px;
-}
-#hive-profile-section .container:not(.hide):not(:last-of-type) .hive-profile {
+#hive-profile-section .container .hive-profile {
+  padding: 50px 0;
   border-bottom: 1px solid #adcdec;
-  padding-bottom: 25px;
 }
-#hive-profile-section .containe:not(.hide):last-of-type .hive-profile {
-  padding-bottom: 50px;
+#hive-profile-section .container.no-bg {
+  background: none;
+}
+#hive-profile-section .view-all {
+  float: right;
+}
+#hive-profile-section .view-all:before {
+  content: "\f062";
+  font-family: "FontAwesome";
+  margin-right: 5px;
+}
+#hive-profile-section .view-all:hover {
+  cursor: pointer;
+}
+@media screen and (max-width: 991px) {
+  #hive-profile-section .contacts-section {
+    margin-top: 30px;
+  }
 }
 .hive-logo img {
   max-height: 100px;
