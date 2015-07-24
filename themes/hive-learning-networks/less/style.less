@@ -486,7 +486,6 @@ footer p {
 }
 
 .hive-list li {
-  padding: 5px;
   letter-spacing: 1px;
 }
 
@@ -501,6 +500,14 @@ footer p {
 
 .hive-list li.widget_short_intro_widget {
   display: none;
+}
+
+.hive-list li a {
+  padding: 5px;
+}
+
+#hive-coming-menu .hive-list li {
+  padding: 5px 0;
 }
 
 .hive-list .the-place:hover {
@@ -561,15 +568,27 @@ footer p {
   color: @heading-dark-blue;
 }
 
-#hives-map-section svg path {
-  fill: rgba(255,255,255,0.5);
-  stroke: rgba(255,255,255,0);
-  stroke-width: 1;
-}
-
-#hives-map-section svg polygon {
-  fill: none;
-  stroke-width: 3px;
+#hives-map-section {
+  svg {
+    path {
+      fill: rgba(255,255,255,0.5);
+      stroke: rgba(255,255,255,0);
+      stroke-width: 1;
+    }
+  }
+  polygon {
+    fill: none;
+    stroke-width: 3px;
+    &.networks {
+      stroke: @hive-yellow;
+    }
+    &.communities {
+      stroke: @hive-orange;
+    }
+    &.comingSoon {
+      stroke: @background-grey;
+    }
+  }
 }
 
 #hive-networks-menu {
@@ -580,23 +599,12 @@ footer p {
   color: @hive-yellow;
 }
 
-#hives-map-section svg polygon.networks {
-  stroke: @hive-yellow;
-}
-
 #hive-communities-menu h4 {
   color: @hive-orange;
 }
 
-#hives-map-section svg polygon.communities {
-  stroke: @hive-orange;
-}
-
 #hive-coming-menu h4 {
   color: @background-grey;
-}
-#hives-map-section svg polygon.comingSoon {
-  stroke: @background-grey;
 }
 
 #hive-profile-section {

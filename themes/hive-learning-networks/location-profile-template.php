@@ -61,7 +61,7 @@
     {{/profiles}}
   </div>
   <div class="container no-bg">
-    <a class="view-all">view all</a>
+    <a class="view-all">VIEW ALL</a>
   </div>
 </script>
 
@@ -90,7 +90,6 @@
   var data = {
     profiles: [
       {
-        profileName: "chicago",
         type: "networks",
         name: "Hive Chicago",
         logo: {
@@ -126,7 +125,6 @@
         ],
       },
       {
-        profileName: "nyc",
         type: "networks",
         name: "Hive NYC",
         logo: {
@@ -155,7 +153,6 @@
         ],
       },
       {
-        profileName: "pittsburgh",
         type: "networks",
         name: "Hive Pittsburgh",
         logo: {
@@ -193,7 +190,6 @@
         ],
       },
       {
-        profileName: "toronto",
         type: "networks",
         name: "Hive Toronto",
         logo: {
@@ -215,7 +211,6 @@
         ],
       },
       {
-        profileName: "bangalore",
         type: "communities",
         name: "Hive Bangalore",
         logo: {
@@ -249,7 +244,6 @@
         ],
       },
       {
-        profileName: "sf-bay-area",
         type: "communities",
         name: "Hive Bay Area",
         logo: {
@@ -269,7 +263,37 @@
         ],
       },
       {
-        profileName: "chattanooga",
+        type: "communities",
+        name: "Hive Cascadia",
+        logo: {
+          imgSrc: pathToTheme + "/img/hive-logos/Hive_Community_Cascadia.png",
+          link: "https://twitter.com/hivecascadia"
+        },
+        twitterHandle: "@hivecascadia",
+        facebookPage: "",
+        descriptionHTML: '<p>Hive Cascadia fosters and promotes creative cross-institutional, cross-disciplinary partnerships that support youth participatory learning and leadership.</p>',
+        contacts: [
+          {
+            name: "Jeffrey Sens",
+            title: "Co-Executive Director, Pixel Arts Game Education",
+            imgSrc: pathToTheme + "/img/contacts/JeffreySens.jpg",
+            email: "jsens@gameeducationpdx.com"
+          },
+          {
+            name: "Sara Ryan",
+            title: "Teen Services Specialist, Multnomah County Library",
+            imgSrc: pathToTheme + "/img/contacts/SaraRyan.jpg",
+            email: "sryan@multcolib.org"
+          },
+          {
+            name: "Kristin Bayans",
+            title: "Interpretive Media Specialist, Portland Art Museum",
+            imgSrc: pathToTheme + "/img/contacts/KristinBayans.jpg",
+            email: "kristin.bayans@pam.org"
+          }
+        ]
+      },
+      {
         type: "communities",
         name: "Hive Chattanooga",
         logo: {
@@ -293,7 +317,6 @@
         ],
       },
       {
-        profileName: "denver",
         type: "communities",
         name: "Hive Denver",
         logo: {
@@ -328,7 +351,6 @@
         ],
       },
       {
-        profileName: "kansas-city",
         type: "communities",
         name: "Hive Kansas City",
         logo: {
@@ -352,7 +374,30 @@
         ],
       },
       {
-        profileName: "mombasa",
+        type: "communities",
+        name: "Hive Manchester",
+        logo: {
+          imgSrc: pathToTheme + "/img/hive-logos/Hive_Community_Manchester.png",
+          link: "http://hivemanchester.net/"
+        },
+        mainWebsite: "http://hivemanchester.net",
+        descriptionHTML: '<p>Hive Manchester is a learning community inspired by the Hive Learning Network Community. Essentially, a Hive Learning Community is a cluster of organisations and individuals coming together, who have a keen interest in engaging the youth of Manchester, and the Hive’s core principles for connected learning experiences. Together, we put on events, which are outside of the traditional classroom and inside creative spaces across the city, that generate fantastic and exciting learning opportunities for the diverse youth population of Manchester!</p>',
+        contacts: [
+          {
+            name: "Steven Flower",
+            title: "Co-founder",
+            imgSrc: pathToTheme + "/img/contacts/StevenFlower.jpg",
+            email: "stevieflow@gmail.com"
+          },
+          {
+            name: "Damian Payton",
+            title: "Co-founder",
+            imgSrc: pathToTheme + "/img/contacts/DamianPayton.png",
+            email: "damianjpayton@gmail.com"
+          }
+        ],
+      },
+      {
         type: "communities",
         name: "Hive Mombasa",
         logo: {
@@ -384,7 +429,6 @@
         ],
       },
       {
-        profileName: "vancouver",
         type: "communities",
         name: "Hive Vancouver",
         logo: {
@@ -411,8 +455,49 @@
           }
         ],
       },
+      {
+        type: "communities",
+        name: "Hive Vizag",
+        logo: {
+          imgSrc: pathToTheme + "/img/hive-logos/Hive_Community_Vizag.png",
+          link: "https://www.facebook.com/HLCvizag"
+        },
+        facebookPage: "https://www.facebook.com/HLCvizag",
+        descriptionHTML: '<p>Mozilla\'s Hive Vizag Learning Network is a city-wide knowledge lab dedicated to helping youth find and explore their interests. Make! Hack! Learn!</p>',
+        contacts: [
+          {
+            name: "Vikas Burri",
+            title: "Program Director",
+            imgSrc: pathToTheme + "/img/contacts/VikasBurri.jpeg",
+            email: "vikas.burri@gmail.com"
+          }
+        ],
+      },
+      {
+        type: "communities",
+        name: "Hive Waterloo",
+        logo: {
+          imgSrc: pathToTheme + "/img/hive-logos/Hive_Community_Waterloo.png",
+          link: "http://www.yocwr.ca/about/"
+        },
+        mainWebsite: "http://www.yocwr.ca/about/",
+        descriptionHTML: '<p>Hive Waterloo is leading the work to increase access to technological learning, and to shine a spotlight on tech learning opportunities, organisations, and facilities in the region of Waterloo-Kitchener. </p>',
+        contacts: [
+          {
+            name: "Stephanie Rozek",
+            title: "Co-Founder",
+            imgSrc: pathToTheme + "/img/contacts/StephanieRozek.jpg",
+            email: "stephanie@yocwr.ca"
+          },
+          {
+            name: "Sean Yo",
+            title: "Co-Founder",
+            imgSrc: pathToTheme + "/img/contacts/SeanYo.jpg",
+            email: "me@seanyo.ca"
+          }
+        ],
+      }
       // {
-      //   profileName: "",
       //   type: "communities",
       //   name: "",
       //   logo: {
@@ -439,37 +524,31 @@
     ]
   };
 
-  // compile template and fill data into the profile section
-  var profileSource  = $("#location-profile-template").html();
-  var profileTemplate = Handlebars.compile(profileSource);
-  $("#hive-profile-section").html(profileTemplate(data));
-
   var locationList = {
     networks: [],
     communities: [],
     comingSoon: [
       {
-        location: "Pilani",
-        profileName: "pilani"
+        name: "Hive Barcelona"
       }, {
-        location: "Manchester",
-        profileName: "manchester"
+        name: "Hive Los Angeles"
       }, {
-        location: "Margate",
-        profileName: "margate"
+        name: "Hive Pilani"
       }, {
-        location: "Stoke",
-        profileName: "stoke"
-      }, {
-        location: "Cascadia",
-        profileName: "cascadia"
+        name: "Hive Providence",
       }
     ]
   };
 
+  function generateProfileName(name) {
+    return name.replace(/\s+/g, '-').toLowerCase();
+  }
+
   data.profiles.forEach(function(profile) {
+    profile["profileName"] = generateProfileName(profile.name);
+
     var location = profile.name.replace("Hive ", "");
-    if (profile.profileName === "nyc") {
+    if (profile.profileName.match("nyc")) {
       location = "New York City";
     }
 
@@ -478,6 +557,16 @@
       profileName: profile.profileName
     });
   });
+
+  locationList.comingSoon.forEach(function(comingSoonCity) {
+    comingSoonCity["location"] = comingSoonCity.name.replace("Hive ", "");
+    comingSoonCity["profileName"] = generateProfileName(comingSoonCity.name);
+  });
+
+  // compile template and fill data into the profile section
+  var profileSource  = $("#location-profile-template").html();
+  var profileTemplate = Handlebars.compile(profileSource);
+  $("#hive-profile-section").html(profileTemplate(data));
 
   // compile template and fill data into the top location nav list
   var locationNavSource  = $("#location-nav-template").html();

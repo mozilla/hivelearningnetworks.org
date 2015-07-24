@@ -380,7 +380,6 @@ footer p {
   color: #FFF;
 }
 .hive-list li {
-  padding: 5px;
   letter-spacing: 1px;
 }
 .hive-list li.hive-widget {
@@ -392,6 +391,12 @@ footer p {
 }
 .hive-list li.widget_short_intro_widget {
   display: none;
+}
+.hive-list li a {
+  padding: 5px;
+}
+#hive-coming-menu .hive-list li {
+  padding: 5px 0;
 }
 .hive-list .the-place:hover {
   cursor: pointer;
@@ -442,9 +447,18 @@ footer p {
   stroke: rgba(255, 255, 255, 0);
   stroke-width: 1;
 }
-#hives-map-section svg polygon {
+#hives-map-section polygon {
   fill: none;
   stroke-width: 3px;
+}
+#hives-map-section polygon.networks {
+  stroke: #ffdd2e;
+}
+#hives-map-section polygon.communities {
+  stroke: #faa73f;
+}
+#hives-map-section polygon.comingSoon {
+  stroke: #e6e6e6;
 }
 #hive-networks-menu {
   margin-top: 50px;
@@ -452,20 +466,11 @@ footer p {
 #hive-networks-menu h4 {
   color: #ffdd2e;
 }
-#hives-map-section svg polygon.networks {
-  stroke: #ffdd2e;
-}
 #hive-communities-menu h4 {
   color: #faa73f;
 }
-#hives-map-section svg polygon.communities {
-  stroke: #faa73f;
-}
 #hive-coming-menu h4 {
   color: #e6e6e6;
-}
-#hives-map-section svg polygon.comingSoon {
-  stroke: #e6e6e6;
 }
 #hive-profile-section {
   margin-top: -120px;
