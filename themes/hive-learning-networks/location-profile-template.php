@@ -67,11 +67,8 @@
 
 <script>
   var pathToTheme = "<?php bloginfo('template_directory') ?>" + "/";
-  var source  = $("#location-profile-template").html();
-  var template = Handlebars.compile(source);
 
   Handlebars.registerHelper('stripProtocol', function(url) {
-
     return new Handlebars.SafeString(url.replace("https://","").replace("http://",""));
   });
 
@@ -284,7 +281,7 @@
           "https://blog.mozilla.org/gigabit/"
         ],
         twitterHandle: "@mozillagigabit",
-        descriptionHTML: '<p>Established in 2014, Hive Learning Community in Chattanooga supports connected learning experiences in the Chattanooga, Tennessee metropolitan region. Hive CHA fuels the creation of these learning experiences through the Gigabit Community Fund, a National Science Foundation supported initiative to fund the development of gigabit-enabled workforce development and education applications and associated curricula.  Learn more at mozilla.org/gigabit.</p>',
+        descriptionHTML: '<p>Established in 2014, Hive Learning Community in Chattanooga supports connected learning experiences in the Chattanooga, Tennessee metropolitan region. Hive CHA fuels the creation of these learning experiences through the Gigabit Community Fund, a National Science Foundation supported initiative to fund the development of gigabit-enabled workforce development and education applications and associated curricula.  Learn more at <a href="http://mozilla.org/gigabit">mozilla.org/gigabit</a>.</p>',
         contacts: [
           {
             name: "Lindsey Frost Cleary",
@@ -442,5 +439,49 @@
     ]
   };
 
-  $("#hive-profile-section").html(template(data));
+  // compile template and fill data into the profile section
+  var profileSource  = $("#location-profile-template").html();
+  var profileTemplate = Handlebars.compile(profileSource);
+  $("#hive-profile-section").html(profileTemplate(data));
+
+  var locationList = {
+    networks: [],
+    communities: [],
+    comingSoon: [
+      {
+        location: "Pilani",
+        profileName: "pilani"
+      }, {
+        location: "Manchester",
+        profileName: "manchester"
+      }, {
+        location: "Margate",
+        profileName: "margate"
+      }, {
+        location: "Stoke",
+        profileName: "stoke"
+      }, {
+        location: "Cascadia",
+        profileName: "cascadia"
+      }
+    ]
+  };
+
+  data.profiles.forEach(function(profile) {
+    var location = profile.name.replace("Hive ", "");
+    if (profile.profileName === "nyc") {
+      location = "New York City";
+    }
+
+    locationList[profile.type].push({
+      location: location,
+      profileName: profile.profileName
+    });
+  });
+
+  // compile template and fill data into the top location nav list
+  var locationNavSource  = $("#location-nav-template").html();
+  var locationNavTemplate = Handlebars.compile(locationNavSource);
+  $("#locations-menu").html(locationNavTemplate(locationList));
+
 </script>
