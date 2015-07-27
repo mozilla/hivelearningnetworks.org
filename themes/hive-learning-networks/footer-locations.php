@@ -62,10 +62,9 @@
           .data(data)
           .enter()
           .append("polygon")
-          .attr("id", function(d) {
-            return d.city.replace(/\s+/g, '-').toLowerCase();
+          .attr("class", function(d) {
+            return hiveType + " " + d.city.replace(/\s+/g, '-').toLowerCase();
           })
-          .attr("class", hiveType)
           .attr("points", function(d) {
             var cx = projection( [d.lon,d.lat] )[0];
             var cy = projection( [d.lon,d.lat] )[1];
