@@ -1,5 +1,6 @@
     <?php get_template_part( "partials/footer-content" ); ?>
 
+    <?php get_template_part( "location-profile-template" ); ?>
     <script src="<?php echo get_template_directory_uri(); ?>/js/d3.v3.min.js"></script>
     <script src="<?php echo get_template_directory_uri(); ?>/js/topojson.v1.min.js"></script>
     <script>
@@ -61,10 +62,9 @@
           .data(data)
           .enter()
           .append("polygon")
-          .attr("id", function(d) {
-            return d.city.replace(/\s+/g, '-').toLowerCase();
+          .attr("class", function(d) {
+            return hiveType + " " + d.city.replace(/\s+/g, '-').toLowerCase();
           })
-          .attr("class", hiveType)
           .attr("points", function(d) {
             var cx = projection( [d.lon,d.lat] )[0];
             var cy = projection( [d.lon,d.lat] )[1];

@@ -486,7 +486,6 @@ footer p {
 }
 
 .hive-list li {
-  padding: 5px;
   letter-spacing: 1px;
 }
 
@@ -501,6 +500,14 @@ footer p {
 
 .hive-list li.widget_short_intro_widget {
   display: none;
+}
+
+.hive-list li a {
+  padding: 5px;
+}
+
+#hive-coming-menu .hive-list li {
+  padding: 5px 0;
 }
 
 .hive-list .the-place:hover {
@@ -547,6 +554,7 @@ footer p {
 }
 
 #locations-menu div:not(#hive-coming-menu) li a {
+  display: block;
   cursor: pointer;
 }
 
@@ -560,15 +568,27 @@ footer p {
   color: @heading-dark-blue;
 }
 
-#hives-map-section svg path {
-  fill: rgba(255,255,255,0.5);
-  stroke: rgba(255,255,255,0);
-  stroke-width: 1;
-}
-
-#hives-map-section svg polygon {
-  fill: none;
-  stroke-width: 3px;
+#hives-map-section {
+  svg {
+    path {
+      fill: rgba(255,255,255,0.5);
+      stroke: rgba(255,255,255,0);
+      stroke-width: 1;
+    }
+  }
+  polygon {
+    fill: none;
+    stroke-width: 3px;
+    &.networks {
+      stroke: @hive-yellow;
+    }
+    &.communities {
+      stroke: @hive-orange;
+    }
+    &.comingSoon {
+      stroke: @background-grey;
+    }
+  }
 }
 
 #hive-networks-menu {
@@ -579,51 +599,60 @@ footer p {
   color: @hive-yellow;
 }
 
-#hives-map-section svg polygon.networks {
-  stroke: @hive-yellow;
-}
-
 #hive-communities-menu h4 {
   color: @hive-orange;
-}
-
-#hives-map-section svg polygon.communities {
-  stroke: @hive-orange;
 }
 
 #hive-coming-menu h4 {
   color: @background-grey;
 }
-#hives-map-section svg polygon.comingSoon {
-  stroke: @background-grey;
-}
 
 #hive-profile-section {
-  margin-top: -100px;
+  margin-top: -120px;
   margin-bottom: 100px;
+  padding: 50px 0;
+  .container {
+    padding: 25px 50px 25px 50px;
+    background: #fff;
+    .hive-profile {
+      padding: 50px 0;
+      border-bottom: 1px solid @hive-blue;
+    }
+  }
+  .container.no-bg {
+    background: none;
+  }
+  .view-all {
+    float: right;
+    &:before {
+      content: "\f062";
+      font-family: "FontAwesome";
+      margin-right: 5px;
+    }
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  .contacts-section {
+    @media screen and (max-width: 991px) {
+      margin-top: 30px;
+    }
+  }
 }
 
-#hive-profile-section .container {
-  padding: 25px 50px 25px 50px;
-  background: #fff;
-}
-
-#hive-profile-section .container:not(.hide):first-of-type {
-  padding-top: 50px;
-}
-
-#hive-profile-section .container:not(.hide):not(:last-of-type) .hive-profile {
-  border-bottom: 1px solid @hive-blue;
-  padding-bottom: 25px;
-}
-
-#hive-profile-section .containe:not(.hide):last-of-type .hive-profile {
-  padding-bottom: 50px;
-}
-
-
-.hive-logo img {
-  max-height: 100px;
+.hive-logo {
+  a {
+    display: block;
+    img {
+      max-height: 100px;
+      transition: all 0.15s ease-in;
+    }
+    &:hover {
+      img {
+        transform: scale(1.05);
+      }
+    }
+  }
 }
 
 .related-sites .main-website:before,

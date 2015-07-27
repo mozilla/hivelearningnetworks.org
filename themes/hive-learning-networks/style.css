@@ -380,7 +380,6 @@ footer p {
   color: #FFF;
 }
 .hive-list li {
-  padding: 5px;
   letter-spacing: 1px;
 }
 .hive-list li.hive-widget {
@@ -392,6 +391,12 @@ footer p {
 }
 .hive-list li.widget_short_intro_widget {
   display: none;
+}
+.hive-list li a {
+  padding: 5px;
+}
+#hive-coming-menu .hive-list li {
+  padding: 5px 0;
 }
 .hive-list .the-place:hover {
   cursor: pointer;
@@ -426,6 +431,7 @@ footer p {
   color: #fff;
 }
 #locations-menu div:not(#hive-coming-menu) li a {
+  display: block;
   cursor: pointer;
 }
 #locations-menu div:not(#hive-coming-menu) li:hover,
@@ -441,9 +447,18 @@ footer p {
   stroke: rgba(255, 255, 255, 0);
   stroke-width: 1;
 }
-#hives-map-section svg polygon {
+#hives-map-section polygon {
   fill: none;
   stroke-width: 3px;
+}
+#hives-map-section polygon.networks {
+  stroke: #ffdd2e;
+}
+#hives-map-section polygon.communities {
+  stroke: #faa73f;
+}
+#hives-map-section polygon.comingSoon {
+  stroke: #e6e6e6;
 }
 #hive-networks-menu {
   margin-top: 50px;
@@ -451,41 +466,53 @@ footer p {
 #hive-networks-menu h4 {
   color: #ffdd2e;
 }
-#hives-map-section svg polygon.networks {
-  stroke: #ffdd2e;
-}
 #hive-communities-menu h4 {
   color: #faa73f;
-}
-#hives-map-section svg polygon.communities {
-  stroke: #faa73f;
 }
 #hive-coming-menu h4 {
   color: #e6e6e6;
 }
-#hives-map-section svg polygon.comingSoon {
-  stroke: #e6e6e6;
-}
 #hive-profile-section {
-  margin-top: -100px;
+  margin-top: -120px;
   margin-bottom: 100px;
+  padding: 50px 0;
 }
 #hive-profile-section .container {
   padding: 25px 50px 25px 50px;
   background: #fff;
 }
-#hive-profile-section .container:not(.hide):first-of-type {
-  padding-top: 50px;
-}
-#hive-profile-section .container:not(.hide):not(:last-of-type) .hive-profile {
+#hive-profile-section .container .hive-profile {
+  padding: 50px 0;
   border-bottom: 1px solid #adcdec;
-  padding-bottom: 25px;
 }
-#hive-profile-section .containe:not(.hide):last-of-type .hive-profile {
-  padding-bottom: 50px;
+#hive-profile-section .container.no-bg {
+  background: none;
 }
-.hive-logo img {
+#hive-profile-section .view-all {
+  float: right;
+}
+#hive-profile-section .view-all:before {
+  content: "\f062";
+  font-family: "FontAwesome";
+  margin-right: 5px;
+}
+#hive-profile-section .view-all:hover {
+  cursor: pointer;
+}
+@media screen and (max-width: 991px) {
+  #hive-profile-section .contacts-section {
+    margin-top: 30px;
+  }
+}
+.hive-logo a {
+  display: block;
+}
+.hive-logo a img {
   max-height: 100px;
+  transition: all 0.15s ease-in;
+}
+.hive-logo a:hover img {
+  transform: scale(1.05);
 }
 .related-sites .main-website:before,
 .related-sites .other-sites:before {

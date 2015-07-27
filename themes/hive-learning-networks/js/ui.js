@@ -32,9 +32,16 @@ $("#locations-menu div:not(#hive-coming-menu) a").click(function(){
   $("#locations-menu li.active").removeClass("active");
   $(this).parent("li").addClass("active");
   // show corresponding sections, hide the rest
-  $(".hive-profile").parent(".container").addClass("hide");
+  $(".hive-profile").addClass("hide");
   // profile section of the selected item
-  var profile = $(".hive-profile[data-profile="+ locationSelected +"]").parent(".container");
+  var profile = $(".hive-profile[data-profile="+ locationSelected +"]");
   profile.removeClass("hide");
-  $("html, body").animate({ scrollTop: profile.offset().top }, "slow");
+  $("html, body").animate({ scrollTop: profile.offset().top }, "fast");
+});
+
+$("#hive-profile-section .view-all").click(function() {
+  $("#locations-menu li.active").removeClass("active");
+  $("html, body").animate({ scrollTop: 0 }, "slow", function() {
+    $(".hive-profile").removeClass("hide");
+  });
 });

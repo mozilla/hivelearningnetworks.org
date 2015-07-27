@@ -1,9 +1,12 @@
 city,country,lat,lon,note
-San Francisco, USA, 37.37, -122.25
-Chattanooga, USA, 35.2, -85.16
-Kansas City, USA, 39.05, -94.34
-Bangalore, INDIA, 12.58, 77.34
-Jakarta, INDONESIA, -6.12, 106.48, (Capital of Indonesia)
-Denver, USA, 39.44, -104.59
-Vancouver, CANADA, 49.15, -123.6
-Mombasa, KENYA, -4.03, 39.40
+Hive Bay Area, USA, 37.37, -122.25
+Hive Chattanooga, USA, 35.2, -85.16
+Hive Kansas City, USA, 39.05, -94.34
+Hive Bangalore, INDIA, 12.58, 77.34
+Hive Denver, USA, 39.44, -104.59
+Hive Vancouver, CANADA, 49.15, -123.6
+Hive Mombasa, KENYA, -4.03, 39.40
+Hive Cascadia, USA, 44.23, -122.28
+Hive Manchester, England, 53.28, -2.14
+Hive Waterloo, CANADA, 43.28, -80.31
+Hive Vizag, INDIA, 17.41, 83.13

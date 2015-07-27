@@ -26,6 +26,7 @@
     <link href='//fonts.googleapis.com/css?family=Merriweather:700italic,400,400italic' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>">
     <script src="<?php echo get_template_directory_uri(); ?>/js/jquery-2.1.1.min.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/js/handlebars-v3.0.3.js"></script>
     <?php wp_head(); ?>
     <!-- GA tracking script for hivelearningnetworks.org -->
     <script>
