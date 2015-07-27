@@ -138,7 +138,7 @@ var data = {
         {
           name: "Simona Ramkisson",
           title: "Project Manager, Hive Learning Networks",
-          imgSrc: "http://hivelearningnetworks.org/wp-content/uploads/2014/07/SimonaHeadshot.jpeg",
+          imgSrc: pathToTheme + "/img/contacts/SimonaRamkisson.jpeg",
           email: "simona@mozillafoundation.org",
           twitterHandle: "@simonaramkisson"
         }
@@ -190,7 +190,7 @@ var data = {
         {
           name: "Simona Ramkisson",
           title: "Project Manager, Hive Learning Networks",
-          imgSrc: "http://hivelearningnetworks.org/wp-content/uploads/2014/07/SimonaHeadshot.jpeg",
+          imgSrc: pathToTheme + "/img/contacts/SimonaRamkisson.jpeg",
           email: "simona@mozillafoundation.org",
           twitterHandle: "@simonaramkisson"
         }
