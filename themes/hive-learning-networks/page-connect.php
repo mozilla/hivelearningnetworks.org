@@ -95,7 +95,7 @@
             </div>
 <div class="row contact-card">
               <div class="col-md-2">
-                <div class="contact-photo"><img src="http://hivelearningnetworks.org/wp-content/uploads/2014/07/SimonaHeadshot.jpeg" /></div>
+                <div class="contact-photo"><img src="<?php echo get_template_directory_uri(); ?>/img/contacts/SimonaRamkisson.jpeg" /></div>
               </div>
               <div class="col-md-10">
                 <h4 class="contact-name">Simona Ramkisson</h4>
