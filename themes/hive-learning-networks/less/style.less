@@ -640,8 +640,19 @@ footer p {
   }
 }
 
-.hive-logo img {
-  max-height: 100px;
+.hive-logo {
+  a {
+    display: block;
+    img {
+      max-height: 100px;
+      transition: all 0.15s ease-in;
+    }
+    &:hover {
+      img {
+        transform: scale(1.05);
+      }
+    }
+  }
 }
 
 .related-sites .main-website:before,

@@ -504,8 +504,15 @@ footer p {
     margin-top: 30px;
   }
 }
-.hive-logo img {
+.hive-logo a {
+  display: block;
+}
+.hive-logo a img {
   max-height: 100px;
+  transition: all 0.15s ease-in;
+}
+.hive-logo a:hover img {
+  transform: scale(1.05);
 }
 .related-sites .main-website:before,
 .related-sites .other-sites:before {
