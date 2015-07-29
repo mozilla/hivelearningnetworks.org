@@ -5,7 +5,9 @@ module.exports = function(grunt) {
         options: {
           compress: false,
           optimization: 2,
-          strictMath: true
+          strictMath: true,
+          sourceMap: true,
+          sourceMapFilename: "style.css.map"
         },
         files: {
           "style.css": "less/style.less"
