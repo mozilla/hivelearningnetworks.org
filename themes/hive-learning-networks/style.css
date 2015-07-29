@@ -385,6 +385,7 @@ footer p {
 .hive-list li.hive-widget {
   margin-bottom: 0;
   color: #3583d1;
+  padding: 5px 0;
 }
 .hive-list li:not(:last-child) {
   border-bottom: 2px solid #FFF;
@@ -1057,3 +1058,4 @@ body.page-template-page-coming-soon-php h2 > * {
     width: 100%;
   }
 }
+/*# sourceMappingURL=style.css.map */
