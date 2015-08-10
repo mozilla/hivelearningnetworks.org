@@ -412,22 +412,22 @@ var data = {
       name: "Hive Waterloo",
       logo: {
         imgSrc: pathToTheme + "/img/hive-logos/Hive_Community_Waterloo.png",
-        link: "http://www.yocwr.ca/about/"
+        link: "http://www.hivewaterloo.ca"
       },
-      mainWebsite: "http://www.yocwr.ca/about/",
-      descriptionHTML: '<p>Hive Waterloo is leading the work to increase access to technological learning, and to shine a spotlight on tech learning opportunities, organisations, and facilities in the region of Waterloo-Kitchener. </p>',
+      mainWebsite: "http://www.hivewaterloo.ca",
+      descriptionHTML: '<p>Hive Waterloo is leading the work to increase access to technological learning, and to shine a spotlight on tech learning opportunities, organisations, and facilities in the Waterloo Region. </p>',
       contacts: [
         {
           name: "Stephanie Rozek",
           title: "Co-Founder",
           imgSrc: pathToTheme + "/img/contacts/StephanieRozek.jpg",
-          email: "stephanie@yocwr.ca"
+          twitterHandle: "@srozek"
         },
         {
           name: "Sean Yo",
           title: "Co-Founder",
           imgSrc: pathToTheme + "/img/contacts/SeanYo.jpg",
-          email: "me@seanyo.ca"
+          twitterHandle: "@seanyo"
         }
       ],
     }
