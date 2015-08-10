@@ -105,8 +105,8 @@
                     <h4 class="contact-name">{{name}}</h4>
                     <div class="contact-title">{{title}}</div>
                     <ul class="no-bullet">
-                      <li><a class="mailbox" href="mailto:{{email}}">{{email}}</a></li>
-                      {{#if twitterHandle}}<li><a class="twitter" href="http://twitter.com/{{twitterHandle}}">{{twitterHandle}}</a></li>{{/if}}
+                      {{#if email}}<li><a class="mailbox" href="mailto:{{email}}">{{email}}</a></li>{{/if}}
+                      {{#if twitterHandle}}<li><a class="twitter" href="https://twitter.com/{{twitterHandle}}">{{twitterHandle}}</a></li>{{/if}}
                     </ul>
                   </div>
                 </div>
