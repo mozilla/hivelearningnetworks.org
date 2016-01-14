@@ -56,13 +56,6 @@ function hive_register_sidebars() {
   ) );
 
   register_sidebar( array(
-    'name' => 'Hive Short Intro - Coming Soon (Home Page)',
-    'id' => 'hive-short-intro-coming-soon-widget',
-    'before_widget' => '<li class="hive-widget short_intro_widget">',
-    'after_widget' => '</li>',
-  ) );
-
-  register_sidebar( array(
     'name' => 'Hive Spotlight (Buzz Page)',
     'id' => 'hive-spotlight',
     'before_widget' => '<div class="hive-widget hive_spotlight_widget">',

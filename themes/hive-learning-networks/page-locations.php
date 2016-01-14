@@ -33,15 +33,7 @@
                   <li><a data-profile={{profileName}}>{{location}}</a></li>
                   {{/communities}}
                 </ul>
-              </div>
-              <div id="hive-coming-menu">
-                <h4 class="all-caps">Hive Coming Soon</h4>
-                <ul class="hive-list no-bullet">
-                  {{#comingSoon}}
-                  <li><a data-profile={{profileName}}>{{location}}</a></li>
-                  {{/comingSoon}}
-                </ul>
-              </div>
+             </div>
             </script>
           </div>
           <div class="col-md-9">

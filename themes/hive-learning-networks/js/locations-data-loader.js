@@ -179,25 +179,6 @@ var data = {
     },
     {
       type: "communities",
-      name: "Hive Bay Area",
-      logo: {
-        imgSrc: pathToTheme + "/img/hive-logos/Hive_Community_BayArea.png",
-        link: "http://bayareahive.org/"
-      },
-      mainWebsite: "http://bayareahive.org/",
-      descriptionHTML: '<p>The Hive Bay Area Learning Community was established in 2014 and is led in collaboration with a Founding Committee comprised of the San Francisco Public Library, Friends of the SF Library, KQED, BAVC, California Academy of Sciences and the National Writing Project. Together, they envision the Bay Area as a connected community where members create programs for youth to follow their passions through the integration and application of digital media and technology in adult-supported environments.</p>',
-      contacts: [
-        {
-          name: "Simona Ramkisson",
-          title: "Project Manager, Hive Learning Networks",
-          imgSrc: pathToTheme + "/img/contacts/SimonaRamkisson.jpeg",
-          email: "simona@mozillafoundation.org",
-          twitterHandle: "@simonaramkisson"
-        }
-      ],
-    },
-    {
-      type: "communities",
       name: "Hive Cascadia",
       logo: {
         imgSrc: pathToTheme + "/img/hive-logos/Hive_Community_Cascadia.png",
@@ -460,18 +441,7 @@ var data = {
 
 var locationList = {
   networks: [],
-  communities: [],
-  comingSoon: [
-    {
-      name: "Hive Barcelona"
-    }, {
-      name: "Hive Los Angeles"
-    }, {
-      name: "Hive Pilani"
-    }, {
-      name: "Hive Providence",
-    }
-  ]
+  communities: []
 };
 
 function generateProfileName(name) {
@@ -490,11 +460,6 @@ data.profiles.forEach(function(profile) {
     location: location,
     profileName: profile.profileName
   });
-});
-
-locationList.comingSoon.forEach(function(comingSoonCity) {
-  comingSoonCity["location"] = comingSoonCity.name.replace("Hive ", "");
-  comingSoonCity["profileName"] = generateProfileName(comingSoonCity.name);
 });
 
 // compile template and fill data into the profile section
