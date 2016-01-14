@@ -45,65 +45,9 @@
                 <div class="subsection">
                   <div class="col-md-12">
                     <h3>Online Discussion Forum</h3>
-                    <p>Ask questions, connect with Hive members from around the world and post your experiences on the <a href="http://discourse.webmaker.org/category/hive">#teachtheweb online discussion forum</a>.</p>
+                    <p>Ask questions, connect with Hive members from around the world and post your experiences on the <a href="https://discourse.webmaker.org/c/hive-learning-networks">#teachtheweb online discussion forum</a>.</p>
                   </div>
                 </div>
-                <div class="subsection">
-                  <div class="col-md-12">
-                    <h3>Newsletter Archives</h3>
-                    <p>Find news and updates from Hive communities in our Hive Newsletter Archive.</p>
-                    <ul>
-                      <li><a href="https://sramkisson.makes.org/thimble/NTI2MjU2NjQ=/hive-learning-network-update-september-2014">September 2014</a></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- Hive Global Contacts ========== -->
-          <div>
-            <div class="row">
-              <div class="col-md-12">
-                <h3>Hive Global Contacts</h3>
-              </div>
-            </div>
-            <div class="row contact-card">
-              <div class="col-md-2">
-                <div class="contact-photo"><img src="<?php echo get_template_directory_uri(); ?>/img/contacts/ChrisLawrence.jpg" /></div>
-              </div>
-              <div class="col-md-10">
-                <h4 class="contact-name">Chris Lawrence</h4>
-                <div class="contact-title">Senior Director, Hive Learning Networks</div>
-                <ul class="no-bullet">
-                  <li><a class="mailbox" href="mailto:clawrence@mozillafoundation.org">clawrence@mozillafoundation.org</a></li>
-                  <li><a class="twitter" href="http://twitter.com/@chrislarry33">@chrislarry33</a></li>
-                </ul>
-              </div>
-            </div>
-            <div class="row contact-card">
-              <div class="col-md-2">
-                <div class="contact-photo"><img src="<?php echo get_template_directory_uri(); ?>/img/contacts/LainieDeCoursy.jpg" /></div>
-              </div>
-              <div class="col-md-10">
-                <h4 class="contact-name">Lainie DeCoursy</h4>
-                <div class="contact-title">Communications Manager, Hive Learning Networks</div>
-                <ul class="no-bullet">
-                  <li><a class="mailbox" href="mailto:lainie@mozillafoundation.org">lainie@mozillafoundation.org</a></li>
-                  <li><a class="twitter" href="http://twitter.com/@ldecoursy">@ldecoursy</a></li>
-                </ul>
-              </div>
-            </div>
-<div class="row contact-card">
-              <div class="col-md-2">
-                <div class="contact-photo"><img src="<?php echo get_template_directory_uri(); ?>/img/contacts/SimonaRamkisson.jpeg" /></div>
-              </div>
-              <div class="col-md-10">
-                <h4 class="contact-name">Simona Ramkisson</h4>
-                <div class="contact-title">Project Manager, Hive Learning Networks</div>
-                <ul class="no-bullet">
-                  <li><a class="mailbox" href="mailto:simona@mozillafoundation.org">simona@mozillafoundation.org</a></li>
-                  <li><a class="twitter" href="http://twitter.com/@simonaramkisson">@simonaramkisson</a></li>
-                </ul>
               </div>
             </div>
           </div>

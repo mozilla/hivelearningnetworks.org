@@ -458,9 +458,6 @@ footer p {
 #hives-map-section polygon.communities {
   stroke: #faa73f;
 }
-#hives-map-section polygon.comingSoon {
-  stroke: #e6e6e6;
-}
 #hive-networks-menu {
   margin-top: 50px;
 }
