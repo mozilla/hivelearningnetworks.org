@@ -26,26 +26,13 @@
       <div class="container">
         <div class="row">
           <!-- left half -->
-          <div class="col-md-6 col-sm-12">
+          <div class="col-md-6 col-lg-8">
             <video controls width="100%" poster="<?php echo get_template_directory_uri(); ?>/media/preview.png">
               Sorry, your browser doesn't support embedded videos.
               <source src="<?php echo get_template_directory_uri(); ?>/media/Hive_Video.mp4" type="video/mp4" />
               <source src="<?php echo get_template_directory_uri(); ?>/media/Hive_Video.ogg" type="video/ogg" />
               <source src="<?php echo get_template_directory_uri(); ?>/media/Hive_Video.webm" type="video/webm" />
             </video>
-          </div>
-          <!-- right half -->
-          <div class="col-md-3 col-sm-6" id="hive-intro-box">
-            <h2>Get Updates from Hive</h2>
-            <p class="general-cta">
-              Join our mailing list to learn about Hive and find opportunities to get involved.
-            </p>
-            <a class="twitter" href=""></a>
-            <div>
-              <a class="btn hive-btn full-width" href="https://sendto.mozilla.org/page/s/hive-learning-networks-updates">
-                Join our mailing list
-              </a>
-            </div>
           </div>
           <div class="col-md-3 col-sm-6" id="hive-intro-menu">
             <h4 class="all-caps">Hive Learning Networks</h4>
