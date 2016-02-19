@@ -46,9 +46,6 @@
         d3.csv(pathToTheme + "hive-locations/communities.csv", function(error, data) {
           dropHexagonToMap(data,"communities");
         });
-        d3.csv(pathToTheme + "hive-locations/comingSoon.csv", function(error, data) {
-          dropHexagonToMap(data,"comingSoon");
-        });
         // draw map
         console.log(topojson.feature(world, world.objects.countries).features);
         g.selectAll("path")

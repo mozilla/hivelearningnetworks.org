@@ -154,17 +154,6 @@
         <!-- Sidebar =======================================  -->
         <div class="col-md-4" id="sidebar">
           <div id="sidebar-container">
-            <div class="subsection">
-              <h3>Get Updates from Hive</h3>
-              <p>
-                Sign up for the Hive mailing list to learn about Hive activity around the globe and find opportunities to become involved.
-              </p>
-              <div>
-                <a class="btn hive-btn full-width" href="https://sendto.mozilla.org/page/s/hive-learning-networks-updates">
-                  Join our mailing list
-                </a>
-              </div>
-            </div>
           </div>
         </div>
       </div>
