@@ -27,12 +27,6 @@
             <div class="row">
               <div class="col-md-12">
                 <h3>Get Involved</h3>
-                <p>
-                  Sign up for the Hive mailing list - Sign up for the Hive mailing list to learn about Hive activity around the globe and find opportunities to become involved.
-                </p>
-                <div class="text-center">
-                  <a class="btn hive-btn" href="https://sendto.mozilla.org/page/s/hive-learning-networks-updates">Get Updates</a>
-                </div>
                 <div class="subsection">
                   <div class="col-md-2 col-sm-2 col-xs-4">
                     <img src="<?php echo get_template_directory_uri(); ?>/resources/Badge_Hive_Community_Member.png" class="badge-preview" />

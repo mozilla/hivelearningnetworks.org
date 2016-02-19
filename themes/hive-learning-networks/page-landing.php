@@ -35,18 +35,6 @@
             </video>
           </div>
           <!-- right half -->
-          <div class="col-md-3 col-sm-6" id="hive-intro-box">
-            <h2>Get Updates from Hive</h2>
-            <p class="general-cta">
-              Join our mailing list to learn about Hive and find opportunities to get involved.
-            </p>
-            <a class="twitter" href=""></a>
-            <div>
-              <a class="btn hive-btn full-width" href="https://sendto.mozilla.org/page/s/hive-learning-networks-updates">
-                Join our mailing list
-              </a>
-            </div>
-          </div>
           <div class="col-md-3 col-sm-6" id="hive-intro-menu">
             <h4 class="all-caps">Hive Learning Networks</h4>
             <div>
@@ -63,6 +51,15 @@
             </div>
           </div>
 
+          <div class="col-md-3 col-sm-6" id="hive-intro-box">
+            <h2></h2>
+            <p class="general-cta">
+            </p>
+            <a class="twitter" href=""></a>
+            <div>
+              <a class="btn hive-btn full-width" href="">
+              </a>
+            </div>
           </div>
         </div>
       </div>
