@@ -28,15 +28,6 @@
               <div class="col-md-12">
                 <h3>Get Involved</h3>
                 <div class="subsection">
-                  <div class="col-md-2 col-sm-2 col-xs-4">
-                    <img src="<?php echo get_template_directory_uri(); ?>/resources/Badge_Hive_Community_Member.png" class="badge-preview" />
-                  </div>
-                  <div class="col-md-10 col-sm-10 col-xs-8">
-                    <h3>Claim your Hive Community Member badge</h3>
-                    <p>Get recognition for your Connected Learning activity with the <a href="https://webmaker.org/badges/hive-community-member">Hive Community Member badge</a>.</p>
-                  </div>
-                </div>
-                <div class="subsection">
                   <div class="col-md-12">
                     <h3>Online Discussion Forum</h3>
                     <p>Ask questions, connect with Hive members from around the world and post your experiences on the <a href="https://discourse.webmaker.org/c/hive-learning-networks">#teachtheweb online discussion forum</a>.</p>
