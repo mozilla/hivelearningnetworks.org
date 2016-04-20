@@ -48,13 +48,6 @@ var data = {
           imgSrc: pathToTheme + "/img/contacts/RobertFriedman.jpg",
           email: "robert@mozillafoundation.org",
           twitterHandle: "@omnignorant"
-        },
-        {
-          name: "Elsa Rodriguez",
-          title: "Programs Manager",
-          imgSrc: pathToTheme + "/img/contacts/ElsaRodriguez.jpg",
-          email: "elsa@mozillafoundation.org",
-          twitterHandle: "@erodizzle"
         }
       ],
     },
@@ -70,13 +63,6 @@ var data = {
       facebookPage: "http://facebook.com/hivelearningnyc",
       descriptionHTML: '<p>Hive NYC was founded in 2009 as part of The MacArthur Foundation’s Digital Media and Learning initiative, and Mozilla became its steward in 2011. It is a thriving network of more than 55 non-profit organizations across the city, who have access to funding to support their work through The Hive Digital Media Learning Fund, a collaborative donor fund in The New York Community Trust.</p>',
       contacts: [
-        {
-          name: "Leah Gilliam",
-          title: "Director",
-          imgSrc: pathToTheme + "/img/contacts/LeahGilliam.jpg",
-          email: "leah@mozillafoundation.org",
-          twitterHandle: "@leahatplay"
-        },
         {
           name: "Julia Vallera",
           title: "Programs Manager",
