@@ -831,6 +831,17 @@ body.page-template-page-coming-soon-php h2 > * {
   }
 }
 /* ********************************************************
+*  404 page
+*/
+#page-404 #main {
+  margin-top: 50px;
+  background: transparent;
+  text-align: center;
+}
+#page-404 #main h1 {
+  color: #55575c;
+}
+/* ********************************************************
 *  Widgets
 */
 .hive-widget {
