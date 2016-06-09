@@ -43,7 +43,7 @@
           <div id="sidebar-container">
             <h3>Connect with Us</h3>
             <div>
-              <a href="mailto:info@hivelearningnetworks.org" class="mailbox">info@hivelearningnetworks.org</a>
+              <a href="mailto:teachtheweb@mozillafoundation.org" class="mailbox"> teachtheweb@mozillafoundation.org</a>
             </div>
           </div>
         </div>
